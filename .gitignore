@@ -1,20 +1,26 @@
-# built application files
-*.apk
-*.ap_
-
-# files for the dex VM
-*.dex
-
-# Java class files
-*.class
-
-# generated files
-bin/
-gen/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Eclipse project files
-.classpath
-.project
+# OS X
+*.DS_Store
+._*
+# Wakanda preferences
+*.waPreferences
+# Wakanda log
+*.waLog
+*/Logs
+studio_log*
+# Wakanda code symbols
+*.waSym
+*.waSymData
+# Wakanda index
+*.waIndx
+*.Match
+# Wakanda data
+*.waData
+*(compacting)*
+# Wakanda User and Group cache
+*.cacheUAG
+# Wakanda backup
+*.waBackup
+*.breakpoints
+*nogit*
+*.waDirectory
+WakandaDB-Academy Solution/breakpoints.json
