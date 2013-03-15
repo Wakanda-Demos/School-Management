@@ -1,3 +1,30 @@
+<<<<<<< HEAD
+# OS X
+*.DS_Store
+._*
+# Wakanda data
+*.waData
+# Wakanda preferences
+*.waPreferences
+# Wakanda log
+*.waLog
+*/Logs
+studio_log*
+# Wakanda code symbols
+*.waSym
+*.waSymData
+# Wakanda index
+*.waIndex
+*.waIndx
+*.Match
+# Wakanda User and Group cache
+*.cacheUAG
+# Wakanda breakpoints
+bkpts.json
+# Wakanda backup
+*.waBackup
+
+=======
 # OS X
 *.DS_Store
 ._*
@@ -24,3 +51,4 @@ studio_log*
 *nogit*
 *.waDirectory
 WakandaDB-Academy Solution/breakpoints.json
+>>>>>>> 914ed7b0515adb0188b47e3c84f5df0ed67b0d27

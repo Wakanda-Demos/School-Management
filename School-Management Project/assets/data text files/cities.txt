@@ -1,0 +1,3581 @@
+Afghanistan	Kabul	34.500, 69.167
+Afghanistan	Qandahar	31.600, 65.783
+Afghanistan	Herat	34.333, 62.167
+Afghanistan	Obeh	34.383, 63.100
+Afghanistan	Ghurian	34.333, 61.433
+Afghanistan	Shindand	33.267, 62.083
+Afghanistan	Farah	32.383, 62.133
+Afghanistan	Maimana	35.900, 64.717
+Afghanistan	Andkhui	36.933, 65.083
+Afghanistan	Daulat Yar	34.550, 65.767
+Afghanistan	Akcha	37.950, 66.100
+Afghanistan	Sar-I-Pul	35.500, 66.667
+Afghanistan	Mazar-I-Charif	36.717, 67.083
+Afghanistan	Mukur	32.867, 67.700
+Afghanistan	Samangan	36.250, 68.050
+Afghanistan	Ghazni	33.550, 68.467
+Afghanistan	Doshi	35.633, 68.717
+Afghanistan	Baghlan	36.183, 68.733
+Afghanistan	Pul-I-Khumri	35.917, 68.750
+Afghanistan	Kunduz	36.783, 68.850
+Afghanistan	Khanabad	36.700, 69.133
+Afghanistan	Gardez	33.617, 69.150
+Afghanistan	Kaboul	34.500, 69.167
+Afghanistan	Banu	35.600, 69.300
+Afghanistan	Jalai Kut	34.433, 70.417
+Afghanistan	Faizabad	37.083, 70.667
+Afghanistan	Zebak	36.533, 71.350
+Afghanistan	Ishkashim	36.717, 71.567
+Afghanistan	Rustak	37.117, 69.800
+Albania	Durres	41.300, 19.467
+Albania	Vlore	40.483, 19.483
+Albania	Shkoder	42.050, 19.500
+Albania	Fier	40.733, 19.550
+Albania	Lushnje	40.950, 19.683
+Albania	Berat	40.717, 19.767
+Albania	Tirana	41.333, 19.817
+Albania	Elbasan	41.117, 20.083
+Albania	Gjirokaster	40.083, 20.167
+Albania	Korce	40.633, 20.733
+Algeria	Bechar	31.583, -2.283
+Algeria	Tilimsen	34.883, -1.350
+Algeria	Sidi-bel-Abbes	35.250, -0.650
+Algeria	Oran	35.750, -0.633
+Algeria	Adrar	27.850, -0.317
+Algeria	Mostaganem	35.900, 0.083
+Algeria	Tiaret	35.333, 1.333
+Algeria	El Asnam	36.183, 1.350
+Algeria	Blida	36.500, 2.833
+Algeria	Laghouat	33.817, 2.917
+Algeria	Alger	36.833, 3.000
+Algeria	El Djelfa	34.717, 3.233
+Algeria	Ghardaia	32.333, 3.667
+Algeria	Tizi-Ouzou	36.733, 4.083
+Algeria	Boussaada	35.167, 4.150
+Algeria	M'Sila	35.667, 4.517
+Algeria	Bejaia	36.817, 5.050
+Algeria	Ouargla	32.000, 5.267
+Algeria	Setif	36.183, 5.400
+Algeria	Tamanrasset	22.833, 5.467
+Algeria	Biskra	34.833, 5.683
+Algeria	Batna	35.567, 6.167
+Algeria	Constantine	36.367, 6.667
+Algeria	Skikda	36.883, 6.900
+Algeria	Annaba	36.917, 7.783
+Algeria	Tebessa	35.350, 8.100
+Angola	Mocamedes	-15.167, 12.167
+Angola	Cabinda	-5.567, 12.200
+Angola	Luanda	-8.833, 13.250
+Angola	Benguela	-12.567, 13.400
+Angola	Lubango	-14.917, 13.500
+Angola	Lobito	-12.333, 13.567
+Angola	Huambo	-12.783, 15.733
+Angola	Malanje	-9.600, 16.350
+Angola	Bie	-12.417, 16.967
+Argentina	El Turbio	-51.750, -72.083
+Argentina	San Carlos de Bariloche	-41.183, -71.383
+Argentina	Rio Gallegos	-51.583, -69.250
+Argentina	Plaza Huincul	-38.917, -69.233
+Argentina	Sarmiento	-45.633, -69.133
+Argentina	Mendoza	-32.800, -68.867
+Argentina	San Juan	-31.550, -68.517
+Argentina	Ushuaia	-54.800, -68.317
+Argentina	Rio Grande	-53.750, -67.767
+Argentina	San Julian	-49.283, -67.750
+Argentina	Comodoro Rivadavia	-45.833, -67.500
+Argentina	La Rioja	-29.433, -66.833
+Argentina	Rosario	-22.867, -66.683
+Argentina	San Salvador de Jujuy	-24.167, -65.800
+Argentina	La Quiaca	-22.133, -65.583
+Argentina	Concepcion	-27.333, -65.583
+Argentina	Salta	-24.767, -65.467
+Argentina	Mercedes	-33.683, -65.467
+Argentina	San Miguel de Tucuman	-26.783, -65.250
+Argentina	Rawson	-43.250, -65.100
+Argentina	Rio Cuarto	-33.133, -64.333
+Argentina	Santa Rosa	-36.617, -64.283
+Argentina	Santiago del Estero	-27.783, -64.250
+Argentina	Cordoba	-31.417, -64.183
+Argentina	Bahia Blanca	-38.750, -62.250
+Argentina	Venado Tuerto	-33.750, -61.933
+Argentina	Santa Fe	-31.633, -60.717
+Argentina	Parana	-31.750, -60.500
+Argentina	Olavarria	-36.950, -60.333
+Argentina	Fortin Lavalle	-25.683, -60.217
+Argentina	Chivilcoy	-34.917, -60.000
+Argentina	Azul	-36.767, -59.833
+Argentina	Goya	-29.167, -59.250
+Argentina	Resistencia	-27.467, -59.000
+Argentina	Necochea	-38.517, -58.767
+Argentina	Buenos Aires	-34.667, -58.500
+Argentina	Balcarce	-37.850, -58.267
+Argentina	La Plata	-34.867, -57.917
+Argentina	Mar Del Plata	-38.000, -57.533
+Argentina	Posadas	-27.450, -55.833
+Armenia	Leninakan	40.783, 43.817
+Armenia	Spitak	40.850, 44.317
+Armenia	Stepanavan	41.017, 44.400
+Armenia	Yerevan	40.167, 44.517
+Armenia	Alaverdi	41.133, 44.667
+Armenia	Dilizhan	40.750, 44.867
+Armenia	Kamo	40.350, 45.117
+Australia	Carnarvon	-24.850, 113.750
+Australia	Perth	-31.967, 115.817
+Australia	Kalgoorlie	-30.817, 121.483
+Australia	Broome	-17.967, 122.250
+Australia	Darwin	-12.383, 130.733
+Australia	Alice Springs	-23.700, 133.867
+Australia	Whyalla	-33.067, 137.567
+Australia	Adelaide	-34.933, 138.600
+Australia	Broken Hill	-31.950, 141.500
+Australia	Bendigo	-36.800, 144.350
+Australia	Geelong	-38.167, 144.433
+Australia	Melbourne	-37.750, 144.967
+Australia	Cairns	-16.850, 145.717
+Australia	Townsville	-19.217, 146.800
+Australia	Launceston	-41.417, 147.117
+Australia	Hobart	-42.900, 147.300
+Australia	Canberra	-35.300, 149.133
+Australia	Wollongong	-34.417, 150.867
+Australia	Sydney	-33.917, 151.167
+Australia	Newcastle	-32.917, 151.767
+Australia	Brisbane	-27.500, 153.000
+Austria	Bregenz	47.517, 9.767
+Austria	Innsbruck	47.283, 11.417
+Austria	Kitzbuhel	47.450, 12.383
+Austria	Salzburg	47.800, 13.050
+Austria	Villach	46.617, 13.850
+Austria	Wels	48.167, 14.033
+Austria	Linz	48.317, 14.300
+Austria	Graz	47.083, 15.367
+Austria	Baden	48.017, 16.233
+Austria	Vienna	48.200, 16.367
+Austria	Eisenstadt	47.833, 16.533
+Azerbaijan	Nakhichevan	39.200, 45.400
+Azerbaijan	Kirovabad	40.650, 46.333
+Azerbaijan	Zakataly	41.650, 46.667
+Azerbaijan	Stepanakaert	39.800, 46.750
+Azerbaijan	Sheki	41.200, 47.167
+Azerbaijan	Kuba	41.383, 48.550
+Azerbaijan	Shemakha	40.633, 48.617
+Azerbaijan	Sumgait	40.583, 49.633
+Azerbaijan	Baku	40.367, 49.883
+Bahamas	Freeport	26.500, -78.783
+Bahamas	Cornishtown	26.883, -77.550
+Bahamas	Nassau	25.083, -77.333
+Bahamas	Marsh Harbour	26.517, -77.083
+Bahrain	Al Manamah	26.200, 50.633
+Bangladesh	Dhaka	23.700, 90.367
+Bangladesh	Chittagong	22.333, 91.800
+Belarus	Brest	52.133, 23.667
+Belarus	Grodno	53.667, 23.833
+Belarus	Lida	53.833, 25.317
+Belarus	Baranovichi	53.150, 26.000
+Belarus	Pinsk	52.133, 26.017
+Belarus	Molodechno	54.267, 26.833
+Belarus	Minsk	53.850, 27.500
+Belarus	Borisov	54.150, 28.500
+Belarus	Polotsk	55.500, 28.717
+Belarus	Bobruysk	53.133, 29.167
+Belarus	Mozyr	52.033, 29.167
+Belarus	Vitebsk	55.167, 30.233
+Belarus	Mogilev	53.900, 30.333
+Belarus	Orsha	54.500, 30.383
+Belarus	Gomel	52.417, 31.000
+Belgium	Ostende	51.217, 2.917
+Belgium	Gent	51.033, 3.700
+Belgium	Mons	50.467, 3.967
+Belgium	Brussels	50.850, 4.350
+Belgium	Antwerp	51.217, 4.417
+Belgium	Charleroi	50.417, 4.450
+Belgium	Namur	50.467, 4.867
+Belgium	Liege	50.633, 5.583
+Belize	Lubaantum	16.350, -88.967
+Belize	Belmopan	17.217, -88.800
+Belize	Punta Gorda	16.167, -88.750
+Belize	Hill Bank	17.617, -88.667
+Belize	Orange Walk	18.100, -88.517
+Belize	Corozal	18.383, -88.383
+Belize	Pomona	17.000, -88.333
+Belize	Belize City	17.483, -88.167
+Belize	San Pedro	18.000, -87.883
+Benin	Natitingou	10.283, 1.483
+Benin	Lokossa	6.750, 1.783
+Benin	Ouidah	6.383, 2.133
+Benin	Bohicon	7.233, 2.167
+Benin	Cotonou	6.400, 2.517
+Benin	Parakou	9.383, 2.667
+Benin	Kandi	11.083, 2.983
+Bhutan	Thimphu	27.533, 89.717
+Bhutan	Phuntsholing	26.867, 89.433
+Bhutan	Paro	27.383, 89.517
+Bhutan	Tongsa	27.550, 90.500
+Bhutan	Dewangiri	26.867, 91.517
+Bolivia	La Paz	-16.500, -68.167
+Bolivia	Oruro	-17.983, -67.133
+Bolivia	Pulacayo	-20.417, -66.683
+Bolivia	Cochabamba	-17.433, -66.167
+Bolivia	Riberalta	-10.983, -66.100
+Bolivia	Tupiza	-21.450, -65.750
+Bolivia	Potosi	-19.567, -65.750
+Bolivia	Sucre	-19.083, -65.250
+Bolivia	Trinidad	-14.767, -64.833
+Bolivia	Tarija	-21.550, -64.750
+Bolivia	Magdalena	-13.367, -64.117
+Bolivia	Yacuiba	-22.000, -63.717
+Bolivia	Santa Cruz	-17.750, -63.233
+Bolivia	Concepcion	-16.250, -62.133
+Bolivia	San Ignacio	-16.383, -60.983
+Bolivia	San Jose de Chiquitos	-17.883, -60.750
+Bosnia	Banja Luka	44.783, 17.183
+Bosnia	Travnik	44.217, 17.667
+Bosnia	Mostar	43.333, 17.833
+Bosnia	Sarajevo	43.867, 18.433
+Bosnia	Tuzla	44.550, 18.683
+Botswana	Maun	-20.000, 23.417
+Botswana	Kanye	-24.983, 25.317
+Botswana	Molepolole	-24.417, 25.500
+Botswana	Lobatsi	-25.183, 25.667
+Botswana	Ramotswa	-24.933, 25.833
+Botswana	Gaborone	-24.750, 25.917
+Botswana	Mochudi	-24.467, 26.083
+Botswana	Serowe	-22.417, 26.733
+Botswana	Mahalapye	-23.083, 26.850
+Botswana	Tutume	-20.433, 27.033
+Botswana	Francistown	-21.183, 27.533
+Botswana	Selebi-Pikwe	-22.017, 27.833
+Botswana	Bobonong	-21.967, 28.433
+Brazil	Brasileia	-10.983, -68.750
+Brazil	Rio Branco	-9.983, -67.817
+Brazil	Porto Alegre	-8.967, -67.800
+Brazil	Porto Velho	-8.750, -63.900
+Brazil	Boa Vista	2.850, -60.717
+Brazil	Manaus	3.100, -60.000
+Brazil	Mato Grosso	-15.083, -59.950
+Brazil	Campo Grande	-8.733, -59.233
+Brazil	Corumba	-19.000, -57.583
+Brazil	Cuiaba	-15.533, -56.083
+Brazil	Sao Luis	-4.367, -56.033
+Brazil	Santarem	-2.433, -54.683
+Brazil	Bage	-31.367, -54.100
+Brazil	Santa Maria	-29.667, -53.783
+Brazil	Pelotas	-31.750, -52.333
+Brazil	Passo Fundo	-28.267, -52.333
+Brazil	Altamira	-3.217, -52.250
+Brazil	Rio Grande	-32.050, -52.133
+Brazil	Maringa	-23.433, -52.033
+Brazil	Vitoria	-2.867, -52.000
+Brazil	Londrina	-23.300, -51.217
+Brazil	Macapa	0.067, -51.067
+Brazil	Aracatuba	-21.200, -50.400
+Brazil	Lajes	-27.800, -50.333
+Brazil	Ponta Grossa	-25.117, -50.150
+Brazil	Goias	-15.950, -50.117
+Brazil	Marilia	-22.217, -49.967
+Brazil	Curitiba	-25.417, -49.417
+Brazil	Sao Jose do Rio Preto	-20.833, -49.333
+Brazil	Goiania	-16.717, -49.300
+Brazil	Conceicao do Araguaia	-8.250, -49.250
+Brazil	Maraba	-5.383, -49.167
+Brazil	Blumenau	-26.917, -49.117
+Brazil	Bauru	-22.317, -49.117
+Brazil	Ribeira	-24.650, -49.000
+Brazil	Anapolis	-16.317, -48.967
+Brazil	Joinville	-26.333, -48.917
+Brazil	Florianopolis	-27.583, -48.517
+Brazil	Belem	-1.450, -48.483
+Brazil	Uberlandia	-18.950, -48.283
+Brazil	Araraquara	-21.767, -48.133
+Brazil	Uberaba	-19.783, -47.950
+Brazil	Brasilia	-15.750, -47.950
+Brazil	Ribeirao Preto	-21.150, -47.800
+Brazil	Rio Claro	-22.317, -47.583
+Brazil	Franca	-20.550, -47.450
+Brazil	Carolina	-7.333, -47.417
+Brazil	Campinas	-22.900, -47.100
+Brazil	Sao Paulo	-23.550, -46.650
+Brazil	Santos	-23.933, -46.367
+Brazil	San Jose dos Campos	-23.100, -45.833
+Brazil	Taubate	-23.000, -45.600
+Brazil	Divinopolis	-20.133, -44.917
+Brazil	Belo Horizonte	-19.900, -43.900
+Brazil	Montes Claros	-16.750, -43.867
+Brazil	Juiz de Fora	-21.783, -43.383
+Brazil	Caxias	-4.883, -43.333
+Brazil	Rio de Janeiro	-22.883, -43.283
+Brazil	Teresina	-5.150, -42.767
+Brazil	Natal	-5.583, -42.617
+Brazil	Governador Valadares	-18.850, -41.950
+Brazil	Parnaiba	-2.967, -41.767
+Brazil	Teofilo Otoni	-17.867, -41.517
+Brazil	Campos	-21.767, -41.350
+Brazil	Cachoeiro de Itapemirim	20.850, -41.117
+Brazil	Juazeiro	-9.417, -40.500
+Brazil	Sobral	-3.750, -40.333
+Brazil	Juazeiro do Norte	-7.167, -39.300
+Brazil	Feira de Santana	-12.283, -38.883
+Brazil	Fortaleza	-3.750, -38.583
+Brazil	Salvador	-12.967, -38.483
+Brazil	Conceicao Paraiba	-7.500, -38.467
+Brazil	Alagoinhas	-12.150, -38.350
+Brazil	Mossero	-5.167, -37.300
+Brazil	Aracaju	-10.900, -37.117
+Brazil	Caruaru	-8.250, -35.917
+Brazil	Campina Grande	-7.250, -35.833
+Brazil	Maceio	-9.667, -35.733
+Brazil	Recife	-8.100, -34.883
+Brazil	Joao Pessoa	-7.100, -34.883
+Brunei	Kuala Belait	4.633, 114.200
+Brunei	Labi	4.433, 114.400
+Brunei	Tutong	4.850, 114.667
+Brunei	Bandar Seri Begawan	4.933, 114.967
+Bulgaria	Vidin	44.000, 22.833
+Bulgaria	Blagoevgrad	42.017, 23.083
+Bulgaria	Sofia	42.667, 23.300
+Bulgaria	Vratsa	43.200, 23.533
+Bulgaria	Pleven	43.417, 24.667
+Bulgaria	Plovdiv	42.133, 24.750
+Bulgaria	Gabrovo	42.867, 25.317
+Bulgaria	Khaskovo	41.950, 25.533
+Bulgaria	Stara Zagora	42.417, 25.617
+Bulgaria	Veliko Turnovo	43.067, 25.650
+Bulgaria	Rousse	43.833, 25.983
+Bulgaria	Sliven	42.667, 26.317
+Bulgaria	Yambol	42.467, 26.500
+Bulgaria	Sumen	43.283, 26.917
+Bulgaria	Bourgas	42.500, 27.483
+Bulgaria	Tolbukhin	43.567, 27.850
+Bulgaria	Varna	43.200, 27.950
+Burkina Faso	Orodara	11.000, -4.900
+Burkina Faso	Banfora	10.600, -4.750
+Burkina Faso	Bobo Dioulasso	11.183, -4.300
+Burkina Faso	Nouna	12.733, -3.900
+Burkina Faso	Gaoua	10.300, -3.200
+Burkina Faso	Koudougou	12.250, -2.383
+Burkina Faso	Ouahigouya	13.517, -2.333
+Burkina Faso	Gourcy	13.217, -2.333
+Burkina Faso	Yako	12.983, -2.250
+Burkina Faso	Leo	11.117, -2.133
+Burkina Faso	Ouagadougou	12.333, -1.667
+Burkina Faso	Kaya	13.067, -1.150
+Burkina Faso	Tenkodogo	11.900, -0.317
+Burkina Faso	Fada-n-Gourma	12.083, 0.433
+Burma	Rangoon	16.783, 96.167
+Burma	Pakokku	21.333, 95.083
+Burma	Thayetmyo	19.333, 95.167
+Burma	Monywa	22.083, 95.200
+Burma	Prome	18.833, 95.233
+Burma	Myingyan	21.417, 95.333
+Burma	Henzada	17.600, 95.433
+Burma	Meiktila	20.883, 95.900
+Burma	Mandalay	21.950, 96.067
+Burma	Pyinmana	19.750, 96.200
+Burma	Katha	24.183, 96.333
+Burma	Toungoo	18.950, 96.433
+Burma	Mogok	22.917, 96.483
+Burma	Pegu	17.300, 96.517
+Burma	Maymyo	22.083, 96.550
+Burma	Taung-Gyi	20.917, 96.883
+Burma	Hsipaw	22.533, 97.200
+Burma	Bhamo	24.250, 97.250
+Burma	Man Kabat	27.650, 97.367
+Burma	Myitkyina	25.400, 97.417
+Burma	Namtu	23.067, 97.433
+Burma	Putao	27.367, 97.450
+Burma	Moulmein	16.500, 97.650
+Burma	Lashio	22.967, 97.800
+Burma	Kehsi Mamsam	21.933, 97.850
+Burma	Tavoy	14.033, 98.200
+Burma	Mergui	12.433, 98.567
+Burma	Akyab	20.150, 92.917
+Burma	Mawlaik	23.667, 94.433
+Burma	Bassein	16.767, 94.750
+Burundi	Bujumbura	-3.367, 29.317
+Burundi	Bubanza	-3.083, 29.367
+Burundi	Bururi	-3.950, 29.583
+Burundi	Muramvya	-3.233, 29.600
+Burundi	Ngozi	-2.900, 29.800
+Burundi	Gitega	-3.400, 29.933
+Burundi	Muyinga	-2.833, 30.333
+Camaroon	Garoua	9.283, 13.367
+Camaroon	Ngaoundere	7.333, 13.583
+Camaroon	Maroua	10.583, 14.333
+Camaroon	Limbe	40.017, 9.200
+Camaroon	Kumba	4.650, 9.433
+Camaroon	Douala	4.067, 9.717
+Camaroon	Nkongsamba	4.983, 9.883
+Camaroon	Bafang	5.167, 10.083
+Camaroon	Bamenda	5.917, 10.150
+Camaroon	Edea	3.783, 10.217
+Camaroon	Bafoussam	5.517, 10.417
+Camaroon	Foumban	5.717, 10.833
+Camaroon	Ebolowa	2.933, 11.183
+Camaroon	Ambam	2.383, 11.283
+Camaroon	Yaounde	3.850, 11.517
+Cambodia	Phnom Penh	11.583, 104.917
+Cambodia	Poipet	13.683, 102.567
+Cambodia	Sisophon	13.617, 102.967
+Cambodia	Battambang	13.100, 103.217
+Cambodia	Samrong	14.200, 103.517
+Cambodia	Pursat	12.450, 103.667
+Cambodia	Siem Reap	13.350, 103.833
+Cambodia	Kampot	10.617, 104.183
+Cambodia	Krakor	12.517, 104.200
+Cambodia	Kompong Chhnang	12.267, 104.650
+Cambodia	Takeo	11.000, 104.767
+Cambodia	Kompong Thom	12.700, 104.867
+Cambodia	Banam	11.333, 105.283
+Cambodia	Kompong Cham	11.983, 105.433
+Cambodia	Svay Rieng	11.083, 105.800
+Cambodia	Chhlong	12.217, 105.967
+Cambodia	Stung Treng	13.517, 105.983
+Cambodia	Kratie	12.500, 106.050
+Canada	White Horse	60.683, -135.133
+Canada	Inuvik	68.267, -133.667
+Canada	Prince Rupert	54.300, -130.283
+Canada	Kitimat	54.083, -128.633
+Canada	Ocean Falls	52.400, -127.700
+Canada	Victoria	48.417, -123.367
+Canada	Vancouver	49.217, -123.100
+Canada	Prince George	53.917, -122.817
+Canada	Fort Nelson	58.800, -122.733
+Canada	Fort Simpson	61.867, -121.250
+Canada	Kamloops	50.650, -120.400
+Canada	Grande Prairie	55.167, -118.867
+Canada	Porth-Radium	66.083, -118.017
+Canada	Fort Providence	61.050, -117.667
+Canada	Fort Vermilion	58.367, -115.983
+Canada	Hay River	60.850, -115.700
+Canada	Coppermine	67.817, -115.200
+Canada	Yellowknife	62.500, -114.483
+Canada	Calgary	51.083, -114.083
+Canada	Edmonton	53.567, -113.417
+Canada	Camrose	53.017, -112.800
+Canada	Fort Smith	60.017, -111.917
+Canada	Battleford	52.750, -108.333
+Canada	Bathurst Inlet	66.817, -108.000
+Canada	Saskatoon	52.167, -106.667
+Canada	La Ronge	55.117, -105.300
+Canada	Cambridge Bay	69.150, -105.000
+Canada	Regina	50.500, -104.633
+Canada	Thompson	55.750, -97.900
+Canada	Winnipeg	49.883, -97.167
+Canada	Churchill	58.750, -94.000
+Canada	Thunder Bay	48.450, -89.200
+Canada	Nakina	50.183, -86.717
+Canada	Repulse Bay	66.583, -86.333
+Canada	Kapuskasing	49.417, -82.433
+Canada	London	42.967, -81.250
+Canada	Sudbury	46.500, -81.017
+Canada	Kitchener	43.450, -80.500
+Canada	Hamilton	43.250, -79.833
+Canada	North Bay	46.333, -79.467
+Canada	Toronto	43.700, -79.417
+Canada	Oshawa	43.883, -78.850
+Canada	Ottawa	45.417, -75.717
+Canada	Saglouc	62.167, -75.667
+Canada	Chibougamau	49.933, -74.400
+Canada	Montreal	45.500, -73.600
+Canada	Trois Rivieres	46.350, -72.567
+Canada	Quebec	46.833, -71.250
+Canada	Chicoutimi	48.433, -71.100
+Canada	Frobisher Bay	63.750, -68.500
+Canada	Fort Chimo	58.167, -68.250
+Canada	Fredericton	45.950, -66.667
+Canada	Sept-Iles	50.217, -66.367
+Canada	Windsor	45.000, -64.150
+Canada	Halifax	44.633, -63.583
+Canada	Charlottetown	46.233, -63.150
+Canada	Sydney	46.167, -60.167
+Canada	St John's	47.583, -52.667
+Cape Verde	Ribeira Grande	17.200, -25.050
+Cape Verde	Mindelo	16.900, -25.000
+Cape Verde	Praia	14.917, -23.500
+Cape Verde	Sal	16.200, -22.967
+Cape Verde	Santa Maria	16.633, -22.950
+Central African Rep	Bouar	5.967, 15.583
+Central African Rep	Berberati	4.317, 15.850
+Central African Rep	Bozoum	6.267, 16.367
+Central African Rep	Bossangoa	6.450, 17.350
+Central African Rep	M'Baiki	3.883, 18.017
+Central African Rep	Batangafo	7.450, 18.183
+Central African Rep	Bangui	4.383, 18.617
+Central African Rep	Sibut	5.767, 19.100
+Central African Rep	Kaga Bandoro	7.000, 19.167
+Central African Rep	Bambari	5.667, 20.617
+Central African Rep	Bria	6.533, 22.000
+Central African Rep	Bangassou	4.683, 22.800
+Chad	N'Djamena	12.167, 14.983
+Chad	Bongor	10.300, 15.333
+Chad	Lai	9.367, 16.233
+Chad	Doba	8.667, 16.833
+Chad	Koumra	8.933, 17.533
+Chad	Sarh	9.133, 18.367
+Chad	Abeche	13.817, 20.817
+Chile	Castro	-42.500, -73.767
+Chile	Valdivia	-39.767, -73.250
+Chile	Osorno	-40.583, -73.233
+Chile	Talcahuano	-36.667, -73.167
+Chile	Concepcion	-36.833, -73.050
+Chile	Puerto Montt	-41.467, -73.000
+Chile	Temuco	-38.750, -72.667
+Chile	Cochrane	-47.267, -72.550
+Chile	Lautaro	-38.500, -72.500
+Chile	Constitucion	-35.333, -72.467
+Chile	Victoria	-38.250, -72.450
+Chile	Los Angeles	-37.467, -72.383
+Chile	Chillan	-36.617, -72.167
+Chile	Coihaique	-45.583, -72.133
+Chile	San Carlos	-36.417, -71.967
+Chile	Curacautin	-38.467, -71.867
+Chile	Chile Chico	-46.567, -71.733
+Chile	Valparaiso	-33.083, -71.667
+Chile	Talca	-35.467, -71.667
+Chile	San Antonio	-33.583, -71.650
+Chile	La Serena	-29.900, -71.300
+Chile	Quillota	-32.900, -71.267
+Chile	Ovalle	-30.550, -71.267
+Chile	Curico	-35.000, -71.250
+Chile	Illapel	-31.667, -71.217
+Chile	San Fernando	-34.667, -71.000
+Chile	Punta Arenas	-53.167, -70.933
+Chile	Vallenar	-28.600, -70.750
+Chile	San Bernado	-33.617, -70.750
+Chile	Rancagua	-34.167, -70.750
+Chile	San Felipe	-32.750, -70.700
+Chile	Santiago	-33.500, -70.667
+Chile	Copiapo	-27.333, -70.383
+Chile	Arica	-18.500, -70.333
+Chile	Iquique	-20.250, -70.133
+Chile	Cape Horn	-56.000, -67.250
+China	Beijing	39.917, 116.433
+China	Shanghai	31.217, 121.417
+China	Kashi	39.483, 76.033
+China	Yining	43.833, 81.467
+China	Urumqi	43.717, 87.633
+China	Lhassa	29.683, 91.167
+China	Yumen	39.900, 97.717
+China	Xining	36.583, 101.917
+China	Kunming	25.067, 102.683
+China	Gejiu	23.417, 103.083
+China	Lanzhou	36.017, 103.750
+China	Chengdu	30.617, 104.100
+China	Luzhou	28.917, 105.417
+China	Nanchong	30.900, 106.100
+China	Yinchuan	38.500, 106.317
+China	Chongqing	29.500, 106.583
+China	Guiyang	26.583, 106.667
+China	Wuda	39.667, 106.667
+China	Pingxiang	22.100, 106.733
+China	Baoji	34.383, 107.267
+China	Wan Xian	30.800, 108.283
+China	Nanning	22.833, 108.317
+China	Xi'An	34.267, 108.900
+China	Beihai	21.483, 109.167
+China	Liuzhou	24.283, 109.250
+China	Baotou	40.633, 109.983
+China	Zhanjiang	21.167, 110.333
+China	Haikou	20.083, 110.417
+China	Wuzhou	23.500, 111.350
+China	Shaoyang	27.167, 111.417
+China	Huhehuote	40.817, 111.617
+China	Xiangfan	32.083, 112.050
+China	Yiyang	28.650, 112.167
+China	Shashi	30.267, 112.333
+China	Luoyang	34.783, 112.433
+China	Taiyuan	37.833, 112.500
+China	Hengyang	26.967, 112.517
+China	Nanyang	33.100, 112.517
+China	Changsha	28.167, 113.000
+China	Jiangmen	22.667, 113.083
+China	Changzhi	36.083, 113.200
+China	Datong	40.200, 113.200
+China	Jiaozuo	35.233, 113.217
+China	Guangzhou	23.133, 113.333
+China	Shaoguan	24.900, 113.550
+China	Zhengzhou	34.750, 113.633
+China	Pingxiang	27.583, 113.767
+China	Luohe	33.550, 114.000
+China	Xinyang	32.167, 114.083
+China	Wuhan	30.583, 114.317
+China	Anyang	36.067, 114.333
+China	Kaifeng	34.783, 114.333
+China	Handan	36.617, 114.417
+China	Huizhou	23.133, 114.467
+China	Shijiazhuang	38.067, 114.467
+China	Xingtai	37.133, 114.483
+China	Ganzhou	25.867, 114.850
+China	Shangqui	34.450, 115.117
+China	Nanchang	28.700, 115.917
+China	Shantou	23.383, 116.650
+China	Huaibei	34.000, 116.800
+China	Cangzhou	38.317, 116.900
+China	Jinan	36.683, 117.000
+China	Tianjin	39.133, 117.200
+China	Hefei	31.917, 117.300
+China	Xuzhou	34.283, 117.300
+China	Manzhouli	49.600, 117.467
+China	Zhangzhou	24.517, 117.667
+China	Xiamen	24.467, 118.083
+China	Wuhu	31.383, 118.417
+China	Quanzhou	24.883, 118.600
+China	Nanjing	32.050, 118.783
+China	Chifeng	42.283, 118.933
+China	Qingjiang	33.583, 119.033
+China	Weifang	36.733, 119.167
+China	Fuzhou	26.150, 119.283
+China	Yangzhou	32.367, 119.367
+China	Qinhuangdao	39.917, 119.617
+China	Taizhou	32.450, 119.933
+China	Hangzhou	30.300, 120.117
+China	Wuxi	31.583, 120.317
+China	Suzhou	31.350, 120.667
+China	Luda	38.883, 121.617
+China	Weihai	37.500, 122.067
+China	Tongliao	43.617, 122.250
+China	Yingkou	40.667, 122.283
+China	Baicheng	45.617, 122.800
+China	Anshan	41.083, 122.967
+China	Liaoyang	41.267, 123.200
+China	Shenyang	41.833, 123.433
+China	Siping	43.250, 124.417
+China	Anda	46.617, 124.983
+China	Changchun	43.833, 125.333
+China	Harbin	45.750, 126.683
+China	Xiangyang	44.583, 127.500
+China	Yanji	42.867, 129.533
+China	Jiamusi	46.983, 130.483
+China	Hegang	47.600, 130.500
+China	Suifenhe	44.417, 131.100
+China	Hong-Kong	22.250, 114.200
+Colombia	Tumaco	1.850, -78.767
+Colombia	Tuquerres	1.100, -77.617
+Colombia	Pasto	1.200, -77.283
+Colombia	Buenaventura	3.900, -77.033
+Colombia	Quibdo	5.667, -76.633
+Colombia	Popayan	2.450, -76.533
+Colombia	Cali	3.400, -76.500
+Colombia	Santander	3.000, -76.417
+Colombia	Palmira	3.550, -76.283
+Colombia	Buga	3.883, -76.283
+Colombia	Tulua	4.083, -76.200
+Colombia	Sevilla	4.267, -75.967
+Colombia	Monteria	8.750, -75.900
+Colombia	San Miguel	0.133, -75.883
+Colombia	Lorica	9.233, -75.833
+Colombia	Pereira	4.783, -75.767
+Colombia	Garzon	2.233, -75.617
+Colombia	Medellin	6.250, -75.600
+Colombia	Cartagena	10.400, -75.550
+Colombia	Manizales	5.050, -75.533
+Colombia	Aguadas	5.600, -75.500
+Colombia	Yarumal	6.983, -75.417
+Colombia	Sincelejo	9.283, -75.383
+Colombia	Ibague	4.417, -75.333
+Colombia	Neiva	2.967, -75.250
+Colombia	Carmen	9.767, -75.100
+Colombia	Calamar	10.267, -74.917
+Colombia	Barranquilla	11.167, -74.833
+Colombia	Cienaga	11.017, -74.250
+Colombia	Santa Marta	11.300, -74.167
+Colombia	Bogota	4.633, -74.083
+Colombia	Villavicencio	4.150, -73.633
+Colombia	Contratacion	6.300, -73.450
+Colombia	Tunja	5.550, -73.383
+Colombia	Valledupar	10.517, -73.267
+Colombia	Socorro	6.500, -73.267
+Colombia	Bucaramanga	7.133, -73.167
+Colombia	San Cristobal	-2.300, -73.033
+Colombia	Riohacha	11.567, -72.967
+Colombia	Pamplona	7.400, -72.633
+Colombia	Puerto Alfonso	-2.150, -71.017
+Colombia	Arauca	7.067, -70.683
+Colombia	Leticia	-4.150, -69.950
+Colombia	Bisinaca	4.517, -69.667
+Colombia	Puerto Carreno	6.133, -69.450
+Colombia	Teresita	0.750, -69.433
+Colombia	La Venturosa	6.117, -68.817
+Comoros	Moroni	-11.667, 43.267
+Comoros	Mitsamiouli	-11.367, 43.350
+Comoros	Fombomi	-12.300, 43.767
+Comoros	Mutsamudu	-12.083, 44.417
+Congo	Pointe-Noire	-4.767, 11.883
+Congo	Loubomo	-4.150, 12.783
+Congo	Mossendjo	-2.917, 12.800
+Congo	Nkayi	-4.117, 13.283
+Congo	Brazzaville	-4.233, 15.233
+Costa Rica	La Cruz	11.083, -85.650
+Costa Rica	Puntarenas	10.000, -84.833
+Costa Rica	San Jose	9.983, -84.067
+Costa Rica	Cartago	9.833, -83.867
+Costa Rica	Limon	10.000, -83.017
+Croatia	Pula	44.867, 13.867
+Croatia	Rijeka	45.333, 14.450
+Croatia	Zadar	44.117, 15.233
+Croatia	Karlovac	45.500, 15.567
+Croatia	Sibenik	43.750, 15.917
+Croatia	Zagreb	45.800, 15.967
+Croatia	Sisak	45.500, 16.367
+Croatia	Split	43.517, 16.467
+Croatia	Dubrovnik	42.667, 18.117
+Croatia	Osijek	45.550, 18.683
+Cuba	Pinar del Rio	22.400, -83.700
+Cuba	Havana	23.117, -82.417
+Cuba	Guines	22.833, -82.033
+Cuba	Matanzas	23.067, -81.583
+Cuba	Colon	22.717, -80.883
+Cuba	Cienfuegos	22.167, -80.450
+Cuba	Sagua la Grande	22.800, -80.100
+Cuba	Santa Clara	22.417, -79.967
+Cuba	Sancti-Spiritus	21.917, -79.467
+Cuba	Moron	22.133, -78.650
+Cuba	Camaguey	21.417, -77.917
+Cuba	Manzanillo	20.350, -77.350
+Cuba	Nuevitas	21.567, -77.300
+Cuba	Victoria de las Tunas	20.967, -76.983
+Cuba	Bayamo	20.383, -76.650
+Cuba	Holguin	20.900, -76.250
+Cuba	Santiago de Cuba	20.000, -75.817
+Cuba	Banes	20.983, -75.567
+Cuba	Guantanamo	20.150, -75.233
+Cuba	Baracoa	20.383, -74.517
+Cyprus	Limassol	34.667, 33.050
+Cyprus	Kyrenia	35.333, 33.333
+Cyprus	Nicosia	35.150, 33.350
+Cyprus	Larnaca	34.900, 33.650
+Cyprus	Famagouste	35.117, 33.950
+Czech Republic	Karlovy Vary	50.217, 12.867
+Czech Republic	Plzen	49.750, 13.417
+Czech Republic	Most	50.517, 13.650
+Czech Republic	Ustinad Labem	50.683, 14.000
+Czech Republic	Prague	50.100, 14.433
+Czech Republic	Ceske Budejovice	48.967, 14.483
+Czech Republic	Tabor	49.417, 14.650
+Czech Republic	Liberec	50.800, 15.083
+Czech Republic	Pardubice	50.050, 15.750
+Czech Republic	Hradec Kralove	50.217, 15.833
+Czech Republic	Brno	49.217, 16.667
+Czech Republic	Olomouc	49.633, 17.250
+Czech Republic	Gottwaldov	49.233, 17.667
+Czech Republic	Opava	49.967, 17.917
+Czech Republic	Havirov	49.767, 18.333
+Denmark	Feroe	62.000, -7.000
+Denmark	Esbjerg	55.467, 8.467
+Denmark	Thisted	56.967, 8.700
+Denmark	Herning	56.133, 8.983
+Denmark	Viborg	56.467, 9.417
+Denmark	Haderslev	55.250, 9.500
+Denmark	Kolding	55.483, 9.500
+Denmark	Vejle	55.717, 9.550
+Denmark	Sonderborg	54.917, 9.800
+Denmark	Horsens	55.883, 9.883
+Denmark	Alborg	57.050, 9.933
+Denmark	Arhus	56.167, 10.217
+Denmark	Odense	55.400, 10.417
+Denmark	Frederikshavn	57.467, 10.550
+Denmark	Naestved	55.233, 11.817
+Denmark	Nykobing	54.783, 11.883
+Denmark	Koge	55.467, 12.200
+Denmark	Copenhagen	55.717, 12.567
+Denmark	Ronne	55.117, 14.717
+Djibouti	Dikhil	11.133, 42.333
+Djibouti	Ali Sabieh	11.167, 42.733
+Djibouti	Tadjoura	11.817, 42.933
+Djibouti	Djibouti	11.600, 43.150
+Djibouti	Obock	11.983, 43.333
+Dominican Rep.	Barahona	18.217, -71.117
+Dominican Rep.	Santiago	19.500, -70.700
+Dominican Rep.	Puerto Plata	19.800, -70.683
+Dominican Rep.	San Francisco de Macoris	19.317, -70.250
+Dominican Rep.	Santo Domingo	18.500, -69.950
+Dominican Rep.	La Romana	18.450, -68.950
+Dominican Rep.	Manta	-0.983, -80.733
+Dominican Rep.	Portoviejo	-1.117, -80.467
+Dominican Rep.	Machala	-3.333, -79.950
+Dominican Rep.	Guayaquil	-2.217, -79.900
+Dominican Rep.	Esmeraldas	0.933, -79.667
+Dominican Rep.	Loja	-3.983, -79.267
+Dominican Rep.	Cuenca	-2.900, -79.000
+Dominican Rep.	San Lorenzo	1.250, -78.850
+Dominican Rep.	Riobamba	-1.733, -78.667
+Dominican Rep.	Ambato	-1.300, -78.650
+Dominican Rep.	Quito	-0.233, -78.500
+Dominican Rep.	Cayambe	0.033, -78.133
+Dominican Rep.	Ibarra	0.383, -78.083
+Egypt	El Alamein	30.833, 28.950
+Egypt	Alexandria	31.217, 29.917
+Egypt	Damanhur	31.050, 30.467
+Egypt	Tanta	30.800, 31.000
+Egypt	Beni-Souef	29.083, 31.083
+Egypt	Asyut	27.233, 31.117
+Egypt	Cairo	30.050, 31.250
+Egypt	Helwan	29.850, 31.333
+Egypt	Zagazig	30.583, 31.500
+Egypt	Abou Simbel	22.317, 31.633
+Egypt	Sohag	26.550, 31.700
+Egypt	Dumyat	31.433, 31.800
+Egypt	Isma'ilia	30.600, 32.250
+Egypt	Port Said	31.283, 32.300
+Egypt	Suez	29.983, 32.550
+Egypt	Karnak	25.683, 32.667
+Egypt	Aswan	24.083, 32.933
+El Salvador	Santa Ana	14.000, -89.517
+El Salvador	San Salvador	13.667, -89.167
+El Salvador	La Palma	14.333, -89.167
+El Salvador	Chalatenango	14.067, -88.883
+El Salvador	Usulutan	13.333, -88.417
+El Salvador	San Miguel	13.467, -88.167
+Equatorial Guinea	Pagalu	-1.400, 5.617
+Equatorial Guinea	Luba	3.450, 8.550
+Equatorial Guinea	Concepcion	3.533, 8.767
+Equatorial Guinea	Malabo	3.750, 8.800
+Equatorial Guinea	Mbini	1.567, 9.633
+Equatorial Guinea	Bata	1.850, 9.817
+Equatorial Guinea	Evinayong	1.433, 10.650
+Equatorial Guinea	Mikomeseng	2.133, 10.683
+Estonia	Tallinn	59.367, 24.800
+Estonia	Tartu	58.333, 26.733
+Estonia	Narva	59.367, 28.283
+Ethiopia	Djimma	7.650, 36.783
+Ethiopia	Bahir Dar	11.550, 37.417
+Ethiopia	Gondar	12.650, 37.483
+Ethiopia	Debre Markos	10.317, 37.683
+Ethiopia	Addis Ababa	9.050, 38.700
+Ethiopia	Asmara	15.333, 38.967
+Ethiopia	Debre Zeyt	8.833, 39.000
+Ethiopia	Adama	8.650, 39.317
+Ethiopia	Dese	11.083, 39.667
+Ethiopia	Dire Dawa	9.583, 41.833
+Ethiopia	Harar	9.333, 42.167
+Finland	Mariehamn	60.083, 19.917
+Finland	Vaasa	63.100, 21.600
+Finland	Pori	61.467, 21.750
+Finland	Turku	60.450, 22.250
+Finland	Tampere	61.533, 23.750
+Finland	Kemi	65.767, 24.567
+Finland	Jyvaskyla	62.267, 24.833
+Finland	Helsinki	60.133, 25.000
+Finland	Oulu	65.000, 25.433
+Finland	Lahti	61.000, 25.667
+Finland	Rovaniemi	66.483, 25.667
+Finland	Kotka	60.433, 26.917
+Finland	Utsjoki	69.900, 27.017
+Finland	Inari	68.900, 27.083
+Finland	Kuopio	62.900, 27.667
+Finland	Lappeenranta	61.067, 28.250
+Finland	Joensuu	62.600, 29.750
+France	Brest	48.383, -4.500
+France	Quimper	48.000, -4.100
+France	Lorient	47.750, -3.350
+France	St-Brieuc	48.517, -2.750
+France	Vannes	47.667, -2.733
+France	St Nazaire	47.283, -2.200
+France	Rennes	48.100, -1.667
+France	Cherbourg	49.633, -1.617
+France	Nantes	47.233, -1.583
+France	La-Roche-sur-Yon	46.633, -1.500
+France	Bayonne	43.500, -1.467
+France	La Rochelle	46.167, -1.167
+France	St-Lo	49.117, -1.083
+France	Laval	48.067, -0.750
+France	Bordeaux	44.833, -0.567
+France	Angers	47.483, -0.533
+France	Mont-de-Marsan	43.900, -0.500
+France	Niort	46.317, -0.450
+France	Pau	43.300, -0.367
+France	Caen	49.183, -0.367
+France	Alen‡on	48.417, 0.083
+France	Tarbes	43.233, 0.083
+France	Le Havre	49.500, 0.100
+France	Angouleme	45.667, 0.167
+France	Le Mans	48.000, 0.200
+France	Poitiers	46.583, 0.333
+France	Cahors	44.467, 0.433
+France	Auch	43.500, 0.600
+France	Agen	44.200, 0.633
+France	Tours	47.383, 0.700
+France	Perigueux	45.200, 0.733
+France	Dieppe	49.917, 1.083
+France	Rouen	49.433, 1.083
+France	Evreux	49.050, 1.183
+France	Limoges	45.833, 1.250
+France	Montauban	44.017, 1.333
+France	Blois	47.600, 1.333
+France	Toulouse	43.617, 1.450
+France	Chartres	48.450, 1.500
+France	Foix	42.950, 1.583
+France	Chateauroux	46.817, 1.683
+France	Tulle	45.267, 1.767
+France	Abbeville	50.100, 1.850
+France	Gueret	46.167, 1.866
+France	Orleans	47.900, 1.900
+France	Vierzon	47.233, 2.050
+France	Pontoise	49.050, 2.083
+France	Beauvais	49.433, 2.083
+France	Versailles	48.800, 2.133
+France	Albi	43.933, 2.144
+France	Nanterre	48.883, 2.217
+France	Amiens	49.900, 2.300
+France	Paris	48.833, 2.333
+France	Bourges	47.083, 2.383
+France	Carcassonne	43.217, 2.350
+France	Dunkerque	51.033, 2.383
+France	Aurillac	44.933, 2.433
+France	Bobigny	48.917, 2.450
+France	Cr‚teil	48.783, 2.467
+France	Melun	48.533, 2.557
+France	Evry	48.633, 2.567
+France	Rodez	44.350, 2.567
+France	Montlucon	46.333, 2.600
+France	Arras	50.283, 2.767
+France	Lens	50.433, 2.833
+France	Perpignan	42.700, 2.900
+France	Lille	50.650, 3.083
+France	Clermont-Ferrand	45.783, 3.083
+France	Nevers	47.000, 3.150
+France	Moulins	46.567, 3.333
+France	Mende	44.533, 3.500
+France	Auxerre	47.800, 3.583
+France	Laon	49.567, 3.617
+France	Montpellier	43.600, 3.883
+France	Le Puy	45.050, 3.883
+France	Avallon	47.500, 3.900
+France	Reims	49.250, 4.033
+France	Troyes	48.300, 4.083
+France	Roanne	46.033, 4.083
+France	Nimes	43.500, 4.350
+France	Chalons-S-Marne	48.967, 4.367
+France	St-Etienne	45.433, 4.383
+France	Privas	44.733, 4.600
+France	MeziŠres	49.767, 4.733
+France	Avignon	43.933, 4.800
+France	Lyon	45.767, 4.833
+France	Macon	45.300, 4.833
+France	Valence	44.933, 4.900
+France	Dijon	47.333, 5.033
+France	Chaumont	48.117, 5.133
+France	Bar-le-Duc	48.767, 5.167
+France	Bourg	46.200, 5.217
+France	Observatoire SIRENE	44.000, 5.333
+France	Marseille	43.300, 5.367
+France	Lons-le-Saunier	46.683, 5.550
+France	Grenoble	45.183, 5.717
+France	Toulon	43.117, 5.917
+France	Chamb‚ry	45.567, 5.917
+France	Besancon	47.250, 5.983
+France	Gap	44.550, 6.083
+France	Annecy	45.900, 6.117
+France	Metz	49.117, 6.183
+France	Vesoul	47.633, 6.150
+France	Nancy	48.700, 6.200
+France	Digne	44.083, 6.233
+France	Epinal	48.167, 6.467
+France	Belfort	47.633, 6.867
+France	Cannes	43.550, 7.000
+France	Nice	43.700, 7.267
+France	Colmar	48.083, 7.350
+France	Mulhouse	47.750, 7.350
+France	Strasbourg	48.583, 7.750
+France	Ajaccio	41.917, 8.717
+France	Bastia	42.683, 9.433
+French Guyana	Grand-Santi	4.317, -54.400
+French Guyana	Maripasoula	3.717, -54.067
+French Guyana	Mana	5.667, -53.817
+French Guyana	St Elie	4.833, -53.350
+French Guyana	Saul	3.533, -53.250
+French Guyana	Iracoubo	5.467, -53.250
+French Guyana	Kourou	5.133, -52.617
+French Guyana	Camopi	3.200, -52.317
+French Guyana	Cayenne	4.917, -52.300
+French Guyana	Roura	4.733, -52.267
+French Guyana	Regina	4.333, -52.117
+French Guyana	St Georges	3.917, -51.817
+French Guyana	Ouanary	4.183, -51.667
+Gabon	Port Gentil	-0.667, 8.833
+Gabon	Libreville	0.500, 9.417
+Gabon	Lambarene	-0.683, 10.217
+Gabon	Tchibanga	-2.817, 11.000
+Gabon	Mouila	-1.833, 11.033
+Gabon	Oyama	1.567, 11.517
+Gabon	Koulamoutou	-1.200, 12.483
+Gabon	Franceville	-1.667, 13.517
+Gambia	Brikama	13.250, -16.650
+Gambia	Banjul	13.467, -16.650
+Gambia	Kerewan	13.483, -16.167
+Gambia	Georgetown	13.517, -14.833
+Gambia	Basse Santa Su	13.383, -14.250
+Georgia	Pitsunda	43.167, 40.367
+Georgia	Sukhumi	43.017, 41.017
+Georgia	Batumi	41.617, 41.600
+Georgia	Poti	42.183, 41.683
+Georgia	Kutaisi	42.250, 42.733
+Georgia	Borzhomi	41.817, 43.383
+Georgia	Tskhinvali	42.233, 43.967
+Georgia	Tbilisi	41.717, 44.800
+Georgia	Telavi	41.933, 45.500
+Germany	Aachen	50.767, 6.100
+Germany	Julich	50.917, 6.350
+Germany	Krefeld	51.333, 6.533
+Germany	Treves	49.750, 6.650
+Germany	Dusseldorf	51.217, 6.783
+Germany	Cologne	50.933, 6.950
+Germany	Essen	51.450, 6.950
+Germany	Sarrebruck	49.250, 6.967
+Germany	Bonn	50.733, 7.100
+Germany	Dortmund	51.533, 7.450
+Germany	Coblence	50.350, 7.600
+Germany	Munster	51.967, 7.617
+Germany	Hamm	51.667, 7.817
+Germany	Fribourg	48.000, 7.867
+Germany	Osnabruck	52.283, 8.050
+Germany	Wilhelmshaven	53.533, 8.117
+Germany	Baden Baden	48.750, 8.250
+Germany	Worms	49.633, 8.383
+Germany	Karlsruhe	49.000, 8.400
+Germany	Spire	49.300, 8.433
+Germany	Bielefeld	52.033, 8.533
+Germany	Marburg	50.817, 8.600
+Germany	Darmstadt	49.867, 8.650
+Germany	Frankfurt	50.100, 8.683
+Germany	Heidelberg	49.417, 8.700
+Germany	Paderborn	51.717, 8.733
+Germany	Bremen	53.083, 8.800
+Germany	Minden	52.300, 8.900
+Germany	Tubingen	48.533, 9.067
+Germany	Constance	47.667, 9.167
+Germany	Stuttgart	48.783, 9.200
+Germany	Flensburg	54.783, 9.450
+Germany	Cassel	51.300, 9.500
+Germany	Fulda	50.550, 9.683
+Germany	Hanover	52.383, 9.733
+Germany	Gottingen	51.533, 9.950
+Germany	Wurtzburg	49.800, 9.950
+Germany	Hildesheim	52.150, 9.967
+Germany	Hamburg	53.550, 10.000
+Germany	Ulm	48.400, 10.000
+Germany	Celle	52.617, 10.083
+Germany	Kiel	54.333, 10.133
+Germany	Eisenach	50.983, 10.317
+Germany	Goslar	51.917, 10.417
+Germany	Brunswick	52.250, 10.500
+Germany	Lubeck	53.867, 10.667
+Germany	Augsburg	48.350, 10.900
+Germany	Bamberg	49.900, 10.900
+Germany	Erlangen	49.600, 11.033
+Germany	Halberstadt	51.900, 11.067
+Germany	Garmisch-Partenkirchen	47.500, 11.083
+Germany	Nuremberg	49.450, 11.083
+Germany	Weimar	50.983, 11.333
+Germany	Schwerin	53.633, 11.417
+Germany	Munich	48.133, 11.583
+Germany	Magdeburg	52.133, 11.617
+Germany	Regensburg	49.017, 12.117
+Germany	Rostock	54.100, 12.150
+Germany	Gera	50.850, 12.183
+Germany	Leipzig	51.333, 12.417
+Germany	Zwickau	50.717, 12.500
+Germany	Wittenberg	51.883, 12.650
+Germany	Chemnitz	50.833, 12.917
+Germany	Stralsund	54.300, 13.100
+Germany	Neubrandenburg	53.550, 13.267
+Germany	Berlin	52.467, 13.350
+Germany	Dresden	51.050, 13.750
+Germany	Cottbus	51.717, 14.350
+Germany	Frankfurt am Oder	52.333, 14.533
+Ghana	Sunyani	7.367, -2.300
+Ghana	Sekondi	4.983, -1.717
+Ghana	Obuasi	6.250, -1.600
+Ghana	Kumasi	6.750, -1.583
+Ghana	Cape Coast	5.167, -1.217
+Ghana	Oda	5.917, -0.933
+Ghana	Bolgatanga	10.733, -0.883
+Ghana	Tamale	9.433, -0.817
+Ghana	Winneba	5.367, -0.633
+Ghana	Accra	5.550, -0.250
+Ghana	Koforidua	6.017, -0.200
+Ghana	Tema	5.667, -0.017
+Ghana	Ho	6.633, 0.633
+Ghana	Keta	5.917, 1.017
+Gibraltar	Gibraltar	36.150, -5.350
+Greece	Corfu	39.633, 19.917
+Greece	Ioannina	39.667, 20.850
+Greece	Patrai	38.233, 21.733
+Greece	Trikkala	39.550, 21.767
+Greece	Kalamai	37.033, 22.117
+Greece	Veroia	40.533, 22.183
+Greece	Larissa	39.633, 22.417
+Greece	Lamia	38.917, 22.433
+Greece	Volos	39.367, 22.950
+Greece	Thessalonika	40.633, 22.967
+Greece	Serai	41.050, 23.550
+Greece	Athens	38.000, 23.733
+Greece	Khania	35.517, 24.017
+Greece	Kavalla	40.933, 24.383
+Greece	Phaistos	35.050, 24.800
+Greece	Knossos	35.300, 25.167
+Greece	Chio	38.383, 26.117
+Greece	Rhodes	36.433, 28.233
+Greenland	Thule	77.500, -69.483
+Greenland	Sisimiut	66.917, -53.500
+Greenland	Holsteinsborg	66.917, -53.500
+Greenland	Sukkertoppen	66.417, -52.667
+Greenland	Nuuk	64.250, -51.583
+Greenland	Jakobshavn	69.167, -51.083
+Guadeloupe	Pointe-a-Pitre	16.233, -61.533
+Guatemala	Quezaltenango	14.833, -91.500
+Guatemala	Mazatenango	14.517, -91.500
+Guatemala	Santa Cruz Barillas	15.833, -91.333
+Guatemala	Escuintla	14.300, -90.783
+Guatemala	Antigua	14.550, -90.700
+Guatemala	Guazacapan	14.050, -90.433
+Guatemala	Guatemala	14.633, -90.367
+Guatemala	Coban	15.467, -90.333
+Guatemala	Chinaja	16.083, -90.200
+Guatemala	Paixban	17.783, -90.100
+Guatemala	Flores	16.967, -89.833
+Guatemala	Chiquimula	14.800, -89.533
+Guatemala	Zacapa	15.000, -89.500
+Guatemala	Dolores	16.550, -89.433
+Guatemala	Tikal	17.217, -89.400
+Guatemala	Livingston	15.833, -88.733
+Guatemala	Puerto Barrios	15.683, -88.533
+Guinea	Conakry	9.500, -13.717
+Guinea	Fria	10.450, -13.633
+Guinea	Dubreka	9.833, -13.533
+Guinea	Kindia	10.050, -12.817
+Guinea	Pita	11.083, -12.250
+Guinea	Dalaba	10.783, -12.200
+Guinea	Labe	11.283, -12.183
+Guinea	Mamou	10.400, -12.083
+Guinea	Kissidougou	9.250, -10.133
+Guinea	Kankan	10.367, -9.183
+Guinea	Siguiri	11.467, -9.117
+Guinea	Nzerekore	7.817, -8.800
+Guinea Bissau	Cacheu	12.200, -16.167
+Guinea Bissau	Teixeira Pinto	12.050, -16.000
+Guinea Bissau	Bissau	11.867, -15.650
+Guinea Bissau	Bolama	11.583, -15.500
+Guinea Bissau	Mansoa	12.133, -15.300
+Guinea Bissau	Catio	11.217, -15.167
+Guinea Bissau	Bafata	12.150, -14.633
+Guinea Bissau	Gabu	12.317, -14.183
+Guyana	Morawhanna	8.233, -59.750
+Guyana	Marlborough	7.517, -58.633
+Guyana	Apoteri	4.000, -58.583
+Guyana	Linden	5.983, -58.317
+Guyana	Georgetown	6.767, -58.167
+Guyana	Kwakwani	5.267, -58.067
+Guyana	Mahaicony	6.567, -57.833
+Guyana	Oronoque	2.750, -57.500
+Guyana	Rosehall	6.217, -57.317
+Guyana	Corriverton	5.883, -57.167
+Haiti	Jeremie	18.667, -74.150
+Haiti	Les Cayes	18.250, -73.767
+Haiti	Port-de-Paix	19.933, -72.867
+Haiti	Anse-a-Galets	18.817, -72.833
+Haiti	Gonaives	19.483, -72.700
+Haiti	St Marc	19.133, -72.683
+Haiti	Jacmel	18.300, -72.533
+Haiti	Port-au-Prince	18.550, -72.333
+Haiti	Cap-Haitien	19.783, -72.283
+Haiti	Hinche	19.167, -72.017
+Haiti	Lascahobas	18.850, -71.933
+Honduras	San Pedro Sula	15.433, -88.017
+Honduras	Puerto Cortes	15.833, -87.917
+Honduras	Comayagua	14.500, -87.650
+Honduras	Nacaome	13.500, -87.517
+Honduras	Tegucigalpa	14.083, -87.233
+Honduras	Choluteca	13.250, -87.167
+Honduras	La Ceiba	15.750, -86.750
+Honduras	Juticalpa	14.750, -86.200
+Honduras	San Esteban	15.317, -85.867
+Hungary	Szombathely	47.233, 16.633
+Hungary	Zalaegerszeg	46.883, 16.850
+Hungary	Gyor	47.683, 17.667
+Hungary	Kaposvar	46.350, 17.817
+Hungary	Veszprem	47.100, 17.900
+Hungary	Pecs	46.067, 18.250
+Hungary	Szekesfehervar	47.183, 18.367
+Hungary	Tatabanya	47.517, 18.417
+Hungary	Szekszard	46.350, 18.683
+Hungary	Budapest	47.500, 19.050
+Hungary	Kecskemet	46.933, 19.717
+Hungary	Salgotarjan	48.083, 19.783
+Hungary	Szeged	46.250, 20.150
+Hungary	Szolnok	47.167, 20.167
+Hungary	Eger	47.883, 20.467
+Hungary	Miskolc	48.117, 20.783
+Hungary	Bekescsaba	46.667, 21.083
+Hungary	Debrecen	47.500, 21.617
+Hungary	Nyiregyhaza	47.950, 21.717
+Iceland	Isafjordhur	66.083, -23.133
+Iceland	Keflavik	64.017, -22.583
+Iceland	Akranes	64.317, -22.083
+Iceland	Reykjavik	64.150, -21.967
+Iceland	Akureyri	65.683, -18.067
+Iceland	Husavik	66.050, -17.283
+India	Silchar	24.817, 92.783
+India	Imphal	24.783, 93.917
+India	Dibrugarh	27.483, 94.933
+India	Rajkot	22.300, 70.883
+India	Bhavnagar	21.767, 72.233
+India	Ahmadabad	23.050, 72.667
+India	Bombay	18.933, 72.850
+India	Surat	21.167, 72.900
+India	Jodhpur	26.300, 73.133
+India	Vadodara	22.317, 73.233
+India	Ratnagiri	17.000, 73.333
+India	Udaipur	24.600, 73.783
+India	Poona	18.567, 73.967
+India	Beawar	26.033, 74.333
+India	Belgaum	15.900, 74.600
+India	Ajmer	26.483, 74.667
+India	Ahmadnagar	19.133, 74.800
+India	Srinagar	34.133, 74.833
+India	Mangalore	12.900, 74.850
+India	Amritsar	31.583, 74.933
+India	Churu	28.300, 75.000
+India	Hubli	15.333, 75.233
+India	Mahe	11.683, 75.517
+India	Jullundur	31.300, 75.667
+India	Calicut	11.250, 75.750
+India	Jaipur	26.883, 75.833
+India	Ludhiana	30.933, 75.867
+India	Indore	22.700, 75.900
+India	Sholapur	17.717, 75.933
+India	Aligarh	25.967, 76.150
+India	Cochin	9.933, 76.250
+India	Alleppey	9.500, 76.367
+India	Mysore	12.300, 76.617
+India	Rohtak	28.950, 76.633
+India	Bellary	15.183, 76.900
+India	Chandigarh Mandir	30.733, 76.900
+India	Coimbatore	11.000, 76.950
+India	Trivandrum	8.500, 76.950
+India	Delhi	28.667, 77.233
+India	Bhopal	23.283, 77.467
+India	Saharanpur	29.967, 77.550
+India	Meerut	29.000, 77.700
+India	Palayan Kottai	8.700, 77.767
+India	Agra	27.150, 78.000
+India	Dehra Dun	30.317, 78.050
+India	Madurai	9.917, 78.117
+India	Salem	11.633, 78.133
+India	Gwalior	26.200, 78.150
+India	Hyderabad	17.367, 78.433
+India	Jhansi	25.450, 78.567
+India	Sambhal	28.583, 78.567
+India	Tiruchirapalli	10.833, 78.717
+India	Sagar	23.833, 78.733
+India	Moradabad	28.833, 78.750
+India	Budaun	28.033, 79.117
+India	Vellore	12.933, 79.150
+India	Nagpur	21.167, 79.200
+India	Bareilly	28.333, 79.400
+India	Nowgong	25.050, 79.450
+India	Warangal	18.000, 79.583
+India	Fatehgarh	27.367, 79.633
+India	Cuddalore	11.717, 79.767
+India	Pondichery	11.983, 79.833
+India	Allahabad	25.450, 81.833
+India	Rajahmundry	17.017, 81.867
+India	Mathura	27.583, 82.067
+India	Faizabad	26.767, 82.133
+India	Benares	25.333, 83.000
+India	Sambalpur	21.467, 84.067
+India	Aurangabad	24.767, 84.383
+India	Gaya	24.800, 85.000
+India	Gorakhpur	26.750, 83.383
+India	Vishakhapatnam	17.700, 83.400
+India	Patna	25.617, 85.200
+India	Bhubaneswar	20.217, 85.833
+India	Cuttack	20.433, 85.933
+India	Jamshedpur	22.783, 86.200
+India	Kharagpur	22.383, 87.367
+India	Calcutta	22.500, 88.333
+India	Jalpaiguri	26.500, 88.833
+India	Gauhati	26.167, 91.750
+India	Shillong	25.567, 91.883
+India	Guntur	16.333, 80.450
+India	Vijayawada	16.567, 80.667
+India	Lucknow	26.833, 80.900
+India	Bikaner	28.017, 73.367
+India	Bangalore	12.967, 77.583
+India	Shahjahanpur	27.883, 79.917
+India	Jabalpur	23.167, 79.983
+India	Nellore	14.483, 80.000
+India	Kanpur	26.450, 80.233
+India	Madras	13.083, 80.300
+Indonesia	Jakarta	-6.133, 106.750
+Indonesia	Medan	3.583, 98.650
+Indonesia	Sibolga	1.700, 98.800
+Indonesia	Bukittinggi	-0.300, 100.333
+Indonesia	Padang	-1.000, 100.350
+Indonesia	Kerinci	-1.717, 101.250
+Indonesia	Dumai	1.650, 101.467
+Indonesia	Bengkulu	-3.767, 102.267
+Indonesia	Telanaipura	-1.600, 103.650
+Indonesia	Tanjungenim	-3.750, 103.767
+Indonesia	Palembang	-2.983, 104.750
+Indonesia	Telukbetung	-5.467, 105.267
+Indonesia	Serang	-6.117, 106.150
+Indonesia	Sukabumi	-6.917, 106.833
+Indonesia	Bandung	-6.950, 107.567
+Indonesia	Cirebon	-6.767, 108.550
+Indonesia	Cilacap	-7.733, 109.000
+Indonesia	Pontianak	-0.083, 109.267
+Indonesia	Pekalongan	-6.900, 109.617
+Indonesia	Jokjakarta	-7.800, 110.400
+Indonesia	Semarang	-6.967, 110.483
+Indonesia	Surakarta	-7.533, 110.833
+Indonesia	Madiun	-7.617, 111.550
+Indonesia	Mojokerto	-7.417, 112.517
+Indonesia	Pasuruan	-7.633, 112.733
+Indonesia	Malang	-7.983, 112.750
+Indonesia	Surabaya	-7.233, 112.750
+Indonesia	Probolinggo	-7.750, 113.150
+Indonesia	Nangaobat	1.000, 113.250
+Indonesia	Banyuwangi	-8.200, 114.367
+Indonesia	Banjarmasin	-3.367, 114.550
+Indonesia	Denpaser	-8.667, 115.233
+Indonesia	Nameh	2.567, 116.367
+Indonesia	Lombok	-8.483, 116.667
+Indonesia	Tarakan	3.333, 117.633
+Indonesia	Raba	-8.450, 118.750
+Indonesia	Talok	1.000, 118.883
+Indonesia	Majene	-3.550, 118.983
+Indonesia	Ujung Pandang	-5.150, 119.467
+Indonesia	Parepare	-4.000, 119.667
+Indonesia	Palu	-0.900, 119.867
+Indonesia	Waingapu	-9.667, 120.267
+Indonesia	Ruteng	-8.583, 120.467
+Indonesia	Poso	-1.383, 120.750
+Indonesia	Maumere	-8.583, 122.217
+Indonesia	Kendari	-3.950, 122.600
+Indonesia	Baubau	-5.500, 122.617
+Indonesia	Gorontalo	0.550, 123.083
+Indonesia	Kupang	-10.217, 123.633
+Indonesia	Manado	1.533, 124.917
+Indonesia	Tondano	1.317, 124.933
+Indonesia	Ternate	0.800, 127.383
+Indonesia	Soasiu	0.667, 127.417
+Indonesia	Sorong	-0.833, 131.283
+Indonesia	Fakfak	-2.917, 132.283
+Indonesia	Kaimana	-3.650, 133.733
+Indonesia	Manokwari	-0.883, 134.083
+Indonesia	Merauke	-8.500, 140.367
+Indonesia	Jayapura	-2.617, 140.650
+Iran	Tabriz	38.083, 46.300
+Iran	Bakhtaran	34.317, 47.067
+Iran	Ahvaz	31.283, 48.717
+Iran	Tehran	35.733, 51.500
+Iran	Abadan	30.333, 48.250
+Iran	Shiraz	29.633, 52.567
+Iran	Qom	34.650, 50.950
+Iran	Ardebil	38.250, 48.300
+Iran	Rasht	37.300, 49.633
+Iran	Mashhad	36.267, 59.567
+Iran	Esfahan	32.683, 51.683
+Iran	Arak	34.083, 49.700
+Iran	Kerman	30.300, 57.083
+Iran	Dezful	32.383, 48.467
+Iran	Babol	36.533, 52.700
+Iran	Zahedan	29.500, 60.833
+Iraq	Al Marsil	36.350, 43.133
+Iraq	Arbil	36.200, 44.017
+Iraq	Kirkuk	35.467, 44.433
+Iraq	Baghdad	33.333, 44.433
+Iraq	Al Hillah	32.467, 44.483
+Iraq	Ar Ramadi	33.450, 43.317
+Iraq	An Najaf	31.983, 44.317
+Iraq	Al Amarah	31.850, 47.167
+Iraq	An Nasiriyah	31.067, 46.283
+Iraq	Basra	30.500, 47.833
+Ireland	Killarney	52.050, -9.500
+Ireland	Galway	53.267, -9.050
+Ireland	Limerick	52.667, -8.633
+Ireland	Sligo	54.283, -8.467
+Ireland	Cork	51.900, -8.467
+Ireland	Cashel	52.517, -7.883
+Ireland	Tullamore	53.267, -7.500
+Ireland	Kilkenny	52.650, -7.250
+Ireland	Waterford	52.250, -7.100
+Ireland	Dundalk	54.017, -6.417
+Ireland	Dublin	53.333, -6.250
+Italy	Sestriere	44.967, 6.900
+Italy	Courmayeur	45.800, 6.967
+Italy	Turin	45.067, 7.667
+Italy	San Remo	43.800, 7.767
+Italy	Stresa	45.883, 8.533
+Italy	Sassari	40.717, 8.567
+Italy	Novara	45.450, 8.617
+Italy	Genova	44.400, 8.933
+Italy	Como	45.800, 9.083
+Italy	Cagliari	39.217, 9.133
+Italy	Pavie	45.200, 9.150
+Italy	Milan	45.467, 9.200
+Italy	Bellagio	45.983, 9.267
+Italy	Monza	45.583, 9.267
+Italy	Bergame	45.700, 9.667
+Italy	Piacenza	45.050, 9.683
+Italy	La Spezia	44.117, 9.800
+Italy	Cremona	45.133, 10.017
+Italy	Brescia	45.550, 10.217
+Italy	Livorno	43.550, 10.300
+Italy	Parma	44.800, 10.317
+Italy	Portoferraio	42.817, 10.333
+Italy	Pisa	43.717, 10.400
+Italy	Mantova	45.167, 10.783
+Italy	Modena	44.650, 10.917
+Italy	Verona	45.433, 11.000
+Italy	Trento	46.067, 11.133
+Italy	Florence	43.783, 11.250
+Italy	Siena	43.317, 11.317
+Italy	Bologna	44.500, 11.333
+Italy	Bolzano	46.500, 11.367
+Italy	Vicenca	45.550, 11.533
+Italy	Ferrara	44.833, 11.633
+Italy	Padova	45.400, 11.883
+Italy	Forli	44.217, 12.033
+Italy	Ravenna	44.417, 12.200
+Italy	Treviso	45.667, 12.250
+Italy	Venice	45.433, 12.333
+Italy	San Marino	43.933, 12.433
+Italy	Rome	41.883, 12.500
+Italy	Rimini	44.050, 12.567
+Italy	Urbino	43.717, 12.633
+Italy	Terni	42.567, 12.650
+Italy	Spolete	42.733, 12.733
+Italy	Tivoli	41.967, 12.800
+Italy	Udine	46.067, 13.233
+Italy	Palermo	38.133, 13.383
+Italy	Ancone	43.617, 13.517
+Italy	Agrigente	37.317, 13.583
+Italy	Ascoli Piceno	42.867, 13.583
+Italy	Trieste	45.650, 13.783
+Italy	Ischia	40.733, 13.950
+Italy	Pescara	42.450, 14.217
+Italy	Naples	40.833, 14.250
+Italy	Pompei	40.750, 14.450
+Italy	Benevent	41.133, 14.767
+Italy	Salerno	40.667, 14.767
+Italy	Etna	37.750, 15.000
+Italy	Paestum	40.400, 15.000
+Italy	Catania	37.517, 15.100
+Italy	Stromboli	38.800, 15.250
+Italy	Taormina	37.850, 15.283
+Italy	Syracuse	37.067, 15.300
+Italy	Foggia	41.467, 15.550
+Italy	Messina	38.217, 15.550
+Italy	Reggio de Calabria	38.100, 15.650
+Italy	Potenza	40.633, 15.800
+Italy	Cosenza	39.283, 16.267
+Italy	Catanzaro	38.900, 16.600
+Italy	Bari	41.117, 16.867
+Italy	Taranto	40.467, 17.250
+Italy	Brindisi	40.617, 17.950
+Israel	Tel Aviv	32.083, 34.767
+Israel	Jerusalem	31.783, 35.217
+Israel	Haifa	32.817, 34.983
+Israel	Be'er Sheva	31.250, 34.783
+Israel	Elat	29.550, 34.950
+Ivory Coast	Danane	7.350, -8.167
+Ivory Coast	Touba	8.367, -7.700
+Ivory Coast	Biankouma	7.833, -7.667
+Ivory Coast	Man	7.517, -7.617
+Ivory Coast	Odienne	9.600, -7.533
+Ivory Coast	Guiglo	6.667, -7.467
+Ivory Coast	Seguela	7.967, -6.733
+Ivory Coast	San Pedro	4.750, -6.617
+Ivory Coast	Boundiali	9.500, -6.517
+Ivory Coast	Daloa	6.933, -6.467
+Ivory Coast	Sassandra	4.967, -6.133
+Ivory Coast	Gagnoa	6.067, -5.917
+Ivory Coast	Bouafle	7.017, -5.783
+Ivory Coast	Korhogo	9.367, -5.517
+Ivory Coast	Yamoussoukro	6.817, -5.283
+Ivory Coast	Divo	5.800, -5.250
+Ivory Coast	Ferkessedougou	9.500, -5.167
+Ivory Coast	Katiola	8.183, -5.067
+Ivory Coast	Bouake	7.700, -5.000
+Ivory Coast	Dimbokro	6.717, -4.767
+Ivory Coast	Dabakala	8.317, -4.400
+Ivory Coast	Agboville	5.917, -4.250
+Ivory Coast	Abidjan	5.317, -4.017
+Ivory Coast	Adzope	6.117, -3.817
+Ivory Coast	Abengourou	6.700, -3.450
+Ivory Coast	Aboisso	5.433, -3.217
+Ivory Coast	Bouna	9.317, -2.883
+Ivory Coast	Bondoukou	8.050, -2.750
+Jamaica	Montego Bay	18.450, -77.933
+Jamaica	Mandeville	18.033, -77.517
+Jamaica	Port Maria	18.367, -76.900
+Jamaica	Kingston	17.967, -76.800
+Jamaica	Port Antonio	18.167, -76.450
+Jamaica	Port Morant	17.883, -76.333
+Japan	Naha	26.167, 127.667
+Japan	Sasebo	33.167, 129.700
+Japan	Nagasaki	32.750, 129.867
+Japan	Sendai	31.833, 130.283
+Japan	Kurume	33.333, 130.483
+Japan	Kagoshima	31.617, 130.533
+Japan	Kumamoto	32.833, 130.700
+Japan	Kita Kyushu	33.867, 130.817
+Japan	Kanoya	31.367, 130.833
+Japan	Shimonoseki	33.983, 130.967
+Japan	Miyasaki	31.933, 131.450
+Japan	Oita	33.250, 131.600
+Japan	Hiroshima	34.383, 132.450
+Japan	Matsuyama	33.833, 132.783
+Japan	Matsue	35.483, 133.067
+Japan	Kochi	33.550, 133.533
+Japan	Okayama	34.667, 133.900
+Japan	Tokushima	34.050, 134.567
+Japan	Himeji	34.833, 134.667
+Japan	Kobe	34.667, 135.200
+Japan	Maizuru	35.500, 135.333
+Japan	Osaka	34.667, 135.500
+Japan	Kyoto	35.033, 135.750
+Japan	Fukui	36.067, 136.200
+Japan	Kanazawa	36.583, 136.633
+Japan	Gifu	35.450, 136.767
+Japan	Nagoya	35.133, 136.883
+Japan	Takaoka	36.783, 137.000
+Japan	Hamamatsu	34.700, 137.700
+Japan	Matsumoto	36.300, 137.967
+Japan	Nagano	36.650, 138.167
+Japan	Shizuoka	34.983, 138.400
+Japan	Fuji San	35.383, 138.700
+Japan	Nagaoka	37.450, 138.833
+Japan	Niigata	37.967, 139.033
+Japan	Yokohama	35.467, 139.633
+Japan	Kawasaki	35.533, 139.683
+Japan	Tokyo	35.667, 139.750
+Japan	Sakata	38.917, 139.850
+Japan	Utsunomiya	36.550, 139.867
+Japan	Akita	39.733, 140.083
+Japan	Koriyama	37.383, 140.367
+Japan	Fukushima	37.733, 140.467
+Japan	Hirosaki	40.567, 140.467
+Japan	Mito	36.367, 140.483
+Japan	Yokote	39.333, 140.517
+Japan	Hakodate	41.767, 140.733
+Japan	Muroran	42.350, 140.983
+Japan	Morioka	39.717, 141.133
+Japan	Fukuoka	40.267, 141.333
+Japan	Sapporo	43.083, 141.350
+Japan	Hachinohe	40.500, 141.500
+Japan	Wakkanai	45.433, 141.717
+Japan	Kamaishi	39.300, 141.867
+Japan	Miyako	39.633, 141.983
+Japan	Asahikawa	43.767, 142.383
+Japan	Kushiro	42.967, 144.400
+Japan	Kiryu	36.433, 139.300
+Jordan	Irbid	32.550, 35.850
+Jordan	Amman	31.950, 35.933
+Jordan	Az Zarqa	32.067, 36.100
+Jordan	Ma'An	30.183, 35.750
+Kazakhstan	Uralsk	51.317, 51.333
+Kazakhstan	Guryev	47.133, 51.983
+Kazakhstan	Aktyubinsk	50.267, 57.217
+Kazakhstan	Kustanay	53.250, 63.667
+Kazakhstan	Kzyl Orda	44.867, 65.467
+Kazakhstan	Chimkent	42.267, 69.083
+Kazakhstan	Petropavlosk	54.883, 69.217
+Kazakhstan	Kokchetav	53.300, 69.417
+Kazakhstan	Dzhambul	42.833, 71.417
+Kazakhstan	Tselinograd	51.167, 71.467
+Kazakhstan	Temirtau	50.083, 72.917
+Kazakhstan	Karaganda	49.883, 73.117
+Kazakhstan	Alma Ata	43.317, 76.917
+Kazakhstan	Pavlodar	52.350, 76.983
+Kazakhstan	Semey	50.433, 80.267
+Kazakhstan	Ust-Kamenogorsk	49.967, 82.600
+Kenya	Kisumu	-0.133, 34.783
+Kenya	Kitale	1.017, 35.017
+Kenya	Eldoret	0.517, 35.283
+Kenya	Kericho	-0.367, 35.317
+Kenya	Nakuru	-0.267, 36.067
+Kenya	Nairobi	-1.283, 36.833
+Kenya	Nyeri	-0.417, 36.933
+Kenya	Nanyuki	0.017, 37.083
+Kenya	Thika	-1.050, 37.083
+Kenya	Mombasa	-4.067, 39.667
+Kenya	Malindi	-3.233, 40.083
+Kirghizistan	Osh	40.617, 72.817
+Kirghizistan	Dzhalal-Abad	40.917, 73.033
+Kirghizistan	Frunze	42.883, 74.767
+Kirghizistan	Naryn	41.400, 76.000
+Kirghizistan	Przhevalsk	42.517, 78.367
+Korea North	Sinuiju	40.067, 124.417
+Korea North	Chinnamp'	38.850, 125.167
+Korea North	Haeju	38.067, 125.667
+Korea North	Anju	39.600, 125.700
+Korea North	Sariwon	38.500, 125.750
+Korea North	Pyongyang	39.000, 125.783
+Korea North	Kaesong	37.983, 126.500
+Korea North	Yonghung	39.517, 127.300
+Korea North	Wonsan	39.117, 127.433
+Korea North	Hungnam	39.817, 127.667
+Korea North	Sinpo	40.000, 128.217
+Korea North	Songjin	40.833, 129.083
+Korea North	Kilchu	40.917, 129.350
+Korea North	Chongiin	41.833, 129.917
+Korea North	Najin	42.167, 130.333
+Korea North	Unggi	42.317, 130.400
+Korea North	Nanam	41.733, 129.667
+Korea South	Mokpo	34.833, 126.417
+Korea South	Inch'On	37.500, 126.633
+Korea South	Kunsan	35.950, 126.700
+Korea South	Kwangju	35.117, 126.867
+Korea South	Suwon	37.267, 126.983
+Korea South	Seoul	37.533, 127.000
+Korea South	Chonju	35.833, 127.083
+Korea South	Taejon	36.333, 127.433
+Korea South	Ch'Unch'On	37.933, 127.667
+Korea South	Ch'Ungju	36.983, 127.883
+Korea South	Chinju	35.167, 128.100
+Korea South	Sangju	36.417, 128.133
+Korea South	Masan	32.167, 128.583
+Korea South	Taegu	35.867, 128.600
+Korea South	Andong	36.617, 128.733
+Korea South	Pusan	35.083, 129.033
+Korea South	Ulsan	35.533, 129.350
+Kuwait	Al Kuwayt	29.333, 48.000
+Laos	Ban Houei Sai	20.333, 100.500
+Laos	Sayaboury	19.300, 101.767
+Laos	Ban Na Mo	21.050, 101.800
+Laos	Muong Sai	20.733, 101.983
+Laos	Phong Saly	21.667, 102.100
+Laos	Luang Prabang	19.883, 102.167
+Laos	Vientiane	17.983, 102.633
+Laos	Muong Son	20.450, 103.333
+Laos	Xieng Khouang	19.350, 103.383
+Laos	Nong Het	19.483, 104.017
+Laos	Sam Neua	20.417, 104.067
+Laos	Savannakhet	16.567, 104.750
+Laos	Thakhet	17.367, 104.833
+Laos	Nape	18.300, 105.117
+Laos	Khong Sedone	15.583, 105.783
+Laos	Pakse	14.150, 105.833
+Laos	Saravane	15.717, 106.400
+Laos	Attopeu	14.850, 106.933
+Latvia	Liepaja	56.500, 21.000
+Latvia	Jelgava	56.650, 23.667
+Latvia	Riga	56.883, 24.133
+Latvia	Daugavpils	55.867, 26.517
+Lebanon	Tarabulus	34.450, 35.833
+Lebanon	Bayrut	33.867, 35.500
+Lebanon	Sur	33.267, 35.200
+Lebanon	Sayda	33.533, 35.367
+Lesotho	Mafeteng	-29.817, 27.233
+Lesotho	Maseru	-29.317, 27.483
+Lesotho	Mohales Hoek	-30.150, 27.483
+Lesotho	Teyateyaneng	-29.150, 27.750
+Lesotho	Leribe	-28.867, 28.050
+Liberia	Tubmanburg	6.783, -10.833
+Liberia	Monrovia	6.333, -10.767
+Liberia	Kakata	6.583, -10.317
+Liberia	Kolahun	8.400, -10.033
+Liberia	Buchanan	5.950, -10.033
+Liberia	Zorzor	7.767, -9.467
+Liberia	Gbarnga	7.033, -9.433
+Liberia	Greenville	5.017, -9.050
+Liberia	Sanokole	7.400, -8.750
+Liberia	Harper	4.417, -7.717
+Libya	Sabratah	32.833, 12.400
+Libya	Tripoli	32.967, 13.200
+Libya	Al Khums	32.650, 14.250
+Libya	Sabhah	27.050, 14.433
+Libya	Benghazi	32.117, 20.083
+Libya	Ajdabiyah	30.800, 20.250
+Libya	Al Marj	32.500, 20.833
+Libya	Darnah	32.767, 22.650
+Libya	Tubruq	32.100, 23.933
+Lithuania	Klaipeda	55.717, 21.117
+Lithuania	Siauliai	55.850, 23.333
+Lithuania	Kaunas	54.867, 23.917
+Lithuania	Panevezys	55.733, 24.400
+Lithuania	Vilnius	54.667, 25.317
+Luxembourg	Luxembourg	49.617, 6.133
+Macao	Macao	22.267, 113.583
+Macedonia	Ohrid	41.100, 20.817
+Macedonia	Bitola	41.017, 21.350
+Macedonia	Skopje	42.000, 21.467
+Macedonia	Prilep	41.333, 21.533
+Macedonia	Kumanovo	42.117, 21.667
+Madagascar	Toliara	-23.333, 43.683
+Madagascar	Mahajanga	-15.667, 46.333
+Madagascar	Fianarantsoa	-21.450, 47.083
+Madagascar	Morondava	-20.317, 47.283
+Madagascar	Antananarivo	-18.867, 47.500
+Madagascar	Manakara	-22.150, 48.000
+Madagascar	Ambatondrazaka	-17.817, 48.467
+Madagascar	Antsiranana	-12.317, 49.283
+Madagascar	Tamatave	-18.167, 49.383
+Malawi	Lilongwe	-13.967, 33.817
+Malawi	Karonga	-9.900, 33.917
+Malawi	Mzuzu	-11.517, 34.000
+Malawi	Nkhotakota	-12.917, 34.317
+Malawi	Blantyre	-15.767, 35.000
+Malawi	Zomba	-15.367, 35.367
+Malaysia	Alor Setar	6.100, 100.383
+Malaysia	George Town	5.500, 100.467
+Malaysia	Kulim	5.333, 100.583
+Malaysia	Taiping	4.900, 100.700
+Malaysia	Ipoh	4.600, 101.033
+Malaysia	Gerik	5.383, 101.150
+Malaysia	Kuala Kubu Bharu	3.583, 101.617
+Malaysia	Kuala Lumpur	3.133, 101.700
+Malaysia	Seremban	2.700, 101.900
+Malaysia	Melaka	2.233, 102.233
+Malaysia	Kota Bharu	6.117, 102.250
+Malaysia	Muar	2.017, 102.583
+Malaysia	Kuala Terengganu	5.333, 103.117
+Malaysia	Kuantan	3.833, 103.317
+Malaysia	Johore Bharu	1.483, 103.733
+Malaysia	Sematan	1.833, 109.733
+Malaysia	Kuching	1.533, 110.333
+Malaysia	Serian	1.167, 110.583
+Malaysia	Kabong	1.833, 111.117
+Malaysia	Rajang	2.167, 111.267
+Malaysia	Simanggang	1.167, 111.533
+Malaysia	Sibu	2.300, 111.817
+Malaysia	Pandan	3.233, 113.433
+Malaysia	Miri	4.467, 114.000
+Malaysia	Marudi	4.250, 114.317
+Malaysia	Long Akah	3.267, 114.833
+Malaysia	Kota Kinabalu	5.983, 116.067
+Malaysia	Kudat	6.900, 116.783
+Malaysia	Tawau	4.267, 117.900
+Malaysia	Sandakan	5.867, 118.067
+Mali	Kayes	14.433, -11.467
+Mali	Bamako	12.667, -7.983
+Mali	Koulikoro	12.917, -7.517
+Mali	Segou	13.467, -6.300
+Mali	Sikasso	11.300, -5.633
+Mali	Koutiala	12.333, -5.383
+Mali	San	13.350, -4.950
+Mali	Mopti	14.483, -4.167
+Mali	Tombouctou	16.817, -2.983
+Mali	Gao	16.317, -0.150
+Malta	Valletta	35.900, 14.533
+Martinique	Fort-de-France	14.600, -61.083
+Mauritania	Nouadhibou	20.900, -17.017
+Mauritania	Nouakchott	18.150, -15.967
+Mauritania	Rosso	16.483, -15.883
+Mauritania	Kaedi	16.200, -13.533
+Mauritania	Atar	20.533, -13.133
+Mauritania	Zouerate	22.733, -12.350
+Mauritania	Kiffa	16.633, -11.467
+Mexico	Tijuana	32.483, -117.167
+Mexico	Ensenada	31.883, -116.633
+Mexico	Mexicali	32.633, -115.450
+Mexico	Nogales	31.333, -111.000
+Mexico	Hermosillo	29.250, -110.983
+Mexico	Guaymas	27.983, -110.900
+Mexico	La Paz	24.167, -110.283
+Mexico	Los Mochis	25.800, -109.000
+Mexico	Culiacan	24.833, -107.383
+Mexico	Mazatlan	23.183, -106.417
+Mexico	Chihuahua	28.667, -106.100
+Mexico	Tepic	21.500, -104.850
+Mexico	Durango	24.017, -104.667
+Mexico	Colima	19.233, -103.683
+Mexico	Torreon	25.567, -103.417
+Mexico	Cordoba	26.300, -103.383
+Mexico	Guadalajara	20.667, -103.333
+Mexico	Zacatecas	22.800, -102.550
+Mexico	Aguascalientes	21.850, -102.300
+Mexico	Uruapan	19.433, -102.067
+Mexico	Leon	21.167, -101.700
+Mexico	Irapuato	20.667, -101.500
+Mexico	Monclova	26.917, -101.417
+Mexico	Guanajuato	21.000, -101.267
+Mexico	Morelia	19.667, -101.183
+Mexico	San Luis Potosi	22.167, -101.000
+Mexico	Saltillo	25.500, -101.000
+Mexico	Celaya	20.533, -100.800
+Mexico	Queretaro	20.633, -100.383
+Mexico	Monterrey	25.667, -100.333
+Mexico	Acapulco	16.850, -99.933
+Mexico	Toluca	19.333, -99.667
+Mexico	Chilpancingo	17.550, -99.500
+Mexico	Cuernavaca	18.950, -99.250
+Mexico	Mexico City	19.417, -99.167
+Mexico	Ciudad Victoria	23.717, -99.167
+Mexico	Pachuca	20.167, -98.733
+Mexico	Reynosa	26.083, -98.300
+Mexico	Tlaxcala	19.333, -98.200
+Mexico	Puebla	19.050, -98.167
+Mexico	Ciudad Madero	22.317, -97.833
+Mexico	Matamoros	25.833, -97.517
+Mexico	Poza Rica	20.567, -97.433
+Mexico	Orizaba	18.850, -97.133
+Mexico	Oaxaca	17.083, -96.683
+Mexico	Piedras Negras	18.800, -96.200
+Mexico	Veracruz	19.183, -96.167
+Mexico	Minatitlan	17.983, -94.533
+Mexico	Coatzacoalcos	18.167, -94.417
+Mexico	Tuxtla Gutierrez	16.750, -93.150
+Mexico	Villahermosa	18.000, -92.883
+Mexico	Jalapa	17.750, -92.800
+Mexico	Tapachula	14.900, -92.250
+Mexico	Campeche	19.833, -90.500
+Mexico	Merida	20.983, -89.650
+Mexico	Chichen Itza	20.667, -88.533
+Mexico	Chetumal	18.500, -88.283
+Moldavia	Beltsy	47.733, 27.683
+Moldavia	Soroki	48.133, 28.200
+Moldavia	Kishinev	47.000, 28.833
+Moldavia	Tiraspol	46.833, 29.633
+Mongolia	Ulan Bator	47.917, 106.883
+Mongolia	Ulaangom	49.983, 92.000
+Mongolia	Uliastay	47.700, 96.867
+Mongolia	Erdene	45.167, 97.667
+Mongolia	Darhan	49.500, 105.967
+Mongolia	Choybalsan	48.033, 114.533
+Morocco	Agadir	30.500, -9.667
+Morocco	Safi	32.300, -9.333
+Morocco	El Jadida	33.183, -8.283
+Morocco	Marrakech	31.817, -8.000
+Morocco	Settat	33.067, -7.617
+Morocco	Casablanca	33.650, -7.583
+Morocco	Mohammedia	33.717, -7.333
+Morocco	Khouribga	32.900, -6.950
+Morocco	Sale	34.067, -6.833
+Morocco	Kenitra	34.333, -6.567
+Morocco	Beni Mellal	32.367, -6.483
+Morocco	Khemisset	33.833, -6.050
+Morocco	Ksar el Kebir	35.067, -5.933
+Morocco	Tanger	35.800, -5.833
+Morocco	Meknes	33.883, -5.617
+Morocco	Tetouan	35.567, -5.367
+Morocco	Ceuta	35.883, -5.317
+Morocco	Fes	34.083, -5.000
+Morocco	Taza	34.267, -4.017
+Morocco	Nador	35.167, -3.000
+Morocco	Oujda	34.683, -1.750
+Mozambique	Maputo	-25.967, 32.583
+Mozambique	Mandie	-16.500, 33.517
+Mozambique	Chibuto	-24.667, 33.550
+Mozambique	Tete	-16.167, 33.583
+Mozambique	Xai Xai	-25.067, 33.633
+Mozambique	Beira	-19.817, 34.867
+Mozambique	Meponda	-13.333, 34.983
+Mozambique	Inhambane	-23.850, 35.483
+Mozambique	Quelimane	-17.883, 36.850
+Mozambique	Nampula	-15.150, 39.233
+Mozambique	Nacala	-14.500, 40.617
+Namibia	Windhoek	-22.567, 17.100
+Namibia	Tsumeb	-19.217, 17.700
+Namibia	Keetmanshoop	-26.600, 18.133
+Namibia	Walvis Bay	-22.983, 14.517
+Namibia	Swakopmund	-22.667, 14.567
+Namibia	Luderitz	-26.633, 15.167
+Namibia	Otjiwarongo	-20.483, 16.600
+Nepal	Katmandu	27.700, 85.317
+Nepal	Jumla	29.283, 82.167
+Nepal	Sallyana	28.350, 82.183
+Nepal	Biratnagar	26.450, 87.283
+Netherlands	Delft	52.017, 4.350
+Netherlands	Rotterdam	51.917, 4.483
+Netherlands	Amsterdam	52.350, 4.900
+Netherlands	Utrecht	52.100, 5.117
+Netherlands	Eindhoven	51.433, 5.500
+Netherlands	Leeuwarden	53.200, 5.800
+Netherlands	Nimegue	51.833, 5.867
+Netherlands	Arnheim	52.000, 5.883
+Netherlands	Apeldoorn	52.217, 5.950
+Netherlands	Zwolle	52.517, 6.100
+Netherlands	Assen	53.000, 6.567
+Netherlands	Middelburg	51.500, 3.600
+Netherlands	Dordrecht	51.800, 4.667
+Netherlands	Gouda	52.017, 4.717
+Netherlands	Hoorn	52.633, 5.050
+Netherlands	Tilburg	51.567, 5.083
+New Zealand	Invercargill	-46.433, 168.350
+New Zealand	Dunedin	-45.867, 170.500
+New Zealand	Christchurch	-43.550, 172.667
+New Zealand	Nelson	-41.300, 173.283
+New Zealand	New Plymouth	-39.050, 174.067
+New Zealand	Whangarei	-35.717, 174.333
+New Zealand	Auckland	-36.917, 174.783
+New Zealand	Wellington	-41.283, 174.783
+New Zealand	Hamilton	-37.767, 175.300
+New Zealand	Palmerston North	-40.333, 175.650
+New Zealand	Hastings	-39.650, 176.867
+Nicaragua	Chinandega	12.583, -87.167
+Nicaragua	Leon	12.400, -86.867
+Nicaragua	Managua	12.100, -86.300
+Nicaragua	Jalapa	13.933, -86.183
+Nicaragua	Jinotepe	11.833, -86.167
+Nicaragua	Jinotega	13.083, -85.983
+Nicaragua	Granada	11.967, -85.983
+Nicaragua	Matagalpa	12.867, -85.967
+Nicaragua	La Libertad	12.200, -85.167
+Nicaragua	Bilwascarma	14.717, -83.850
+Nicaragua	Bluefields	12.000, -83.817
+Nicaragua	San Juan del Norte	10.967, -83.667
+Nicaragua	Prinzapolca	13.317, -83.583
+Niger	Niamey	13.533, 2.083
+Niger	Dosso	13.050, 3.167
+Niger	Filingue	14.350, 3.367
+Niger	Tahoua	14.950, 5.317
+Niger	Maradi	13.483, 7.167
+Niger	Agadez	17.000, 7.933
+Niger	Zinder	13.767, 8.967
+Nigeria	Abeokuta	7.167, 3.433
+Nigeria	Lagos	6.450, 3.467
+Nigeria	Ibadan	7.383, 3.933
+Nigeria	Ogbomosho	8.083, 4.183
+Nigeria	Ilorin	8.533, 4.567
+Nigeria	Ilesha	7.650, 4.633
+Nigeria	Akure	7.233, 5.133
+Nigeria	Sokoto	13.033, 5.250
+Nigeria	Benin City	6.317, 5.683
+Nigeria	Minna	9.650, 6.533
+Nigeria	Gulu	8.700, 6.633
+Nigeria	Onitsha	6.167, 6.783
+Nigeria	Owerri	5.483, 7.033
+Nigeria	Abuja	9.167, 7.100
+Nigeria	Port Harcourt	4.717, 7.167
+Nigeria	Aba	5.100, 7.350
+Nigeria	Kaduna	10.467, 7.417
+Nigeria	Enugu	6.333, 7.500
+Nigeria	Katsina	13.000, 7.533
+Nigeria	Zaria	11.017, 7.733
+Nigeria	Calabar	4.933, 8.367
+Nigeria	Kano	12.000, 8.517
+Nigeria	Makurdi	7.733, 8.583
+Nigeria	Jos	9.900, 8.883
+Nigeria	Bauchi	10.267, 9.833
+Nigeria	Yola	9.233, 12.533
+Nigeria	Maiduguri	11.883, 13.267
+Norway	Bergen	60.383, 5.333
+Norway	Stavanger	58.967, 5.750
+Norway	Alesund	62.467, 6.183
+Norway	Kristiansand	58.133, 8.017
+Norway	Skien	59.233, 9.617
+Norway	Drammen	59.750, 10.250
+Norway	Trondheim	63.600, 10.383
+Norway	Lillehammer	61.100, 10.450
+Norway	Oslo	59.933, 10.750
+Norway	Fredrikstad	59.250, 10.917
+Norway	Hamar	60.950, 10.917
+Norway	Bodo	67.300, 14.433
+Norway	Svalbard	78.000, 17.000
+Norway	Narvik	68.433, 17.417
+Norway	Tromso	69.700, 19.000
+Norway	Hammerfest	70.667, 23.733
+Norway	North Cape	71.183, 25.667
+Norway	Vadso	70.083, 29.783
+Oman	Salalah	17.000, 54.067
+Oman	Ibri	23.250, 56.267
+Oman	Al Khaburah	23.983, 57.167
+Oman	Nizwa	22.933, 57.550
+Oman	Masqat	23.617, 58.633
+Oman	Sur	22.567, 59.533
+Pakistan	Karachi	24.850, 67.033
+Pakistan	Hyderabad	25.383, 68.400
+Pakistan	Sukkur	27.700, 68.900
+Pakistan	Lahore	31.567, 74.367
+Pakistan	Faisalabad	31.417, 73.150
+Pakistan	Bahawalpur	29.400, 71.783
+Pakistan	Multan	30.167, 71.600
+Pakistan	Rawalpindi	33.667, 73.133
+Pakistan	Mardan	34.233, 72.083
+Pakistan	Quetta	30.250, 67.000
+Panama	Puerto Armuelles	8.317, -82.850
+Panama	David	8.433, -82.433
+Panama	Almirante	9.333, -82.367
+Panama	Santiago	8.133, -80.983
+Panama	Aguadulce	8.267, -80.517
+Panama	Chitre	7.983, -80.417
+Panama	Colon	9.350, -79.900
+Panama	La Chorrera	8.850, -79.767
+Panama	Portobelo	9.550, -79.617
+Panama	Panama	8.950, -79.500
+Panama	San Miguel	8.450, -78.850
+Panama	Jaque	7.517, -78.133
+Panama	Ailigandi	9.250, -78.083
+Papua New Guinea	Wewak	-3.583, 143.583
+Papua New Guinea	Mount Hagen	-5.900, 144.217
+Papua New Guinea	Goroka	-6.033, 145.367
+Papua New Guinea	Madang	-5.233, 145.750
+Papua New Guinea	Lae	-6.750, 147.000
+Papua New Guinea	Port Moresby	-9.500, 147.117
+Papua New Guinea	Rabaul	-4.217, 152.183
+Papua New Guinea	Arawa	-6.250, 155.583
+Paraguay	Fortin General E. Garay	-20.500, -61.933
+Paraguay	Fortin Leonida Escobar	-23.383, -61.217
+Paraguay	Fortin Lagerenza	-20.067, -61.067
+Paraguay	Fortin Capitan Demattei	-22.717, -60.783
+Paraguay	Fortin Avalos Sanchez	-23.467, -60.233
+Paraguay	Fortin Boqueron	-22.833, -59.967
+Paraguay	Fortin Falcon	-23.100, -59.833
+Paraguay	Fortin Carlos A. Lopez	-21.333, -59.717
+Paraguay	Fortin General Caballero	-24.167, -59.500
+Paraguay	Pilar	-26.850, -58.333
+Paraguay	Fortin Galpon	-19.900, -58.167
+Paraguay	Puerto Sastre	-22.033, -58.000
+Paraguay	Puerto Casado	-22.250, -57.917
+Paraguay	Fuerte Olimpo	-21.033, -57.850
+Paraguay	Asuncion	-25.250, -57.667
+Paraguay	Concepcion	-23.367, -57.433
+Paraguay	San Pedro	-24.133, -57.133
+Paraguay	Paraguari	-25.600, -57.100
+Paraguay	Coronel Oviedo	-25.400, -56.500
+Paraguay	Villarrica	-25.750, -56.467
+Paraguay	Yhu	-24.983, -56.000
+Paraguay	Pedro Juan Cabellero	-22.500, -55.733
+Paraguay	Capitan Bado	-23.167, -55.583
+Paraguay	Puerto Strossner	-25.533, -54.567
+Paraguay	Puerto Adela	-24.533, -54.383
+Peru	Sullana	-4.867, -80.650
+Peru	Piura	-5.250, -80.633
+Peru	Chiclayo	-6.783, -79.783
+Peru	Lambayeque	-6.600, -79.750
+Peru	Trujillo	-8.100, -79.000
+Peru	Chimbote	-9.067, -78.567
+Peru	Borja	-4.467, -77.583
+Peru	Lima	-12.100, -77.050
+Peru	Tarapoto	-6.517, -76.383
+Peru	Cerro de Pasco	-10.717, -76.250
+Peru	Yurimaguas	-5.900, -76.117
+Peru	Ica	-14.033, -75.800
+Peru	Huancayo	-12.083, -75.200
+Peru	Pucallpa	-8.350, -74.550
+Peru	Yabuyanos	-1.167, -73.917
+Peru	Iquitos	-3.850, -73.217
+Peru	Cuzco	-13.533, -71.950
+Peru	Puca Urco	-2.300, -71.883
+Peru	Pebas	-3.167, -71.767
+Peru	Arequipa	-16.417, -71.533
+Peru	Caballococha	-3.917, -70.500
+Peru	Tacna	-18.000, -70.250
+Peru	Puno	-15.883, -70.050
+Peru	Juli	-16.250, -69.500
+Philippines	Manila	14.617, 120.967
+Philippines	Olongapo	14.817, 120.283
+Philippines	Dagupan	16.033, 120.350
+Philippines	Vigan	17.583, 120.383
+Philippines	Angeles	15.150, 120.550
+Philippines	Balanga	14.683, 120.550
+Philippines	Tarlac	15.483, 120.583
+Philippines	Laoag	18.233, 120.600
+Philippines	Bontoc	17.117, 120.967
+Philippines	San Jose	15.783, 120.983
+Philippines	Batangas	13.767, 121.017
+Philippines	Bayombong	16.450, 121.167
+Philippines	Calapan	13.383, 121.167
+Philippines	San Pablo	14.050, 121.317
+Philippines	Tuguegarao	17.600, 121.733
+Philippines	Ilagan	17.117, 121.883
+Philippines	Zamboanga	6.917, 122.083
+Philippines	Iloilo	10.683, 122.550
+Philippines	Bacolod	10.633, 122.967
+Philippines	Daet	14.117, 122.967
+Philippines	Tanjay	9.517, 123.167
+Philippines	Dipolog	8.567, 123.383
+Philippines	Pagadian	7.833, 123.500
+Philippines	Masbate	12.350, 123.600
+Philippines	Cebu	10.283, 123.933
+Philippines	Irosin	12.683, 124.017
+Philippines	Sorsogon	12.983, 124.017
+Philippines	Datu Piang	7.033, 124.500
+Philippines	Cagayan de Oro	8.483, 124.667
+Philippines	Tacloban	11.250, 125.017
+Philippines	Laoang	12.583, 125.033
+Philippines	General Santos	6.083, 125.250
+Philippines	Surigao	9.783, 125.483
+Philippines	Davao	7.083, 125.633
+Poland	Szczecin	53.417, 14.533
+Poland	Gorzow Wielkopolski	52.700, 15.200
+Poland	Zielona Gora	51.950, 15.500
+Poland	Legnica	51.200, 16.167
+Poland	Walbrzych	50.800, 16.317
+Poland	Poznan	52.417, 16.883
+Poland	Wroclaw	51.083, 17.000
+Poland	Opole	50.667, 17.933
+Poland	Bydgoszcz	53.167, 18.000
+Poland	Kalisz	51.767, 18.033
+Poland	Rybnik	50.117, 18.500
+Poland	Torun	53.017, 18.583
+Poland	Gdansk	54.367, 18.683
+Poland	Katowice	50.250, 18.983
+Poland	Bielsko-Biala	49.833, 19.000
+Poland	Wloclawek	52.650, 19.017
+Poland	Czestochowa	50.817, 19.117
+Poland	Elblag	54.167, 19.417
+Poland	Lodz	51.817, 19.467
+Poland	Plock	52.533, 19.667
+Poland	Zakopane	49.283, 19.900
+Poland	Krakow	50.050, 19.917
+Poland	Olsztyn	53.800, 20.483
+Poland	Kielce	50.850, 20.650
+Poland	Tarnow	50.017, 20.983
+Poland	Warsaw	52.217, 21.000
+Poland	Radom	51.433, 21.167
+Poland	Sandomierz	50.667, 21.750
+Poland	Rzeszow	50.067, 22.000
+Poland	Lublin	51.300, 22.517
+Poland	Przemysl	49.800, 22.800
+Poland	Bialystok	53.150, 23.167
+Portugal	Funchal	32.667, -16.917
+Portugal	Lisbon	38.733, -9.133
+Portugal	Nazare	39.600, -9.067
+Portugal	Sagres	37.017, -8.933
+Portugal	Setubal	38.517, -8.900
+Portugal	Viana do Castelo	41.683, -8.833
+Portugal	Santarem	39.233, -8.667
+Portugal	Aveiro	40.633, -8.667
+Portugal	Porto	41.150, -8.617
+Portugal	Braga	41.533, -8.433
+Portugal	Tomar	39.600, -8.417
+Portugal	Coimbra	40.200, -8.417
+Portugal	Guimaraes	41.433, -8.317
+Portugal	Faro	37.017, -7.933
+Portugal	Viseu	40.667, -7.917
+Portugal	Evora	38.567, -7.900
+Portugal	Beja	38.017, -7.867
+Portugal	Vila Real	41.283, -7.750
+Portugal	Castelo Branco	39.833, -7.500
+Portugal	Portalegre	39.283, -7.417
+Portugal	Guarda	40.533, -7.283
+Portugal	Elvas	38.883, -7.167
+Portugal	Bragance	41.783, -6.767
+Puerto Rico	Mayaguez	18.217, -67.150
+Puerto Rico	Aguadilla	18.450, -67.133
+Puerto Rico	Arecibo	18.483, -66.733
+Puerto Rico	Ponce	18.017, -66.600
+Puerto Rico	San Juan	18.483, -66.133
+Puerto Rico	Guayama	17.983, -66.100
+Puerto Rico	Caguas	18.233, -66.067
+Puerto Rico	Fajardo	18.333, -65.650
+Qatar	Ad Dawhah	25.250, 51.600
+Reunion	St Denis	-20.867, 55.450
+Romania	Timisoara	45.750, 21.250
+Romania	Arad	46.167, 21.317
+Romania	Oradea	47.050, 21.917
+Romania	Resita	45.267, 21.917
+Romania	Satu Mare	47.800, 22.867
+Romania	Baia Mare	47.650, 23.600
+Romania	Cluj-Napoca	46.783, 23.617
+Romania	Craiova	44.300, 23.783
+Romania	Sibiu	45.767, 24.150
+Romania	Tirgu Mures	46.550, 24.567
+Romania	Pitesti	44.850, 24.850
+Romania	Brasov	45.650, 25.583
+Romania	Ploiesti	44.950, 26.017
+Romania	Bucharest	44.417, 26.117
+Romania	Buzau	45.150, 26.817
+Romania	Bacau	46.550, 26.967
+Romania	Iasi	47.150, 27.633
+Romania	Braila	45.283, 27.967
+Romania	Galati	45.450, 28.033
+Romania	Constantza	44.200, 28.667
+Russia	Kaliningrad	54.667, 20.500
+Russia	Pskov	57.800, 28.433
+Russia	Vyborg	60.750, 28.683
+Russia	St Petersburg	59.917, 30.417
+Russia	Novgorod	58.500, 31.333
+Russia	Smolensk	54.817, 32.067
+Russia	Murmansk	68.983, 33.133
+Russia	Bryansk	53.250, 34.150
+Russia	Petrozavodsk	61.767, 34.317
+Russia	Kalinin	56.817, 35.950
+Russia	Orel	52.967, 36.067
+Russia	Kursk	51.750, 36.233
+Russia	Kaluga	54.517, 36.267
+Russia	Belgorod	50.633, 36.600
+Russia	Podolsk	55.383, 37.533
+Russia	Yasnaya Polyana	54.067, 37.533
+Russia	Moscow	55.700, 37.550
+Russia	Tula	54.183, 37.633
+Russia	Novorossiysk	44.733, 37.767
+Russia	Cherepovets	59.150, 37.833
+Russia	Zagorsk	56.333, 38.167
+Russia	Pereslav Zalesskiy	56.667, 38.833
+Russia	Rybinsk	58.050, 38.833
+Russia	Taganrog	47.233, 38.917
+Russia	Krasnodar	45.033, 39.000
+Russia	Voronezh	51.667, 39.217
+Russia	Rostov	57.183, 39.383
+Russia	Lipetsk	52.617, 39.600
+Russia	Ryazan	54.617, 39.717
+Russia	Sochi	43.583, 39.767
+Russia	Severodvinsk	64.583, 39.833
+Russia	Yaroslavl	57.567, 39.867
+Russia	Vologda	59.167, 39.917
+Russia	Shakhty	47.717, 40.267
+Russia	Vladimir	56.133, 40.417
+Russia	Suzdal	56.433, 40.483
+Russia	Arkhangelsk	64.533, 40.667
+Russia	Kostroma	57.767, 40.983
+Russia	Ivanovo	57.000, 41.000
+Russia	Tambov	52.733, 41.467
+Russia	Stavropol	45.050, 41.983
+Russia	Pyatigorsk	44.067, 43.100
+Russia	Nalchik	43.517, 43.633
+Russia	Gorkiy	56.333, 44.000
+Russia	Volgograd	48.750, 44.500
+Russia	Ordzhonikidze	43.033, 44.717
+Russia	Penza	53.183, 45.000
+Russia	Saransk	54.200, 45.167
+Russia	Groznyy	43.350, 45.700
+Russia	Saratov	51.500, 45.917
+Russia	Cheboksary	56.133, 47.200
+Russia	Makhachkala	42.983, 47.500
+Russia	Yoshkar Ola	56.633, 47.867
+Russia	Astrakhan	46.367, 48.067
+Russia	Ulyanovsk	54.317, 48.367
+Russia	Kazan	55.750, 49.167
+Russia	Tolyatti	53.533, 49.400
+Russia	Kirov	58.633, 49.633
+Russia	Kuybyshev	53.167, 50.167
+Russia	Syktyvkar	61.700, 50.750
+Russia	Ijevsk	56.817, 53.183
+Russia	Orenburg	51.833, 55.000
+Russia	Ufa	54.750, 55.967
+Russia	Sterlitamak	53.667, 55.983
+Russia	Perm	58.017, 56.167
+Russia	Orsk	51.217, 58.583
+Russia	Magnitogorsk	53.467, 59.100
+Russia	Zlatoust	55.167, 59.633
+Russia	Nizhniy Tagil	58.000, 59.967
+Russia	Sverdlovsk	56.867, 60.583
+Russia	Chelyabinsk	55.200, 61.417
+Russia	Kurgan	55.500, 65.333
+Russia	Tyumen	57.183, 65.517
+Russia	Omsk	55.000, 73.367
+Russia	Novosibirsk	55.067, 83.083
+Russia	Barnaul	53.350, 83.750
+Russia	Tomsk	56.500, 85.083
+Russia	Biysk	52.583, 85.267
+Russia	Kemerovo	55.417, 86.083
+Russia	Prokopyevsk	53.917, 86.750
+Russia	Novokuznetsk	53.750, 87.200
+Russia	Abakan	53.717, 91.417
+Russia	Krasnoyarsk	56.083, 92.767
+Russia	Bratsk	56.333, 101.833
+Russia	Angarsk	52.517, 103.917
+Russia	Irkutsk	52.300, 104.250
+Russia	Ulan Ude	51.917, 107.667
+Russia	Chita	52.050, 113.583
+Russia	Yakutsk	62.167, 129.833
+Russia	Vladivostok	43.150, 131.883
+Russia	Khabarovsk	48.533, 135.133
+Russia	Magadan	59.633, 150.833
+Russia	Petropavlosk-Kamchatskiy	53.050, 158.717
+Russia	Anadyr	64.750, 177.483
+Rwanda	Gisenyi	-1.683, 29.250
+Rwanda	Ruhengeri	-1.500, 29.617
+Rwanda	Nyabisindu	-2.333, 29.717
+Rwanda	Butare	-2.583, 29.733
+Rwanda	Gitarama	-2.067, 29.750
+Rwanda	Kigali	-1.933, 30.067
+Rwanda	Kibungu	-2.150, 30.550
+Sao-Tome, Principe	Sao Tome	0.317, 6.717
+Sao-Tome, Principe	Santo Antonio	1.617, 7.450
+Saudi Arabia	Riyadh	24.650, 46.767
+Saudi Arabia	Al Wajh	26.267, 36.467
+Saudi Arabia	Tabuk	28.367, 36.533
+Saudi Arabia	Yanbu'Al Bahr	24.117, 38.067
+Saudi Arabia	Tayma'	27.617, 38.500
+Saudi Arabia	Jiddah	21.500, 39.167
+Saudi Arabia	Khaybar	25.800, 39.200
+Saudi Arabia	Medina	24.500, 39.583
+Saudi Arabia	Mecca	21.433, 39.817
+Saudi Arabia	Al Jawf	29.783, 39.867
+Saudi Arabia	Al Lith	20.167, 40.267
+Saudi Arabia	At Ta'if	21.250, 40.350
+Saudi Arabia	Badanah	31.000, 41.083
+Saudi Arabia	Al Qunfidhah	19.150, 41.117
+Saudi Arabia	Turabah	21.250, 41.567
+Saudi Arabia	Ha'il	27.517, 41.750
+Saudi Arabia	Abha	18.233, 42.517
+Saudi Arabia	Jizan	16.933, 42.550
+Saudi Arabia	Buraydah	26.333, 43.983
+Saudi Arabia	Najran	17.517, 44.317
+Saudi Arabia	Shaqra	25.300, 45.250
+Saudi Arabia	Al Artawiyak	26.517, 45.350
+Saudi Arabia	Ad Dilam	23.983, 47.100
+Saudi Arabia	Haradh	24.200, 49.117
+Saudi Arabia	Al Hufuf	25.333, 49.567
+Saudi Arabia	Ad Dammam	26.417, 50.100
+Saudi Arabia	Al Khurmah	21.917, 42.033
+Senegal	Dakar	14.633, -17.450
+Senegal	Rufisque	14.717, -17.267
+Senegal	Thies	14.817, -16.867
+Senegal	Saint Louis	16.017, -16.500
+Senegal	Fatick	14.317, -16.450
+Senegal	Ziguinchor	12.583, -16.333
+Senegal	Louga	15.617, -16.217
+Senegal	Diourbel	14.650, -16.200
+Senegal	Kaolack	14.150, -16.133
+Senegal	Kolda	12.933, -14.917
+Senegal	Tambacounda	13.750, -13.667
+Sierra Leone	Freetown	8.500, -13.283
+Sierra Leone	Port Loko	8.833, -12.833
+Sierra Leone	Bonthe	7.533, -12.500
+Sierra Leone	Bo	7.967, -11.750
+Sierra Leone	Kenema	7.917, -11.200
+Singapore	Singapore	1.283, 103.850
+Slovakia	Bratislava	48.167, 17.167
+Slovakia	Trnava	48.383, 17.583
+Slovakia	Piestany	48.583, 17.833
+Slovakia	Nitra	48.317, 18.067
+Slovakia	Zilina	49.233, 18.667
+Slovakia	Banska Bystrica	48.733, 19.167
+Slovakia	Presov	49.000, 21.167
+Slovakia	Kosice	48.733, 21.250
+Slovenia	Koper	45.517, 13.733
+Slovenia	Ljubljana	46.067, 14.500
+Slovenia	Celje	46.250, 15.267
+Slovenia	Maribor	46.567, 15.633
+Somalia	Kismayu	-0.417, 42.517
+Somalia	Hargeisa	9.517, 44.033
+Somalia	Merca	1.700, 44.783
+Somalia	Berbera	10.467, 45.033
+Somalia	Mogadishu	2.033, 45.350
+Somalia	Burao	9.517, 45.550
+South Africa	Cape Town	-33.933, 18.467
+South Africa	Kimberley	-28.750, 24.767
+South Africa	Uitenhage	-33.767, 25.417
+South Africa	Port Elisabeth	-33.967, 25.600
+South Africa	Bloemfontein	-29.117, 26.233
+South Africa	Welkom	-27.983, 26.733
+South Africa	Potchefstroom	-26.700, 27.100
+South Africa	Kroonstad	-27.667, 27.250
+South Africa	Carletonville	-26.367, 27.417
+South Africa	East London	-33.000, 27.900
+South Africa	Vereeniging	-26.683, 27.933
+South Africa	Johannesburg	-26.167, 28.033
+South Africa	Pretoria	-25.750, 28.200
+South Africa	Springs	-26.267, 28.433
+South Africa	Durban	-29.883, 31.000
+South Africa	Pietermaritzburg	-29.600, 34.400
+Spain	Santa Cruz	28.467, -16.250
+Spain	Las Palmas	28.133, -15.450
+Spain	Vigo	42.250, -8.733
+Spain	La Corogne	43.367, -8.400
+Spain	Orense	42.333, -7.867
+Spain	Lugo	43.000, -7.550
+Spain	Huelva	37.250, -6.933
+Spain	Caceres	39.483, -6.383
+Spain	Merida	38.917, -6.333
+Spain	Cadiz	36.533, -6.300
+Spain	Jerez	36.683, -6.133
+Spain	Plasencia	40.033, -6.083
+Spain	Seville	37.400, -5.983
+Spain	Aviles	43.550, -5.917
+Spain	Oviedo	43.350, -5.833
+Spain	Zamora	41.500, -5.750
+Spain	Salamanca	40.967, -5.667
+Spain	Gijon	43.533, -5.667
+Spain	Leon	42.583, -5.567
+Spain	Ronda	36.750, -5.167
+Spain	Cordoba	37.883, -4.767
+Spain	Valladolid	41.650, -4.750
+Spain	Avila	40.650, -4.700
+Spain	Malaga	36.717, -4.417
+Spain	El Escorial	40.567, -4.133
+Spain	Segovie	40.950, -4.117
+Spain	Toledo	39.867, -4.033
+Spain	Ciudad Real	38.983, -3.917
+Spain	Santander	43.467, -3.800
+Spain	Jaen	37.767, -3.800
+Spain	Getafe	40.300, -3.733
+Spain	Madrid	40.417, -3.717
+Spain	Burgos	42.350, -3.683
+Spain	Aranjuez	40.033, -3.617
+Spain	Grenada	37.167, -3.583
+Spain	Ubeda	38.017, -3.367
+Spain	Alcala de Henares	40.467, -3.367
+Spain	Bilbao	43.250, -2.933
+Spain	Vitoria	42.850, -2.667
+Spain	Logrono	42.467, -2.433
+Spain	Almeria	36.833, -2.433
+Spain	Cuenca	40.067, -2.117
+Spain	San Sebastian	43.317, -1.983
+Spain	Albacete	39.000, -1.867
+Spain	Pampelune	42.817, -1.650
+Spain	Murcie	37.983, -1.133
+Spain	Cartagena	37.600, -0.983
+Spain	Zaragoza	41.650, -0.900
+Spain	Elche	38.267, -0.683
+Spain	Alicante	38.350, -0.483
+Spain	Huesca	42.133, -0.417
+Spain	Valencia	39.483, -0.400
+Spain	Castellon	39.983, -0.050
+Spain	Lerida	41.617, 0.633
+Spain	Poblet	41.383, 1.083
+Spain	Tarragone	41.117, 1.250
+Spain	Barcelona	41.417, 2.167
+Spain	Palma	39.583, 2.650
+Sri Lanka	Negombo	7.217, 79.850
+Sri Lanka	Colombo	6.917, 79.867
+Sri Lanka	Moratuwa	6.783, 79.883
+Sri Lanka	Jaffna	9.667, 80.017
+Sri Lanka	Galle	6.017, 80.217
+Sri Lanka	Kurunegala	7.467, 80.383
+Sri Lanka	Ratnapura	6.683, 80.417
+Sri Lanka	Matara	5.950, 80.533
+Sri Lanka	Kandy	7.283, 80.667
+Sri Lanka	Badulla	6.983, 81.050
+Sri Lanka	Hambantota	6.117, 81.117
+Sri Lanka	Trincomalee	8.567, 81.217
+Sri Lanka	Batticaloa	7.717, 81.700
+Sudan	El Fasher	13.617, 25.367
+Sudan	Wau	7.667, 28.067
+Sudan	En Nahud	12.683, 28.467
+Sudan	El Obeid	13.183, 30.167
+Sudan	Juba	4.833, 31.583
+Sudan	Malakal	9.517, 31.667
+Sudan	Ed Dueim	14.000, 32.333
+Sudan	Shendi	16.683, 32.367
+Sudan	Omdurman	15.617, 32.483
+Sudan	Khartoum	15.550, 32.533
+Sudan	Kosti	13.183, 32.633
+Sudan	Atbara	17.700, 34.000
+Sudan	Berber	18.017, 34.000
+Sudan	Gedaref	14.017, 35.400
+Sudan	Kassala	15.400, 36.417
+Sudan	Port Sudan	19.633, 37.117
+Surinam	Nieuw Nickerie	5.867, -57.000
+Surinam	Sabana	5.417, -55.917
+Surinam	Boto-Pasi	4.250, -55.450
+Surinam	Paramaribo	5.867, -55.233
+Surinam	Moengo	5.600, -54.417
+Surinam	Albina	5.483, -54.133
+Swaziland	Mbabane	-26.333, 31.133
+Swaziland	Nhlangano	-27.100, 31.200
+Swaziland	Mhlume	-26.033, 31.833
+Sweden	Gothenburg	57.750, 12.000
+Sweden	Helsingborg	56.083, 12.750
+Sweden	Halmstad	56.683, 12.917
+Sweden	Malmo	55.583, 13.000
+Sweden	Lund	55.700, 13.167
+Sweden	Karlstad	59.400, 13.533
+Sweden	Jonkoping	57.750, 14.167
+Sweden	Ostersund	63.167, 14.667
+Sweden	Vaxjo	56.867, 14.833
+Sweden	Orebro	59.300, 15.083
+Sweden	Linkoping	58.417, 15.583
+Sweden	Norrkoping	58.583, 16.167
+Sweden	Kalmar	56.650, 16.333
+Sweden	Eskilstuna	59.367, 16.517
+Sweden	Vasteras	59.600, 16.533
+Sweden	Gavle	60.683, 17.167
+Sweden	Sundsvall	62.367, 17.333
+Sweden	Uppsala	59.917, 17.633
+Sweden	Sodertalje	59.183, 17.650
+Sweden	Stockholm	59.333, 18.083
+Sweden	Kiruna	67.883, 20.250
+Sweden	Umea	63.833, 20.250
+Sweden	Gallivare	67.167, 20.667
+Sweden	Skelleftea	64.783, 20.983
+Sweden	Lulea	65.583, 22.167
+Switzerland	Geneva	46.217, 6.150
+Switzerland	Lausanne	46.533, 6.650
+Switzerland	Montreux	46.450, 6.917
+Switzerland	Neuchatel	46.983, 6.917
+Switzerland	Fribourg	46.833, 7.167
+Switzerland	Bienne	47.150, 7.267
+Switzerland	Gstaad	46.467, 7.283
+Switzerland	Sion	46.233, 7.367
+Switzerland	Berne	46.950, 7.450
+Switzerland	Soleure	47.217, 7.533
+Switzerland	Bale	47.550, 7.600
+Switzerland	Wengen	46.617, 7.933
+Switzerland	Lucerne	47.050, 8.283
+Switzerland	Zoug	47.167, 8.517
+Switzerland	Zurich	47.383, 8.550
+Switzerland	Altdorf	46.883, 8.633
+Switzerland	Schaffhouse	47.700, 8.633
+Switzerland	Locarno	46.167, 8.800
+Switzerland	Lugano	46.017, 8.950
+Switzerland	St Gall	47.417, 9.383
+Switzerland	Coire	46.867, 9.533
+Switzerland	St Moritz	46.500, 9.850
+Switzerland	Davos-Dorf	46.800, 9.867
+Syria	Damascus	33.500, 36.317
+Syria	Halab	36.233, 37.167
+Syria	Hims	34.733, 36.717
+Syria	Hama	35.150, 36.733
+Syria	Dayr az Zawr	35.333, 40.133
+Syria	As Suwayda	32.717, 36.550
+Syria	Abu Kemal	34.483, 40.933
+Syria	Al Ladhiqiya	35.517, 35.783
+Tadzhikistan	Kurgan-Tyube	37.867, 68.783
+Tadzhikistan	Dushanbe	38.633, 68.850
+Tadzhikistan	Leninabad	40.233, 69.667
+Tadzhikistan	Kulyab	37.917, 69.783
+Tadzhikistan	Kanibadam	40.333, 70.300
+Tadzhikistan	Khorog	37.533, 71.533
+Taiwan	Taipei	25.083, 121.533
+Taiwan	T'ainan	23.017, 120.233
+Taiwan	Kaohsiung	22.600, 120.283
+Taiwan	P'ingtung	22.667, 120.500
+Taiwan	T'aitung	24.150, 120.667
+Taiwan	Hsinchu	24.800, 120.983
+Taiwan	Chilung	25.167, 121.717
+Tanzania	Iringa	-7.817, 35.650
+Tanzania	Dodoma	-6.167, 35.667
+Tanzania	Kolo	-4.750, 35.817
+Tanzania	Arusha	-3.383, 36.667
+Tanzania	Moshi	-3.350, 37.317
+Tanzania	Morogoro	-6.817, 37.667
+Tanzania	Kisiwani	-4.083, 37.917
+Tanzania	Tanga	-5.117, 39.083
+Tanzania	Zanzibar	-6.167, 39.200
+Tanzania	Mkoma	-10.833, 39.233
+Tanzania	Dar es Salaam	-6.850, 39.300
+Tanzania	Kilindoni	-7.933, 39.667
+Tanzania	Wete	-5.050, 39.683
+Tanzania	Mtwara	-10.283, 40.183
+Tanzania	Kigoma	-4.867, 29.600
+Tanzania	Tabora	-5.017, 32.800
+Tanzania	Mwanza	-2.517, 32.933
+Tanzania	Mbeya	-8.900, 33.483
+Tanzania	Musoma	-1.517, 33.817
+Thailand	Bangkok	13.733, 100.500
+Thailand	Krabi	8.067, 98.867
+Thailand	Chiang Mai	18.800, 98.983
+Thailand	Muang Lamphun	18.600, 99.033
+Thailand	Chumphon	10.500, 99.183
+Thailand	Ban Pak Nam	10.383, 99.250
+Thailand	Surat Thani	9.150, 99.333
+Thailand	Kamphaeng Phet	16.467, 99.517
+Thailand	Rat Buri	13.500, 99.833
+Thailand	Sawankhalok	17.317, 99.833
+Thailand	Muang Phayao	19.167, 99.917
+Thailand	Nakkon Si Thammarat	8.400, 99.967
+Thailand	Phet Buri	13.083, 99.967
+Thailand	Nakhon Pathom	13.833, 100.017
+Thailand	Uttaradit	17.633, 100.083
+Thailand	Muang Phrae	18.117, 100.150
+Thailand	Muang Phitsanulok	16.833, 100.250
+Thailand	Ban Hat Yai	7.000, 100.467
+Thailand	Ayutthaya	14.333, 100.583
+Thailand	Songkhla	7.200, 100.583
+Thailand	Muang Nan	18.783, 100.833
+Thailand	Chon Buri	13.400, 100.983
+Thailand	Chaiyaphum	15.767, 101.917
+Thailand	Nakhon Ratchasima	15.000, 102.100
+Thailand	Maha Sarakham	16.133, 102.267
+Thailand	Udon Thani	17.417, 102.750
+Thailand	Muang Khon Kaen	16.417, 102.833
+Thailand	Ubon Ratchathani	15.250, 104.833
+Thailand	Ban Khemmarat	16.067, 105.167
+Togo	Mango	10.383, 0.583
+Togo	Kpalime	6.917, 0.733
+Togo	Bassar	9.300, 0.883
+Togo	Sokode	8.983, 1.183
+Togo	Atakpame	7.567, 1.233
+Togo	Bafilo	9.383, 1.333
+Togo	Lome	6.167, 1.350
+Togo	Tabligbo	6.583, 1.500
+Togo	Anecho	6.283, 1.667
+Tunisia	Gafsa	34.467, 8.717
+Tunisia	Beja	36.717, 9.217
+Tunisia	Bizerte	37.300, 9.867
+Tunisia	Kairouan	35.700, 10.017
+Tunisia	Gabes	33.867, 10.100
+Tunisia	Tunis	36.833, 10.217
+Tunisia	Sousse	35.833, 10.633
+Tunisia	Sfax	34.750, 10.717
+Tunisia	Nabeul	36.500, 10.733
+Turkey	Izmir	38.417, 27.167
+Turkey	Manisa	38.600, 27.483
+Turkey	Mugla	37.217, 28.367
+Turkey	Istanbul	41.033, 28.950
+Turkey	Brousse	40.200, 29.067
+Turkey	Adapazari	40.750, 30.383
+Turkey	Eskisehir	39.767, 30.500
+Turkey	Afyon	38.767, 30.533
+Turkey	Isparta	37.767, 30.533
+Turkey	Antalya	36.883, 30.700
+Turkey	Akseki	37.050, 31.767
+Turkey	Konya	37.850, 32.500
+Turkey	Ankara	39.917, 32.833
+Turkey	Karaman	37.183, 33.217
+Turkey	Cankiri	40.583, 33.617
+Turkey	Aksaray	38.367, 34.033
+Turkey	Mersin	36.783, 34.617
+Turkey	Sinop	42.033, 35.150
+Turkey	Adana	37.000, 35.317
+Turkey	Kayseri	38.700, 35.467
+Turkey	Amasya	40.617, 35.833
+Turkey	Iskenderun	36.617, 36.133
+Turkey	Antakya	36.200, 36.167
+Turkey	Samsun	41.283, 36.367
+Turkey	Sivas	39.733, 37.017
+Turkey	Gaziantep	37.067, 37.350
+Turkey	Ordu	41.000, 37.867
+Turkey	Malatya	38.367, 38.300
+Turkey	Giresun	40.917, 38.417
+Turkey	Urfa	37.133, 38.750
+Turkey	Erzincan	39.733, 39.500
+Turkey	Diyarbakir	37.917, 40.233
+Turkey	Rize	41.050, 40.517
+Turkey	Erzurum	39.950, 41.283
+Turkmenistan	Krasnovodsk	40.017, 53.000
+Turkmenistan	Ashkhabad	37.967, 58.400
+Turkmenistan	Tashauz	41.817, 59.967
+Turkmenistan	Mary	37.700, 61.900
+Turkmenistan	Chardzhou	39.150, 63.567
+UAE	Abu Dhabi	24.467, 54.417
+UAE	Dubai	25.233, 55.283
+UAE	Ajman	25.383, 55.433
+UAE	Ra's al Khaymah	25.800, 55.933
+Uganda	Mbarara	-0.600, 30.667
+Uganda	Arua	3.033, 30.933
+Uganda	Masaka	-0.333, 31.767
+Uganda	Gulu	2.767, 32.350
+Uganda	Entebbe	0.067, 32.450
+Uganda	Kampala	0.317, 32.583
+Uganda	Jinja-Bugembe	0.450, 33.233
+Uganda	Soroti	1.700, 33.617
+Uganda	Mbale	1.067, 34.200
+Uganda	Tororo	0.700, 34.200
+UK	Enniskillen	54.350, -7.633
+UK	Londonderry	55.000, -7.317
+UK	Omagh	54.600, -7.300
+UK	Armagh	54.350, -6.650
+UK	Portree	57.400, -6.200
+UK	Belfast	54.583, -5.917
+UK	Oban	56.417, -5.483
+UK	Pembroke	51.683, -4.917
+UK	Ayr	55.467, -4.633
+UK	Douglas	54.150, -4.483
+UK	Caernarvon	53.133, -4.267
+UK	Inverness	57.450, -4.250
+UK	Glasgow	55.883, -4.250
+UK	Plymouth	50.383, -4.167
+UK	Swansea	51.633, -3.950
+UK	Stirling	56.117, -3.950
+UK	Exeter	50.717, -3.517
+UK	Torquay	50.467, -3.500
+UK	Perth	56.400, -3.467
+UK	Cardiff	51.500, -3.217
+UK	Edinburgh	55.950, -3.217
+UK	Newport	51.583, -3.000
+UK	Dundee	56.467, -3.000
+UK	Kirkwall	58.983, -2.967
+UK	Liverpool	53.417, -2.917
+UK	Carlisle	54.900, -2.917
+UK	Chester	53.200, -2.900
+UK	Shrewsbury	52.717, -2.750
+UK	Preston	53.767, -2.700
+UK	Wells	51.217, -2.650
+UK	Bolton	53.583, -2.433
+UK	Bath	51.383, -2.367
+UK	Manchester	53.500, -2.250
+UK	Gloucester	51.883, -2.233
+UK	Stoke	53.000, -2.167
+UK	Aberdeen	57.167, -2.067
+UK	Bournemouth	50.717, -1.900
+UK	Birmingham	52.500, -1.833
+UK	Salisbury	51.083, -1.800
+UK	Huddersfield	53.650, -1.783
+UK	Stratford	52.200, -1.683
+UK	Newcastle	54.983, -1.583
+UK	Leeds	53.833, -1.583
+UK	Durham	54.783, -1.567
+UK	Sheffield	53.383, -1.500
+UK	Derby	52.917, -1.500
+UK	Southampton	50.917, -1.417
+UK	Oxford	51.767, -1.250
+UK	Middlesbrough	54.583, -1.233
+UK	Nottingham	52.967, -1.167
+UK	Lerwick	60.150, -1.150
+UK	York	53.967, -1.083
+UK	Leicester	52.633, -1.083
+UK	Reading	51.467, -0.983
+UK	Northampton	52.233, -0.900
+UK	Lincoln	53.233, -0.550
+UK	St Albans	51.767, -0.350
+UK	Hull	53.750, -0.333
+UK	Peterborough	52.583, -0.250
+UK	London	51.500, -0.167
+UK	Brighton	50.833, -0.167
+UK	Grimsby	53.583, -0.083
+UK	Cambridge	52.200, 0.117
+UK	Southend	51.550, 0.717
+UK	Canterbury	51.283, 1.083
+UK	Ipswich	52.067, 1.167
+UK	Norwich	52.633, 1.300
+Ukraine	Uzhgorod	48.633, 22.250
+Ukraine	Mukachevo	48.433, 22.750
+Ukraine	Lvov	49.833, 24.000
+Ukraine	Ivano-Frankovsk	48.667, 24.667
+Ukraine	Kovel	51.200, 24.800
+Ukraine	Lutsk	50.700, 25.250
+Ukraine	Ternopol	49.583, 25.650
+Ukraine	Chernovtsy	48.317, 25.867
+Ukraine	Rovno	50.650, 26.167
+Ukraine	Kamenets Podolskiy	48.667, 26.600
+Ukraine	Khmelnitskiy	49.417, 26.983
+Ukraine	Vinnitsa	49.183, 28.500
+Ukraine	Berdichev	49.900, 28.650
+Ukraine	Zhitomir	50.300, 28.667
+Ukraine	Uman	48.750, 30.167
+Ukraine	Chernobyl	51.283, 30.250
+Ukraine	Belgorod Dnestrovskiy	46.167, 30.317
+Ukraine	Kiev	50.417, 30.500
+Ukraine	Odessa	46.500, 30.767
+Ukraine	Chernigov	51.500, 31.300
+Ukraine	Nikolayev	46.950, 32.000
+Ukraine	Cherkassy	49.450, 32.067
+Ukraine	Kirovograd	48.517, 32.250
+Ukraine	Kherson	46.650, 32.633
+Ukraine	Krivoy Rog	47.917, 33.400
+Ukraine	Kremenchug	49.050, 33.417
+Ukraine	Sebastopol	44.600, 33.517
+Ukraine	Simferopol	44.950, 34.083
+Ukraine	Yalta	44.500, 34.150
+Ukraine	Nikopol	47.567, 34.417
+Ukraine	Poltava	49.583, 34.583
+Ukraine	Sumy	50.917, 34.817
+Ukraine	Dnepropetrovsk	48.483, 35.000
+Ukraine	Zaporozhye	47.833, 35.167
+Ukraine	Melitopol	46.850, 35.367
+Ukraine	Feodosiya	45.050, 35.383
+Ukraine	Kharkov	50.000, 36.250
+Ukraine	Kerch	45.367, 36.450
+Ukraine	Berdyansk	46.750, 36.783
+Ukraine	Kramatorsk	48.717, 37.550
+Ukraine	Jdanov	47.083, 37.567
+Ukraine	Donetsk	48.000, 37.833
+Ukraine	Gorlovka	48.283, 38.083
+Ukraine	Voroshilovgrad	48.583, 39.333
+Uraguay	Fray Bentos	-33.167, -58.333
+Uraguay	Dolores	-33.567, -58.250
+Uraguay	Paysandu	-32.350, -58.083
+Uraguay	Mercedes	-34.250, -58.033
+Uraguay	Salto	-31.450, -57.833
+Uraguay	Bella Union	-30.300, -57.583
+Uraguay	Durazno	-33.367, -56.517
+Uraguay	Artigas	-30.417, -56.467
+Uraguay	Las Piedras	-34.700, -56.233
+Uraguay	Montevideo	-34.917, -56.167
+Uraguay	Tacuarembo	-31.700, -56.000
+Uraguay	Minas	-34.333, -55.250
+Uraguay	Maldonado	-34.950, -54.983
+Uraguay	Rocha	-34.500, -54.367
+Uraguay	Treinta-y-Tres	-33.267, -54.283
+Uraguay	Melo	-32.367, -54.167
+Uzbekistan	Nukus	42.467, 59.117
+Uzbekistan	Urgench	41.583, 60.683
+Uzbekistan	Khiva	41.417, 60.817
+Uzbekistan	Bukhara	39.783, 64.433
+Uzbekistan	Karshi	38.883, 65.750
+Uzbekistan	Kattakurgan	39.900, 66.217
+Uzbekistan	Shakhrisabz	39.083, 66.817
+Uzbekistan	Samarkand	39.667, 66.950
+Uzbekistan	Tashkent	41.267, 69.217
+Uzbekistan	Chirchik	41.467, 69.517
+Uzbekistan	Angren	41.017, 70.167
+Uzbekistan	Kokand	40.550, 70.917
+Uzbekistan	Fergana	40.383, 71.317
+Uzbekistan	Namangan	40.983, 71.683
+Uzbekistan	Andizhan	40.800, 72.383
+Venezuela	San Cristobal	7.767, -72.250
+Venezuela	Maracaibo	10.733, -71.617
+Venezuela	Cabimas	10.433, -71.450
+Venezuela	Merida	8.400, -71.133
+Venezuela	Valera	9.350, -70.633
+Venezuela	Punto Fijo	11.833, -70.267
+Venezuela	Coro	11.450, -69.683
+Venezuela	Barquisimeto	10.050, -69.300
+Venezuela	Acarigua	9.583, -69.200
+Venezuela	Puerto Cabello	10.483, -68.033
+Venezuela	Valencia	10.233, -67.983
+Venezuela	San Fernando de Atabapo	4.050, -67.750
+Venezuela	Maracay	10.333, -67.467
+Venezuela	Puerto Paez	6.233, -67.433
+Venezuela	Caracas	10.583, -66.933
+Venezuela	Barcelona	10.133, -64.717
+Venezuela	Puerto la Cruz	10.233, -64.667
+Venezuela	El Tigre	8.733, -64.300
+Venezuela	Cumana	10.483, -64.200
+Venezuela	Ciudad Bolivar	8.100, -63.600
+Venezuela	La Paragua	6.883, -63.367
+Venezuela	Maturin	9.750, -63.167
+Venezuela	Ciudad Guayana	8.367, -62.617
+Venezuela	Tucupita	9.033, -62.067
+Venezuela	Santa Elena de Uairen	4.617, -61.117
+Vietnam	Dien Bien Phu	21.383, 103.033
+Vietnam	Lai Chau	22.067, 103.167
+Vietnam	Son La	21.333, 103.917
+Vietnam	Ha Tien	10.400, 104.500
+Vietnam	Bac Quang	22.500, 104.867
+Vietnam	Yen Bay	21.717, 104.900
+Vietnam	Ha Giang	22.833, 104.967
+Vietnam	Chau Phu	10.700, 105.050
+Vietnam	Rach Gia	9.917, 105.083
+Vietnam	Phu Tho	21.383, 105.217
+Vietnam	Tuyen Quang	21.800, 105.300
+Vietnam	Long Xuyen	10.383, 105.417
+Vietnam	Son Tay	21.100, 105.533
+Vietnam	Vinh Yen	21.300, 105.600
+Vietnam	Vinh	18.700, 105.683
+Vietnam	Vinh Loi	9.283, 105.733
+Vietnam	Sa Dec	10.317, 105.750
+Vietnam	Can Tho	10.050, 105.767
+Vietnam	Thanh Hoa	19.817, 105.800
+Vietnam	Bac Kan	22.150, 105.833
+Vietnam	Hanoi	21.017, 105.867
+Vietnam	Ha Tinh	18.350, 105.917
+Vietnam	Thai Nguyen	21.517, 105.917
+Vietnam	Vinh Long	10.250, 105.983
+Vietnam	Ninh Binh	20.233, 106.000
+Vietnam	Bac Ninh	21.167, 106.067
+Vietnam	Hung Yen	20.633, 106.083
+Vietnam	Tay Ninh	11.350, 106.117
+Vietnam	Nam Dinh	20.417, 106.200
+Vietnam	Cao Bang	22.667, 106.267
+Vietnam	Hai Duong	20.933, 106.350
+Vietnam	My Tho	10.350, 106.350
+Vietnam	Dong Hoi	17.533, 106.583
+Vietnam	Haiphong	20.833, 106.683
+Vietnam	Ho Chi Minh City	10.767, 106.717
+Vietnam	Lang Son	21.833, 106.750
+Vietnam	Bien Hoa	10.967, 106.833
+Vietnam	Vung Tau	10.350, 107.067
+Vietnam	Quang Tri	16.767, 107.183
+Vietnam	Hue	16.467, 107.583
+Vietnam	Kontum	14.383, 108.000
+Vietnam	Mong Cai	21.517, 108.000
+Vietnam	Pleiku	13.950, 108.017
+Vietnam	Ban Me Thuot	12.683, 108.033
+Vietnam	Phan Thiet	10.933, 108.100
+Vietnam	Da Nang	16.067, 108.233
+Vietnam	Da Lat	11.933, 108.417
+Vietnam	Quang Nam	15.917, 108.233
+Vietnam	Quang Ngai	15.150, 108.833
+Vietnam	Phan Rang	11.567, 109.000
+Vietnam	Nha Trang	12.250, 109.167
+Vietnam	Qui Nhon	13.783, 109.183
+Vietnam	Cam Ranh	11.900, 109.233
+Yemen North	Al Hudaydah	14.833, 42.967
+Yemen North	Al Mukha	13.333, 43.267
+Yemen North	Ta'izz	13.583, 44.033
+Yemen North	Ibb	14.050, 44.167
+Yemen North	Sana'	15.400, 44.233
+Yemen North	Dhamar	14.550, 44.500
+Yemen North	Al Bayda	14.000, 45.650
+Yemen South	Hajjah	15.750, 43.567
+Yemen South	Al' Adan	12.783, 45.050
+Yemen South	Shuqra	13.383, 45.733
+Yemen South	Shibam	15.967, 48.567
+Yemen South	Al Mukalla	14.567, 49.117
+Yugoslavia	Kotor	42.450, 18.767
+Yugoslavia	Podgorica	42.467, 19.283
+Yugoslavia	Sabac	44.750, 19.683
+Yugoslavia	Subotica	46.067, 19.683
+Yugoslavia	Novi Sad	45.250, 19.850
+Yugoslavia	Pec	42.667, 20.317
+Yugoslavia	Cacak	43.900, 20.367
+Yugoslavia	Zrenjanin	45.367, 20.383
+Yugoslavia	Belgrade	44.833, 20.500
+Yugoslavia	Prizren	42.200, 20.717
+Yugoslavia	Kragujevac	44.017, 20.917
+Yugoslavia	Pristina	42.650, 21.167
+Yugoslavia	Pozarevac	44.617, 21.200
+Yugoslavia	Nis	43.333, 21.900
+Yugoslavia	Leskovac	43.000, 21.950
+Zaire	Matadi	-5.833, 13.533
+Zaire	Kinshasa	-4.300, 15.300
+Zaire	Bandundu	-3.333, 17.400
+Zaire	Mbandaka	0.050, 18.467
+Zaire	Kikwit	-5.033, 18.850
+Zaire	Gemena	3.217, 19.800
+Zaire	Kananga	-5.883, 22.433
+Zaire	Mbuji-Mayi	-6.167, 23.650
+Zaire	Kisangani	0.550, 25.233
+Zaire	Kolwezi	-10.750, 25.417
+Zaire	Likasi	-10.967, 26.783
+Zaire	Lubumbashi	-11.683, 27.483
+Zaire	Bukavu	-2.500, 28.833
+Zambia	Livingstone	-17.833, 25.883
+Zambia	Chilabombwe	-12.333, 27.867
+Zambia	Kalulushi	-12.833, 28.050
+Zambia	Mufulira	-12.500, 28.200
+Zambia	Lusaka	-15.433, 28.333
+Zambia	Luanshya	-13.150, 28.400
+Zambia	Kabwe	-14.483, 28.417
+Zambia	Ndola	-13.000, 28.650
+Zambia	Chipata	-13.667, 32.700
+Zimbabwe	Gwelo	-19.417, 29.833
+Zimbabwe	Que Que	-18.917, 29.850
+Zimbabwe	Gatooma	-18.267, 29.917
+Zimbabwe	Khami	-20.333, 28.500
+Zimbabwe	Bulawayo	-20.167, 28.717
+Zimbabwe	Shabani	-20.333, 30.083
+Zimbabwe	Chinhoyi	-17.367, 30.200
+Zimbabwe	Chegutu	-18.167, 30.233
+Zimbabwe	Fort Victoria	-20.167, 30.817
+Zimbabwe	Zimbabwe	-20.267, 30.900
+Zimbabwe	Harare	-17.717, 31.083
+Zimbabwe	Chitungwiza	-18.000, 31.100
+Zimbabwe	Mutare	-19.000, 32.667
+Zimbabwe	Hwange	-18.333, 26.417
+Other countries (Africa)	Marion Is	-46.917, 37.750
+Other countries (Africa)	Prince Edward Is	-46.633, 37.917
+Other countries (Africa)	Dzaoudzi	-12.800, 45.300
+Other countries (Africa)	Port Louis	-20.167, 57.500
+Other countries (Africa)	Rodriguez Is	-19.717, 63.433
+Other countries (Africa)	Kerguelen Is	-49.500, 69.500
+Other countries (Africa)	Heard Is	-53.117, 73.333
+Other countries (Africa)	Amsterdam Is	-37.817, 77.550
+Other countries (Africa)	Santa Cruz	39.467, -31.133
+Other countries (Africa)	Horta	38.533, -28.633
+Other countries (Africa)	Velas	38.700, -28.217
+Other countries (Africa)	Santa Cruz	39.083, -28.000
+Other countries (Africa)	Angra do H.	38.667, -27.233
+Other countries (Africa)	Vila do Porto	36.950, -25.167
+Other countries (Africa)	Valverde	27.800, -17.917
+Other countries (Africa)	Santa Cruz	28.683, -17.767
+Other countries (Africa)	San Sebastian	28.100, -17.100
+Other countries (Africa)	Funchal	32.667, -16.917
+Other countries (Africa)	Porto Santo	33.067, -16.333
+Other countries (Africa)	Santa Cruz	28.467, -16.250
+Other countries (Africa)	Georgetown	-7.933, -14.417
+Other countries (Africa)	Puerto del Ros.	28.483, -13.867
+Other countries (Africa)	Arrecife	28.950, -13.550
+Other countries (Africa)	Tristan da Cunha	-37.100, -12.333
+Other countries (Africa)	Gough Is	-40.333, -10.000
+Other countries (Africa)	Jamestown	-15.933, -5.733
+Other countries (Africa)	Bouvet Is	-54.433, 3.400
+Other countries (Africa)	Las Palmas	28.133, -15.450
+Other countries (America)	Adak	51.867, -176.667
+Other countries (America)	Clipperton	10.333, -109.217
+Other countries (America)	Villamil	-0.933, -90.983
+Other countries (America)	Willemstad	12.200, -68.933
+Other countries (America)	Charlotte Amalie	18.367, -64.933
+Other countries (America)	Christiansted	17.767, -64.733
+Other countries (America)	Roadtown	18.467, -64.650
+Other countries (America)	Anegada	18.767, -64.400
+Other countries (America)	Basseterre	17.283, -62.717
+Other countries (America)	Charlestown	17.133, -62.617
+Other countries (America)	Plymouth	16.733, -62.233
+Other countries (America)	St Johns	17.133, -61.833
+Other countries (America)	Codrington	17.717, -61.817
+Other countries (America)	St George's	12.067, -61.733
+Other countries (America)	Port of Spain	10.633, -61.517
+Other countries (America)	San Fernando	10.267, -61.467
+Other countries (America)	Portsmouth	15.567, -61.450
+Other countries (America)	Roseau	15.300, -61.383
+Other countries (America)	Kingstown	13.200, -61.233
+Other countries (America)	Castries	14.017, -60.983
+Other countries (America)	Charlotteville	11.317, -60.550
+Other countries (America)	Bridgetown	13.100, -59.617
+Other countries (America)	Stanley	-51.750, -57.933
+Other countries (America)	Stromness	-54.183, -36.717
+Other countries (America)	Gander	48.967, -54.567
+Other countries (America)	Orcadas	-60.750, -44.717
+Other countries (America)	Saunders	-57.800, -26.467
+Other countries (Europe)	Andorra	42.500, 1.500
+Other countries (Europe)	Monaco	43.733, 7.417
+Other countries (Europe)	Vaduz	47.133, 9.533
+American dependencies	Midway	28.200, -177.400
+American dependencies	Pago Pago	-14.267, -170.717
+American dependencies	Koror	7.350, 134.517
+American dependencies	Agana	13.467, 144.750
+American dependencies	Saipan	15.200, 145.717
+American dependencies	Bikini	11.583, 165.333
+American dependencies	Kwajalein	9.250, 167.500
+French Dependencies	Futuna	-14.417, -178.333
+French Dependencies	Uvea	-13.367, -176.200
+French Dependencies	Bora-Bora	-16.500, -151.750
+French Dependencies	Papeete	-17.533, -149.567
+French Dependencies	Tubuai	-23.383, -149.450
+French Dependencies	Fakarava	-16.033, -145.600
+French Dependencies	Gambier	-23.167, -135.000
+French Dependencies	Hienghene	-20.667, 164.900
+French Dependencies	Bourail	-21.567, 165.483
+French Dependencies	Noumea	-22.267, 166.433
+French Dependencies	Miquelon	47.133, -56.383
+French Dependencies	St Pierre	46.800, -56.200
+Other dependencies	Rarotonga	-21.250, -159.750
+Other dependencies	Paques	-27.083, -109.333
+Other countries (misc)	Nuku'Alofa	-21.150, -175.233
+Other countries (misc)	Apia	-13.800, -171.750
+Other countries (misc)	Honiara	-9.467, 159.950
+Other countries (misc)	Port-Vila	-17.750, 168.300
+Other countries (misc)	Tarawa	1.500, 173.000
+Other countries (misc)	Suva	-18.133, 178.417
+Other countries (misc)	Lambasa	-16.417, 179.400
+DC - DISTRICT of COLOMBIA	Washington	38.917, -77.000
+AK - ALASKA	Anchorage	61.167, -150.000
+AK - ALASKA	Cordova	60.500, -145.500
+AK - ALASKA	Denali	63.150, -150.300
+AK - ALASKA	Fairbanks	64.850, -147.720
+AK - ALASKA	Haines	59.230, -135.450
+AK - ALASKA	Homer	59.390, -151.330
+AK - ALASKA	Juneau	58.333, -134.333
+AK - ALASKA	McCarthy	61.400, -143.000
+AK - ALASKA	Nome	64.500, -165.500
+AK - ALASKA	Seward	60.060, -149.260
+AK - ALASKA	Summit Lake	63.100, -145.500
+AK - ALASKA	Togiak	59.040, -160.240
+AK - ALASKA	Valdez	61.110, -146.280
+AK - ALASKA	Whittier	60.800, -148.800
+AL - ALABAMA	Anniston	33.650, -85.780
+AL - ALABAMA	Atmore	31.020, -87.520
+AL - ALABAMA	Birmingham	33.520, -86.810
+AL - ALABAMA	Dothan	31.220, -85.380
+AL - ALABAMA	Florala	31.020, -86.320
+AL - ALABAMA	Fort Payne	34.430, -85.680
+AL - ALABAMA	Gadsden	34.020, -86.010
+AL - ALABAMA	Huntsville	34.730, -86.590
+AL - ALABAMA	Mobile	30.690, -88.040
+AL - ALABAMA	Montgomery	32.380, -86.310
+AL - ALABAMA	Selma	32.420, -87.020
+AL - ALABAMA	Thomasville	31.920, -87.720
+AL - ALABAMA	Tuscaloosa	33.210, -87.570
+AZ - ARIZONA	Bisbee	31.450, -109.920
+AZ - ARIZONA	Flagstaff	35.200, -111.630
+AZ - ARIZONA	Gila Bend	32.930, -112.700
+AZ - ARIZONA	Phoenix	33.500, -112.050
+AZ - ARIZONA	Tucson	32.250, -111.030
+AR - ARKANSAS	Arkadelphia	34.100, -93.080
+AR - ARKANSAS	Augusta	35.270, -91.350
+AR - ARKANSAS	El Dorado	33.210, -92.670
+AR - ARKANSAS	Fayetteville	36.070, -94.160
+AR - ARKANSAS	Harrison	36.220, -93.100
+AR - ARKANSAS	Jonesboro	35.840, -90.710
+AR - ARKANSAS	Lake Village	33.330, -91.280
+AR - ARKANSAS	Little Rock	34.740, -92.280
+AR - ARKANSAS	Mena	34.580, -94.150
+AR - ARKANSAS	Ozark	35.480, -93.820
+AR - ARKANSAS	Pine Bluff	34.220, -92.020
+CA - CALIFORNIE	Alturas	41.500, -120.570
+CA - CALIFORNIE	Bakersfield	35.330, -118.870
+CA - CALIFORNIE	Eureka	40.820, -124.170
+CA - CALIFORNIE	Fossil	45.010, -120.300
+CA - CALIFORNIE	Fresno	36.680, -119.780
+CA - CALIFORNIE	Los Angeles	34.050, -118.230
+CA - CALIFORNIE	Monterey	36.580, -121.920
+CA - CALIFORNIE	Nipton	35.500, -115.300
+CA - CALIFORNIE	Oakland	37.830, -122.250
+CA - CALIFORNIE	Sacramento	38.530, -121.500
+CA - CALIFORNIE	San Diego	32.780, -117.070
+CA - CALIFORNIE	San Francisco	37.770, -122.430
+CA - CALIFORNIE	San Jose	37.330, -121.880
+CA - CALIFORNIE	Santa Barbara	34.420, -119.680
+CA - CALIFORNIE	Santa Cruz	36.970, -122.050
+CA - CALIFORNIE	Stockton	37.980, -121.330
+CA - CALIFORNIE	Twentynine Palms	34.000, -116.100
+CA - CALIFORNIE	Ukiah	39.150, -123.200
+CO - COLORADO	Alamosa	37.470, -105.900
+CO - COLORADO	Aspen	39.250, -106.920
+CO - COLORADO	Boulder	40.010, -105.280
+CO - COLORADO	Burlington	39.280, -102.430
+CO - COLORADO	Colorado Springs	38.840, -104.820
+CO - COLORADO	Cortez	37.350, -108.580
+CO - COLORADO	Denver	39.750, -104.990
+CO - COLORADO	Durango	37.250, -107.920
+CO - COLORADO	Fort Collins	40.580, -105.080
+CO - COLORADO	Glenwood Springs	39.580, -107.330
+CO - COLORADO	Grand Junction	39.080, -108.580
+CO - COLORADO	Greeley	40.420, -104.690
+CO - COLORADO	Kit Carson	38.770, -102.800
+CO - COLORADO	Lamar	38.070, -102.730
+CO - COLORADO	Loveland	40.210, -105.060
+CO - COLORADO	Pueblo	38.270, -104.610
+CO - COLORADO	Rifle	39.580, -107.830
+CO - COLORADO	Silverton	37.800, -107.670
+CO - COLORADO	Steamboat Springs	40.500, -106.800
+CO - COLORADO	Trinidad	37.180, -104.520
+CO - COLORADO	Yuma	40.130, -102.830
+CT - CONNECTICUT	Manchester	41.780, -72.520
+CT - CONNECTICUT	New Haven	41.310, -72.930
+CT - CONNECTICUT	Waterbury	41.550, -73.040
+DE - DELAWARE	Milford	38.920, -75.420
+DE - DELAWARE	Seaford	38.640, -75.610
+DE - DELAWARE	Wilmington	39.750, -75.550
+FL - FLORIDE	Daytona Beach	29.180, -81.010
+FL - FLORIDE	Fort Lauderdale	26.130, -80.130
+FL - FLORIDE	Jacksonville	30.330, -81.670
+FL - FLORIDE	Key West	24.570, -81.800
+FL - FLORIDE	Miami	25.780, -80.200
+FL - FLORIDE	Orlando	28.550, -81.350
+FL - FLORIDE	Pensacola	30.430, -87.200
+FL - FLORIDE	Sanibel Island	26.500, -82.000
+FL - FLORIDE	St Petersburg	27.750, -82.670
+FL - FLORIDE	Tallahassee	30.430, -84.320
+FL - FLORIDE	Tampa	27.970, -82.630
+GA - GEORGIE	Albany	31.580, -84.160
+GA - GEORGIE	Athens	33.960, -83.380
+GA - GEORGIE	Atlanta	33.750, -84.390
+GA - GEORGIE	Augusta	33.470, -81.970
+GA - GEORGIE	Brunswick	31.130, -81.500
+GA - GEORGIE	Columbus	32.470, -84.990
+GA - GEORGIE	Gainesville	34.270, -83.800
+GA - GEORGIE	La Grange	33.020, -85.000
+GA - GEORGIE	Louisville	32.990, -82.390
+GA - GEORGIE	Macon	32.840, -83.630
+GA - GEORGIE	Savannah	32.080, -81.090
+GA - GEORGIE	Valdosta	30.830, -83.280
+HI - HAWAII	Hilo	19.700, -155.067
+HI - HAWAII	Honolulu	21.317, -157.833
+HI - HAWAII	Kailua Kona	19.820, -155.980
+HI - HAWAII	Kalapana	19.420, -155.000
+HI - HAWAII	Kamuela	20.020, -155.670
+HI - HAWAII	Kapaa	22.100, -159.330
+HI - HAWAII	Kaunakakai	21.100, -156.980
+HI - HAWAII	Lanai City	20.830, -156.930
+HI - HAWAII	Lihue	21.980, -159.370
+HI - HAWAII	Naalehu	19.000, -155.580
+HI - HAWAII	Wahiawa	21.500, -158.030
+HI - HAWAII	Wailuku	20.920, -156.500
+IA - IOWA	Ames	42.030, -93.620
+IA - IOWA	Cedar Falls	42.530, -92.450
+IA - IOWA	Cedar Rapids	41.970, -91.660
+IA - IOWA	Corning	40.970, -94.670
+IA - IOWA	Davenport	41.520, -90.580
+IA - IOWA	Des Moines	41.590, -93.620
+IA - IOWA	Dubuque	42.500, -90.680
+IA - IOWA	Mason City	43.130, -93.230
+IA - IOWA	Ottumwa	41.000, -92.430
+IA - IOWA	Sioux City	42.500, -96.410
+IA - IOWA	Spencer	43.150, -95.130
+ID - IDAHO	Boise	43.633, -116.200
+ID - IDAHO	Grangeville	45.930, -116.130
+ID - IDAHO	Hailey	43.520, -114.320
+ID - IDAHO	Idaho Falls	43.490, -112.030
+ID - IDAHO	Lewiston	46.410, -117.020
+ID - IDAHO	Mackay	43.920, -113.630
+ID - IDAHO	Moscow	46.730, -117.000
+ID - IDAHO	New Meadows	44.970, -116.330
+ID - IDAHO	Pocatello	42.870, -112.450
+ID - IDAHO	Preston	42.080, -111.900
+ID - IDAHO	Rexburg	43.820, -111.790
+ID - IDAHO	Salmon	45.500, -115.750
+ID - IDAHO	Sandpoint	48.280, -116.570
+ID - IDAHO	Twin Falls	42.560, -114.470
+ID - IDAHO	Wallace	47.450, -115.920
+IN - INDIANA	Bloomington	39.170, -86.530
+IN - INDIANA	Evansville	37.970, -87.570
+IN - INDIANA	Fort Wayne	41.070, -85.140
+IN - INDIANA	Gary	41.600, -87.340
+IN - INDIANA	Indianapolis	39.770, -86.160
+IN - INDIANA	Lafayette	40.420, -86.890
+IN - INDIANA	Monticello	40.080, -88.580
+IN - INDIANA	Montpelier	40.580, -85.330
+IN - INDIANA	Muncie	40.190, -85.390
+IN - INDIANA	South Bend	41.680, -86.250
+IL -ILLINOIS	Bloomington	40.480, -88.990
+IL -ILLINOIS	Carbondale	37.700, -89.200
+IL -ILLINOIS	Champaign	40.120, -88.250
+IL -ILLINOIS	Chicago	41.833, -87.750
+IL -ILLINOIS	Effingham	39.080, -88.500
+IL -ILLINOIS	Joliet	41.530, -88.080
+IL -ILLINOIS	Kankakee	41.120, -87.880
+IL -ILLINOIS	Paris	39.580, -87.670
+IL -ILLINOIS	Peoria	40.690, -89.590
+IL -ILLINOIS	Peru	41.330, -89.170
+IL -ILLINOIS	Rockford	42.270, -89.100
+IL -ILLINOIS	Springfield	39.800, -89.650
+IL -ILLINOIS	Waukegan	42.360, -87.830
+KS - KANSAS	Dodge City	37.750, -100.020
+KS - KANSAS	Fort Scott	37.830, -94.720
+KS - KANSAS	Garden City	37.970, -100.870
+KS - KANSAS	Hutchinson	38.080, -97.930
+KS - KANSAS	Independence	37.230, -95.700
+KS - KANSAS	Kansas City	39.120, -94.640
+KS - KANSAS	Norton	39.670, -99.900
+KS - KANSAS	Oakley	39.130, -100.820
+KS - KANSAS	Osborne	39.420, -98.700
+KS - KANSAS	Pratt	37.390, -98.440
+KS - KANSAS	Salina	38.830, -97.610
+KS - KANSAS	Topeka	39.050, -95.670
+KS - KANSAS	Wichita	37.690, -97.340
+KY - KENTUCKY	Bowling Green	36.990, -86.450
+KY - KENTUCKY	Frankfort	38.200, -84.860
+KY - KENTUCKY	Hazard	37.220, -83.170
+KY - KENTUCKY	Hopkinsville	36.860, -87.470
+KY - KENTUCKY	Lebanon	37.530, -85.250
+KY - KENTUCKY	Lexington	38.050, -84.500
+KY - KENTUCKY	Louisville	38.250, -85.760
+KY - KENTUCKY	Maysville	38.580, -83.750
+KY - KENTUCKY	Morehead	38.170, -83.420
+KY - KENTUCKY	Owensboro	37.770, -87.110
+KY - KENTUCKY	Paducah	37.090, -88.600
+KY - KENTUCKY	Richmond	37.750, -84.330
+KY - KENTUCKY	Somerset	37.040, -84.360
+LA - LOUISIANE	Alexandria	31.300, -92.450
+LA - LOUISIANE	Baton Rouge	30.450, -91.180
+LA - LOUISIANE	Bogalusa	30.800, -89.870
+LA - LOUISIANE	Ferriday	31.630, -91.550
+LA - LOUISIANE	Fisher	31.470, -93.500
+LA - LOUISIANE	Houma	29.600, -90.720
+LA - LOUISIANE	Lafayette	30.230, -92.020
+LA - LOUISIANE	Lake Charles	30.230, -93.220
+LA - LOUISIANE	McNary	30.970, -92.530
+LA - LOUISIANE	Monroe	32.500, -92.120
+LA - LOUISIANE	New Orleans	29.950, -90.070
+LA - LOUISIANE	Shreveport	32.510, -93.750
+LA - LOUISIANE	Winnfield	31.930, -92.650
+MA - MASSACHUSETTS	Boston	42.333, -71.083
+MA - MASSACHUSETTS	New Bedford	41.640, -70.930
+MA - MASSACHUSETTS	Springfield	42.110, -72.590
+MA - MASSACHUSETTS	Worcester	42.260, -71.800
+MD  - MARYLAND	Aberdeen	39.510, -76.160
+MD  - MARYLAND	Baltimore	39.300, -76.633
+MD  - MARYLAND	Cumberland	39.650, -78.760
+MD  - MARYLAND	Hagerstown	39.650, -77.720
+MD  - MARYLAND	Salisbury	38.330, -75.670
+ME - MAINE	Ashland	46.620, -68.430
+ME - MAINE	Augusta	44.310, -69.770
+ME - MAINE	Bangor	44.800, -68.770
+ME - MAINE	Bar Harbor	44.370, -68.220
+ME - MAINE	Brunswick	43.910, -69.960
+ME - MAINE	Greenville	45.430, -69.580
+ME - MAINE	Millinocket	45.670, -68.730
+ME - MAINE	Monticello	46.320, -67.880
+ME - MAINE	Oakfield	46.130, -68.170
+ME - MAINE	Portland	43.660, -70.260
+ME - MAINE	Rangeley	45.000, -70.420
+ME - MAINE	Van Buren	47.150, -67.970
+MI - MICHIGAN	Ann Arbor	42.280, -83.750
+MI - MICHIGAN	Bay City	43.600, -83.890
+MI - MICHIGAN	Detroit	42.383, -83.083
+MI - MICHIGAN	Flint	43.020, -83.680
+MI - MICHIGAN	Hancock	47.140, -88.620
+MI - MICHIGAN	Iron River	46.150, -88.650
+MI - MICHIGAN	Kalamazoo	42.290, -85.590
+MI - MICHIGAN	Lansing	42.733, -85.567
+MI - MICHIGAN	Marquette	46.530, -87.420
+MI - MICHIGAN	Muskegon	43.250, -86.330
+MI - MICHIGAN	Port Huron	43.000, -82.500
+MI - MICHIGAN	Sault Ste. Marie	46.480, -84.350
+MI - MICHIGAN	Traverse City	44.750, -85.670
+MN - MINNESOTA	Aurora	47.520, -92.280
+MN - MINNESOTA	Duluth	46.780, -92.110
+MN - MINNESOTA	Granite Falls	44.770, -95.570
+MN - MINNESOTA	Madelia	44.050, -94.380
+MN - MINNESOTA	Minneapolis	44.980, -93.260
+MN - MINNESOTA	Park Rapids	46.880, -95.080
+MN - MINNESOTA	Pine City	45.830, -93.020
+MN - MINNESOTA	Rochester	44.020, -92.470
+MN - MINNESOTA	Saint Cloud	45.570, -94.170
+MN - MINNESOTA	Winona	44.050, -91.670
+MO - MISSOURI	Chillicothe	39.792, -93.554
+MO - MISSOURI	Columbia	39.953, -92.327
+MO - MISSOURI	Jefferson City	38.572, -92.190
+MO - MISSOURI	Joplin	37.082, -94.503
+MO - MISSOURI	Kirksville	40.195, -92.578
+MO - MISSOURI	Maryville	40.343, -94.871
+MO - MISSOURI	Moberly	39.420, -92.436
+MO - MISSOURI	Poplar Bluff	36.764, -90.407
+MO - MISSOURI	Sikeston	36.880, -89.581
+MO - MISSOURI	Springfield	37.196, -93.286
+MO - MISSOURI	St Louis	38.667, -90.250
+MO - MISSOURI	St Joseph	39.759, -94.821
+MO - MISSOURI	West Plains	36.741, -91.863
+MS - MISSISSIPPI	Biloxi	30.400, -88.880
+MS - MISSISSIPPI	Clarksdale	34.200, -90.570
+MS - MISSISSIPPI	Columbus	33.500, -88.420
+MS - MISSISSIPPI	Corinth	34.920, -88.500
+MS - MISSISSIPPI	Greenwood	33.520, -90.180
+MS - MISSISSIPPI	Hattiesburg	31.330, -89.290
+MS - MISSISSIPPI	Jackson	32.300, -90.180
+MS - MISSISSIPPI	Laurel	31.690, -89.130
+MS - MISSISSIPPI	Meridian	32.370, -88.700
+MS - MISSISSIPPI	Oxford	34.370, -89.500
+MS - MISSISSIPPI	Tupelo	34.230, -88.720
+MT - MONTANA	Baker	46.350, -104.200
+MT - MONTANA	Billings	45.780, -108.500
+MT - MONTANA	Bozeman	45.680, -111.040
+MT - MONTANA	Butte	46.020, -112.540
+MT - MONTANA	Cut Bank	48.630, -112.320
+MT - MONTANA	Dillon	45.200, -112.670
+MT - MONTANA	Great Falls	47.500, -111.290
+MT - MONTANA	Havre	48.550, -109.680
+MT - MONTANA	Helena	46.590, -112.040
+MT - MONTANA	Kalispell	48.190, -114.310
+MT - MONTANA	Lewistown	47.080, -109.420
+MT - MONTANA	Missoula	46.860, -114.010
+MT - MONTANA	Opheim	48.850, -106.320
+MT - MONTANA	Poplar	48.130, -105.170
+ND - DAKOTA DU NORD	Ashley	46.050, -99.380
+ND - DAKOTA DU NORD	Bismarck	46.810, -100.790
+ND - DAKOTA DU NORD	Devils Lake	48.110, -98.860
+ND - DAKOTA DU NORD	Dickinson	46.880, -102.790
+ND - DAKOTA DU NORD	Fargo	46.880, -96.790
+ND - DAKOTA DU NORD	Garrison	47.630, -101.400
+ND - DAKOTA DU NORD	Hankinson	46.070, -96.900
+ND - DAKOTA DU NORD	Hillsboro	47.380, -97.080
+ND - DAKOTA DU NORD	Minot	48.240, -101.300
+ND - DAKOTA DU NORD	Williston	48.150, -103.620
+NC - CAROLINE DU NORD	Asheville	35.600, -82.560
+NC - CAROLINE DU NORD	Boone	36.200, -81.660
+NC - CAROLINE DU NORD	Charlotte	35.050, -80.833
+NC - CAROLINE DU NORD	Elizabeth City	36.250, -76.250
+NC - CAROLINE DU NORD	Fayetteville	35.060, -78.880
+NC - CAROLINE DU NORD	Goldsboro	35.380, -77.980
+NC - CAROLINE DU NORD	Greensboro	36.070, -79.790
+NC - CAROLINE DU NORD	Oxford	36.280, -78.580
+NC - CAROLINE DU NORD	Raleigh	35.780, -78.640
+NC - CAROLINE DU NORD	Rocky Mount	35.920, -77.780
+NC - CAROLINE DU NORD	Wilmington	34.240, -77.920
+NE - NEBRASKA	Alliance	42.100, -102.880
+NE - NEBRASKA	Atkinson	42.530, -98.970
+NE - NEBRASKA	Grand Island	40.920, -98.350
+NE - NEBRASKA	Humboldt	40.170, -95.950
+NE - NEBRASKA	Kearney	40.700, -99.080
+NE - NEBRASKA	Lincoln	40.820, -96.700
+NE - NEBRASKA	McCook	40.220, -100.620
+NE - NEBRASKA	Norfolk	42.030, -97.420
+NE - NEBRASKA	North Platte	41.140, -100.760
+NE - NEBRASKA	Omaha	41.260, -95.940
+NE - NEBRASKA	Sargent	41.670, -99.630
+NE - NEBRASKA	Valentine	42.870, -100.570
+NH - NEW HAMSHIRE	Berlin	44.420, -71.170
+NH - NEW HAMSHIRE	Concord	43.217, -71.567
+NH - NEW HAMSHIRE	Conway	44.000, -71.170
+NH - NEW HAMSHIRE	Lebanon	43.670, -72.250
+NH - NEW HAMSHIRE	Manchester	42.990, -71.460
+NH - NEW HAMSHIRE	Salem	42.700, -71.250
+NH - NEW HAMSHIRE	Weirs	43.700, -71.250
+NH - NEW HAMSHIRE	Winchester	42.750, -72.420
+NJ - NEW JERSEY	Atlantic City	39.360, -74.430
+NJ - NEW JERSEY	Cape May	38.920, -74.830
+NJ - NEW JERSEY	New Brunswick	40.480, -74.450
+NJ - NEW JERSEY	Trenton	40.220, -74.770
+NJ - NEW JERSEY	Vineland	39.490, -75.030
+NM - NOUVEAU-MEXIQUE	Alamogordo	32.900, -105.950
+NM - NOUVEAU-MEXIQUE	Albuquerque	35.080, -106.630
+NM - NOUVEAU-MEXIQUE	Carlsbad	32.420, -104.230
+NM - NOUVEAU-MEXIQUE	Clovis	34.230, -103.220
+NM - NOUVEAU-MEXIQUE	Farmington	36.720, -108.200
+NM - NOUVEAU-MEXIQUE	Las Cruzes	32.300, -106.780
+NM - NOUVEAU-MEXIQUE	Los Alamos	35.870, -106.320
+NM - NOUVEAU-MEXIQUE	Santa Fe	35.680, -105.950
+NM - NOUVEAU-MEXIQUE	Silver City	32.780, -108.270
+NM - NOUVEAU-MEXIQUE	Tucumcari	35.180, -103.730
+NV - NEVADA	Caliente	37.600, -114.520
+NV - NEVADA	Carson City	39.170, -119.770
+NV - NEVADA	Goldfield	37.700, -117.250
+NV - NEVADA	Las Vegas	36.170, -115.150
+NV - NEVADA	McGill	39.400, -114.780
+NV - NEVADA	Reno	39.530, -119.820
+NV - NEVADA	Tonopah	38.080, -117.250
+NV - NEVADA	Wells	41.130, -114.970
+NV - NEVADA	Winnemucca	40.970, -117.750
+NY - NEW YORK	Albany	42.667, -73.817
+NY - NEW YORK	Binghamton	42.100, -75.910
+NY - NEW YORK	Buffalo	42.867, -78.917
+NY - NEW YORK	Elmira	42.080, -76.830
+NY - NEW YORK	Glens Falls	43.330, -73.670
+NY - NEW YORK	Malone	44.830, -74.330
+NY - NEW YORK	Neponsit	43.570, -73.870
+NY - NEW YORK	New York	40.667, -73.833
+NY - NEW YORK	Olean	42.080, -78.420
+NY - NEW YORK	Plattsburgh	44.670, -73.500
+NY - NEW YORK	Poughkeepsie	41.750, -73.920
+NY - NEW YORK	Rochester	43.200, -77.617
+NY - NEW YORK	Southampton	40.880, -72.400
+NY - NEW YORK	Stony Brook	40.920, -73.130
+NY - NEW YORK	Syracuse	43.050, -76.170
+NY - NEW YORK	Utica	43.100, -75.230
+NY - NEW YORK	Watertown	44.000, -75.920
+NY - NEW YORK	Yonkers	40.930, -73.900
+OK - OKLAHOMA	Afton	36.700, -94.930
+OK - OKLAHOMA	Antlers	24.230, -95.630
+OK - OKLAHOMA	Ardmore	34.170, -97.130
+OK - OKLAHOMA	Boise City	36.700, -102.500
+OK - OKLAHOMA	Cherokee	36.730, -98.370
+OK - OKLAHOMA	Elk City	35.380, -99.380
+OK - OKLAHOMA	Enid	36.400, -97.880
+OK - OKLAHOMA	Guthrie	35.870, -97.430
+OK - OKLAHOMA	Hooker	36.820, -101.220
+OK - OKLAHOMA	Lawton	34.610, -98.410
+OK - OKLAHOMA	Mangum	34.900, -99.520
+OK - OKLAHOMA	McAlester	34.920, -95.750
+OK - OKLAHOMA	Muskogee	35.740, -95.370
+OK - OKLAHOMA	Norman	35.220, -97.440
+OK - OKLAHOMA	Oklahoma City	35.470, -97.550
+OK - OKLAHOMA	Ponca City	36.710, -97.010
+OK - OKLAHOMA	Sallisaw	35.450, -94.800
+OK - OKLAHOMA	Tulsa	36.120, -95.970
+OK - OKLAHOMA	Woodward	36.420, -99.400
+OH  - OHIO	Akron	41.067, -81.517
+OH  - OHIO	Amherst	41.400, -82.220
+OH  - OHIO	Barnesville	40.000, -81.190
+OH  - OHIO	Canton	40.800, -81.380
+OH  - OHIO	Chillicothe	39.330, -83.000
+OH  - OHIO	Cincinnati	39.167, -84.500
+OH  - OHIO	Cleveland	41.500, -81.683
+OH  - OHIO	Columbus	39.983, -83.050
+OH  - OHIO	Dayton	39.760, -84.200
+OH  - OHIO	Hamilton	39.400, -84.560
+OH  - OHIO	Lima	40.740, -84.110
+OH  - OHIO	Mansfield	40.760, -82.520
+OH  - OHIO	Portsmouth	38.750, -83.000
+OH  - OHIO	Springfield	39.930, -83.810
+OH  - OHIO	Toledo	41.650, -83.540
+OH  - OHIO	Youngstown	41.100, -80.650
+OH  - OHIO	Zanesville	39.940, -82.010
+OR - OREGON	Albany	44.630, -123.100
+OR - OREGON	Baker	44.770, -117.830
+OR - OREGON	Bend	44.070, -121.280
+OR - OREGON	Brookings	42.070, -124.270
+OR - OREGON	Burns	43.580, -119.080
+OR - OREGON	Condon	45.230, -120.170
+OR - OREGON	Coos Bay	43.380, -124.200
+OR - OREGON	Eugene	44.050, -123.090
+OR - OREGON	Grants Pass	42.430, -123.330
+OR - OREGON	Klamath Falls	42.220, -121.820
+OR - OREGON	La Grande	45.330, -118.100
+OR - OREGON	Medford	42.320, -122.870
+OR - OREGON	Newport	44.650, -124.030
+OR - OREGON	Pendleton	45.680, -118.780
+OR - OREGON	Portland	45.533, -122.667
+OR - OREGON	Roseburg	43.220, -123.350
+OR - OREGON	Salem	44.940, -123.030
+OR - OREGON	Vale	43.980, -117.230
+OR - OREGON	Wallowa	45.570, -117.530
+OR - OREGON	Wasco	45.600, -120.700
+PA - PENSYLVANIE	Allentown	40.600, -75.470
+PA - PENSYLVANIE	Altoona	40.520, -78.400
+PA - PENSYLVANIE	Stroudsburg	41.080, -75.220
+PA - PENSYLVANIE	Erie	42.120, -80.080
+PA - PENSYLVANIE	Harrisburg	40.300, -76.817
+PA - PENSYLVANIE	Philadelphia	40.000, -75.167
+PA - PENSYLVANIE	Pittsburgh	40.433, -80.000
+PA - PENSYLVANIE	Reading	40.340, -75.930
+PA - PENSYLVANIE	Scranton	41.410, -75.660
+PA - PENSYLVANIE	Warren	41.830, -79.170
+PA - PENSYLVANIE	York	39.960, -76.730
+RI - RHODE ISLAND	Newport	41.480, -71.320
+RI - RHODE ISLAND	Providence	41.833, -71.467
+RI - RHODE ISLAND	Westerly	41.420, -71.830
+SC - CAROLINE DU SUD	Anderson	34.510, -82.650
+SC - CAROLINE DU SUD	Columbia	34.000, -81.030
+SC - CAROLINE DU SUD	Florence	34.200, -79.770
+SC - CAROLINE DU SUD	Great Falls	34.530, -80.880
+SC - CAROLINE DU SUD	Myrtle Beach	33.700, -78.880
+SC - CAROLINE DU SUD	Charleston	32.880, -80.000
+SC - CAROLINE DU SUD	Orangeburg	33.500, -80.830
+SC - CAROLINE DU SUD	Spartanburg	34.950, -81.930
+SD - DAKOTA DU SUD	Aberdeen	45.470, -98.480
+SD - DAKOTA DU SUD	Brookings	44.310, -96.790
+SD - DAKOTA DU SUD	Faith	45.030, -102.030
+SD - DAKOTA DU SUD	Huron	44.360, -98.220
+SD - DAKOTA DU SUD	Lemmon	45.920, -102.170
+SD - DAKOTA DU SUD	Madison	44.010, -97.110
+SD - DAKOTA DU SUD	Mitchell	43.540, -98.030
+SD - DAKOTA DU SUD	Mobridge	45.530, -100.430
+SD - DAKOTA DU SUD	Pierre	44.370, -100.350
+SD - DAKOTA DU SUD	Rapid City	44.080, -103.230
+SD - DAKOTA DU SUD	Sioux Falls	43.540, -96.730
+SD - DAKOTA DU SUD	Watertown	44.900, -97.110
+SD - DAKOTA DU SUD	Winner	43.370, -99.830
+SD - DAKOTA DU SUD	Yankton	42.880, -97.390
+TN - TENNESSEE	Chattanooga	35.036, -85.277
+TN - TENNESSEE	Columbia	35.616, -87.038
+TN - TENNESSEE	Dyersburg	36.044, -89.384
+TN - TENNESSEE	Jackson	35.647, -88.821
+TN - TENNESSEE	Knoxville	35.990, -83.953
+TN - TENNESSEE	Memphis	35.167, -90.000
+TN - TENNESSEE	Nashville	36.167, -86.833
+TX - TEXAS	Abilene	32.470, -99.710
+TX - TEXAS	Amarillo	35.210, -101.830
+TX - TEXAS	Austin	30.270, -97.740
+TX - TEXAS	Beaumont	30.090, -94.100
+TX - TEXAS	Corpus Christi	27.650, -97.380
+TX - TEXAS	Dallas	32.790, -96.790
+TX - TEXAS	Del Rio	29.370, -100.730
+TX - TEXAS	El Paso	31.760, -106.490
+TX - TEXAS	Fort Worth	32.750, -97.330
+TX - TEXAS	Galveston	29.300, -94.800
+TX - TEXAS	Harlingen	26.180, -97.700
+TX - TEXAS	Houston	29.760, -95.360
+TX - TEXAS	Laredo	27.510, -99.510
+TX - TEXAS	Lubbock	33.580, -101.840
+TX - TEXAS	Marshall	32.550, -94.380
+TX - TEXAS	Mount Locke	30.670, -104.020
+TX - TEXAS	Odessa	31.860, -102.370
+TX - TEXAS	Palestine	31.770, -95.630
+TX - TEXAS	Plano	33.020, -96.700
+TX - TEXAS	Saginaw	32.510, -97.220
+TX - TEXAS	San Angelo	31.460, -100.430
+TX - TEXAS	San Antonio	29.430, -98.490
+TX - TEXAS	Texarkana	33.430, -94.040
+TX - TEXAS	Tyler	32.350, -95.300
+TX - TEXAS	Victoria	28.810, -97.000
+TX - TEXAS	Waco	31.550, -97.130
+TX - TEXAS	Waxahatchie	32.330, -96.830
+TX - TEXAS	Wichita Falls	33.910, -98.490
+UT - UTAH	Brigham City	41.500, -112.030
+UT - UTAH	Cedar City	37.670, -113.070
+UT - UTAH	Jensen	40.380, -109.350
+UT - UTAH	Provo	40.250, -111.670
+UT - UTAH	Richfield	38.750, -112.080
+UT - UTAH	Salt Lake City	40.750, -111.530
+VA - VIRGINIE	Charlottesville	38.000, -78.420
+VA - VIRGINIE	Danville	36.590, -79.380
+VA - VIRGINIE	Fredericksburg	38.330, -77.500
+VA - VIRGINIE	Harrisonburg	38.500, -78.830
+VA - VIRGINIE	Lynchburg	37.420, -79.140
+VA - VIRGINIE	Marion	36.800, -81.550
+VA - VIRGINIE	Norfolk	36.900, -76.300
+VA - VIRGINIE	Norton	36.900, -82.600
+VA - VIRGINIE	Paris	38.930, -77.970
+VA - VIRGINIE	Petersburg	37.200, -77.500
+VA - VIRGINIE	Richmond	37.567, -77.450
+VA - VIRGINIE	Roanoke	37.270, -79.950
+VT - VERMONT	Montpelier	44.267, -72.567
+WA - WASHINGTON	Mount Vernon	48.420, -122.330
+WA - WASHINGTON	Olympia	47.050, -122.883
+WA - WASHINGTON	Omak	48.420, -119.500
+WA - WASHINGTON	Pasco	46.250, -119.120
+WA - WASHINGTON	Port Angeles	48.100, -123.430
+WA - WASHINGTON	Seattle	47.583, -122.333
+WA - WASHINGTON	Spokane	47.670, -117.420
+WA - WASHINGTON	Tacoma	47.270, -122.500
+WA - WASHINGTON	Yakima	46.620, -120.500
+WI - WISCONSIN	Baraboo	43.480, -89.730
+WI - WISCONSIN	Barron	45.400, -91.850
+WI - WISCONSIN	Boscobel	43.130, -90.730
+WI - WISCONSIN	Delavan	49.650, -88.630
+WI - WISCONSIN	Eau Claire	44.810, -91.500
+WI - WISCONSIN	Green Bay	44.510, -88.010
+WI - WISCONSIN	Hurley	46.430, -90.180
+WI - WISCONSIN	Janesville	42.680, -89.020
+WI - WISCONSIN	La Crosse	43.800, -91.250
+WI - WISCONSIN	Milwaukee	43.050, -87.933
+WI - WISCONSIN	Oshkosh	44.020, -88.540
+WI - WISCONSIN	Racine	42.730, -87.790
+WI - WISCONSIN	Rhinelander	45.650, -89.420
+WI - WISCONSIN	Sheboygan	43.760, -87.750
+WI - WISCONSIN	Wausau	44.970, -89.670
+WV - VIRGINIE OCCIDENTALE	Beckley	37.780, -81.190
+WV - VIRGINIE OCCIDENTALE	Bluefield	37.270, -81.220
+WV - VIRGINIE OCCIDENTALE	Charleston	38.383, -81.667
+WV - VIRGINIE OCCIDENTALE	Clarksburg	39.280, -80.350
+WV - VIRGINIE OCCIDENTALE	Elkins	38.920, -79.830
+WV - VIRGINIE OCCIDENTALE	Gassaway	38.670, -80.750
+WV - VIRGINIE OCCIDENTALE	Harpers Ferry	39.330, -77.750
+WV - VIRGINIE OCCIDENTALE	Lewisburg	37.830, -80.330
+WV - VIRGINIE OCCIDENTALE	Morgantown	39.630, -79.950
+WV - VIRGINIE OCCIDENTALE	Parkersburg	39.270, -81.560
+WV - VIRGINIE OCCIDENTALE	Weirton	40.400, -80.590
+WY - WYOMING	Afton	42.700, -110.870
+WY - WYOMING	Buffalo	44.320, -106.700
+WY - WYOMING	Casper	42.850, -106.310
+WY - WYOMING	Cheyenne	41.140, -104.820
+WY - WYOMING	Cody	44.520, -109.030
+WY - WYOMING	Evanston	41.030, -111.030
+WY - WYOMING	Gillette	44.290, -105.500
+WY - WYOMING	Laramie	41.310, -105.580
+WY - WYOMING	Rawlins	41.790, -107.240
+WY - WYOMING	Riverton	43.030, -108.390
+WY - WYOMING	Rock Springs	41.580, -109.220
+WY - WYOMING	Sheridan	44.800, -106.960

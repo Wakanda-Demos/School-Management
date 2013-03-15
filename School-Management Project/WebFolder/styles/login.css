@@ -1,0 +1,17 @@
+﻿body {
+    background: -moz-radial-gradient(center center, circle closest-side, #cdcdcd 0%, #848484 100%);
+    background: -webkit-gradient(radial, center center, 900, center center, 0, from(#848484), to(#cdcdcd));
+}
+
+.smError::-webkit-input-placeholder{
+	color:red;
+}
+.smError::-moz-placeholder{
+	color:red;
+}
+.smError:-ms-input-placeholder{
+	color:red;
+}
+input.smError:-moz-placeholder {
+	color:red;
+}

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html><section data-group="[]" class="default">
+    <meta name="generator" content="Wakanda GUIDesigner"/>
+    <meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="TimeTable" data-scope="global" data-lib="WAF" data-id="timeTable" data-dataType="string" data-autoLoad="false" content="timeTable"/>
+    <meta name="WAF.config.datasources" data-type="dataSource" data-source-type="scalar" data-source="{id}ttQueryStr" data-scope="local" data-lib="WAF" data-id="{id}ttQueryStr" data-dataType="string" data-autoLoad="true" content="ttQueryStr"/>
+    <meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="StudyGroup" data-scope="local" data-lib="WAF" data-id="{id}studyGroup" data-dataType="string" data-autoLoad="true" content="studyGroup"/>
+    <meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="Classroom" data-scope="local" data-lib="WAF" data-id="{id}classroom" data-dataType="string" data-autoLoad="true" content="classroom"/>
+    <meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="Teacher" data-scope="local" data-lib="WAF" data-id="{id}teacher" data-dataType="string" data-autoLoad="true" content="teacher"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+	<div id="{id}container1" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-left="true" class="waf-widget waf-container default inherited  waf-project-nostyle waf-container-level-0 waf-level-0 ">
+ 		<div id="{id}teacherCombo" data-type="combobox" data-limit="20" data-lib="WAF" data-label-position="left" data-label="" data-editable="false" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding-options="[fullname] " data-binding-key="ID" data-binding="{id}teacher" data-autoDispatch="true" class="waf-widget waf-combobox default inherited  queryType waf-project-smCombo "><select><option value="">[fullname] </option></select></div>
+ 			<div id="{id}classroomCombo" data-type="combobox" data-limit="20" data-lib="WAF" data-label-position="left" data-label="" data-editable="false" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding-options="[name] " data-binding-key="ID" data-binding="{id}classroom" data-autoDispatch="true" class="waf-widget waf-combobox default inherited  queryType waf-project-smCombo "><select><option value="">[name] </option></select></div>
+ 		<div id="{id}sgCombo" data-type="combobox" data-limit="20" data-lib="WAF" data-label-position="left" data-label="" data-editable="false" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding-options="[name] " data-binding-key="ID" data-binding="{id}studyGroup" data-autoDispatch="true" class="waf-widget waf-combobox default inherited  queryType waf-project-smCombo "><select><option value="">[name] </option></select></div>
+ 		<div id="{id}customQuery" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-container default inherited  queryType -level-1 waf-container-level-1 waf-level-1 ">
+ 		<input type="text" id="{id}textField1" data-type="textField" data-readOnly="false" data-password="false" data-multiline="false" data-lib="WAF" data-label-position="left" data-label="" data-datapicker-on="true" data-datapicker-icon-only="false" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-textField default inherited  waf-project-smTextField "/>
+ 			<div id="{id}richText1" data-type="richText" data-target="_blank" data-plainText="true" data-overflow="Hidden" data-lib="WAF" data-label-position="left" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-autoWidth="true" class="waf-widget waf-richText default inherited  ">Query : </div>
+ 	 	</div>
+ 	</div>
+		<button id="{id}button1" data-type="button" data-text="All" data-target="_blank" data-lib="WAF" data-constraint-top="true" data-constraint-right="true" data-constraint-left="false" data-action="simple" class="waf-widget waf-button default inherited  "></button>
+		<label id="{id}label2" for="{id}combobox1" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-left="true" class="waf-widget waf-label default inherited  waf-label-combobox ">Find by </label>
+		<div id="{id}combobox1" data-type="combobox" data-limit="20" data-lib="WAF" data-label-position="left" data-label="Find by " data-editable="false" data-constraint-top="true" data-constraint-left="true" data-autoDispatch="true" class="waf-widget waf-combobox default inherited  waf-project-smCombo "><select><option value="teacher">Teacher</option><option value="studyGroup">Study Group</option><option value="classroom">Classroom</option><option value="custom">Custom</option></select></div>
+	</section>
