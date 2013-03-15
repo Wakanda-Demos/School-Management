@@ -15,16 +15,16 @@ function constructor (id) {
 	//No, no we're not that stupid :D !! The passwords are stored in the client side for demo purposes
 	var loginMap = {
 		'administrator': {
-			login	: 'super',
-			password: 'super'
+			login	: 'administrator',
+			password: 'administrator'
 		},
 		'teacher' : {
 			login	: 'teacher',
-			password: 'wakanda'
+			password: 'teacher'
 		},
 		'student' : {
 			login	: 'student',
-			password: 'wakanda'
+			password: 'student'
 		}
 	}
 	// @region namespaceDeclaration// @startlock

@@ -12,14 +12,21 @@ function constructor (id) {
 
 	this.load = function (data) {// @lock
 		var
-		schoolSource 	= sources[getHtmlId('school')],
+		calendar		= sources[getHtmlId('school_calendar')]
+		schoolSource 	= sources['school'],
 		agendaSource	= sources[getHtmlId('agenda0')];
 		
 	// @region namespaceDeclaration// @startlock
+	var container2 = {};	// @container
 	var saveAll = {};	// @container
 	// @endregion// @endlock
 
 	// eventHandlers// @lock
+
+	container2.click = function container2_click (event)// @startlock
+	{// @endlock
+		calendar.addNewElement();
+	};// @lock
 
 	saveAll.click = function saveAll_click (event)// @startlock
 	{// @endlock
@@ -43,6 +50,7 @@ function constructor (id) {
 	};// @lock
 
 	// @region eventManager// @startlock
+	WAF.addListener(this.id + "_container2", "click", container2.click, "WAF");
 	WAF.addListener(this.id + "_saveAll", "click", saveAll.click, "WAF");
 	// @endregion// @endlock
 

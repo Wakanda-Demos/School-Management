@@ -200,13 +200,16 @@ for(var _i = 0 , cr ; cr = classrooms[_i] ; _i++){
         color: '#' + colors[parseInt(Math.random()*colors.length)]
     }).save();
 }
-
+var
+courses	= ds.Course.toArray('ID');
 
 // Generate Administrators && RecordOfficers
 for(var _i = 0 ; _i < 6 ; _i++){
     new ds.Administrator(nextPerson()).save();
     new ds.RecordOfficer(nextPerson()).save();
-    new ds.Teacher(nextPerson()).save();
+    var teacher = new ds.Teacher(nextPerson());
+    teacher.speciality = ds.Course(courses[parseInt(Math.random()*courses.length)]);
+    teacher.save();
 }
 
 var
@@ -232,7 +235,6 @@ for(var _i = 0 ; _i < 20 ; _i++ ){
     classrooms		= ds.Classroom.toArray('ID'),
     classroomID		= classrooms[parseInt(Math.random()*classrooms.length)],
     classroom 		= classroomID.ID,
-    courses			= ds.Course.toArray('ID'),
     courseID		= courses[parseInt(Math.random()*courses.length)],
     course 			= courseID.ID,
     timeTable 		= new ds.TimeTable({
@@ -253,3 +255,22 @@ fnStream.close();
 lnStream.close();
 citiesStream.close();
 absStream.close();
+
+var person;
+
+person = ds.Administrator.first();
+person.login = 'administrator';
+person.password = 'administrator';
+person.save();
+
+person = ds.Teacher.first();
+person.login = 'teacher';
+person.password = 'teacher';
+person.save();
+
+person = ds.Student.first();
+person.login = 'student';
+person.password = 'student';
+person.save();
+
+

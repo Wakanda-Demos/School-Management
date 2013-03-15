@@ -12,12 +12,13 @@ function constructor (id) {
 
 	this.load = function (data) {// @lock
 		var
-		dataSource = sources.adminTeacher;
+		dataSource 	= sources.adminTeacher;
 		
 		getHtmlObj('container1').smSearch({
 			datasource: dataSource
 		});
 	// @region namespaceDeclaration// @startlock
+	var combobox1 = {};	// @combobox
 	var image3 = {};	// @image
 	var container2 = {};	// @container
 	var container4 = {};	// @container
@@ -26,6 +27,16 @@ function constructor (id) {
 	// @endregion// @endlock
 
 	// eventHandlers// @lock
+
+	combobox1.change = function combobox1_change (event)// @startlock
+	{// @endlock
+		if(!this._inited){
+			this._inited = true;
+			return false;
+		}
+		
+		dataSource.query('speciality.ID = ' + this.getValue());
+	};// @lock
 
 	image3.click = function image3_click (event)// @startlock
 	{// @endlock
@@ -66,10 +77,20 @@ function constructor (id) {
 
 	matrix1.onChildrenDraw = function matrix1_onChildrenDraw (event)// @startlock
 	{// @endlock
-		
+		var that = this;
+		dataSource.speciality.load({
+			onSuccess: function(e){
+				if(e.entity){
+					that.find('.color').css({
+						'background-color' : e.entity.color.getValue()
+					});
+				}
+			}
+		});
 	};// @lock
 
 	// @region eventManager// @startlock
+	WAF.addListener(this.id + "_combobox1", "change", combobox1.change, "WAF");
 	WAF.addListener(this.id + "_image3", "click", image3.click, "WAF");
 	WAF.addListener(this.id + "_container2", "click", container2.click, "WAF");
 	WAF.addListener(this.id + "_container4", "dblclick", container4.dblclick, "WAF");
