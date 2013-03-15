@@ -17,7 +17,7 @@ function constructor (id) {
 		'administrator': {
 			login	: 'administrator',
 			password: 'administrator'
-		},
+		}/*,
 		'teacher' : {
 			login	: 'teacher',
 			password: 'teacher'
@@ -25,7 +25,7 @@ function constructor (id) {
 		'student' : {
 			login	: 'student',
 			password: 'student'
-		}
+		}*/
 	}
 	// @region namespaceDeclaration// @startlock
 	var container1 = {};	// @container

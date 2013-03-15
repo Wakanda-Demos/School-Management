@@ -379,7 +379,7 @@
 	 			+ scheduler.templates.event_date(ev.start_date) 
 	 			+ ' - ' + scheduler.templates.event_date(ev.end_date) + '</div>';
 	 	
-		html+= '<div class="dhx_body event_subElement" style=" width:' + ( $cont.width() - 10) + 'px;height:' + ( $cont.height() - 32) + 'px">';
+		html+= '<div class="dhx_event_move dhx_body event_subElement" style="cursor:pointer;width:' + ( $cont.width() - 10) + 'px;height:' + ( $cont.height() - 32) + 'px">';
 		
 		html+= ev.text;
 		

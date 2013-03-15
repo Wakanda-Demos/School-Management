@@ -87,8 +87,8 @@ function constructor (id) {
 	}
 	
 	// @region namespaceDeclaration// @startlock
+	var container5 = {};	// @container
 	var container3 = {};	// @container
-	var container4 = {};	// @container
 	var combobox1 = {};	// @combobox
 	var container2 = {};	// @container
 	var dataGrid1 = {};	// @dataGrid
@@ -96,14 +96,14 @@ function constructor (id) {
 
 	// eventHandlers// @lock
 
+	container5.click = function container5_click (event)// @startlock
+	{// @endlock
+		applyAction('delete');
+	};// @lock
+
 	container3.click = function container3_click (event)// @startlock
 	{// @endlock
 		applyAction('assignGroup');
-	};// @lock
-
-	container4.click = function container4_click (event)// @startlock
-	{// @endlock
-		applyAction('delete');
 	};// @lock
 
 	combobox1.change = function combobox1_change (event)// @startlock
@@ -128,8 +128,8 @@ function constructor (id) {
 	};// @lock
 
 	// @region eventManager// @startlock
+	WAF.addListener(this.id + "_container5", "click", container5.click, "WAF");
 	WAF.addListener(this.id + "_container3", "click", container3.click, "WAF");
-	WAF.addListener(this.id + "_container4", "click", container4.click, "WAF");
 	WAF.addListener(this.id + "_combobox1", "change", combobox1.change, "WAF");
 	WAF.addListener(this.id + "_container2", "click", container2.click, "WAF");
 	WAF.addListener(this.id + "_dataGrid1", "onRowDblClick", dataGrid1.onRowDblClick, "WAF");
