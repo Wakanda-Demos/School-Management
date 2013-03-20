@@ -21,7 +21,44 @@ function constructor (id) {
 	var container7 = {};	// @container
 	var icon3 = {};	// @icon
 	// @endregion// @endlock
-
+	
+	if(dataSource.getCurrentElement() && dataSource.getCurrentElement().getKey()){
+		var
+		group	= dataSource.getCurrentElement().studyGroup,
+		combo 	= $$(getHtmlId('combobox1'));
+		
+		switch(true){
+			case group instanceof WAF.EntityAttributeRelated:
+				group.load({
+					onSuccess: function(e){
+						group = e.entity;
+					}
+				})
+				break;
+			case group instanceof WAF.Entity:
+				break;
+		}
+		
+		if(combo.source.length == 0){
+			combo.source.all({
+				onSuccess: function(e){
+					if(group){
+						e.dataSource.selectByKey(group.getKey());
+					}
+					else{
+						e.dataSource.select(-1);
+					}
+				}
+			})
+		}
+		else if(group){
+			combo.setValue(group.getKey());
+		}
+		else{
+			combo.source.select(-1);
+		}
+	}
+	
 	// eventHandlers// @lock
 
 	container6.click = function container6_click (event)// @startlock
@@ -36,6 +73,7 @@ function constructor (id) {
 
 	container7.click = function container7_click (event)// @startlock
 	{// @endlock
+		dataSource.cancel();
 		$$('mainDialog').closeDialog();
 	};// @lock
 

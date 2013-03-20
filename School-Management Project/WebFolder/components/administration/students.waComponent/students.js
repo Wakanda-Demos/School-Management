@@ -12,6 +12,7 @@ function constructor (id) {
 
 	this.load = function (data) {// @lock
 	var
+	groupsDS	= sources[getHtmlId('studyGroup')],
 	dg			= $$(getHtmlId('dataGrid1')),
 	dataSource 	= sources.adminStudent,
 	selectedSts	= sources.adminSelectedStudents;
@@ -36,6 +37,12 @@ function constructor (id) {
 					dataSource.collectionRefresh();
 				}
 			})
+		}
+	});
+	
+	groupsDS.all({
+		onSuccess: function(e){
+			e.dataSource.select(-1);
 		}
 	})
 	
@@ -87,6 +94,7 @@ function constructor (id) {
 	}
 	
 	// @region namespaceDeclaration// @startlock
+	var button1 = {};	// @button
 	var container5 = {};	// @container
 	var container3 = {};	// @container
 	var combobox1 = {};	// @combobox
@@ -95,6 +103,12 @@ function constructor (id) {
 	// @endregion// @endlock
 
 	// eventHandlers// @lock
+
+	button1.click = function button1_click (event)// @startlock
+	{// @endlock
+		groupsDS.select(-1);
+		dataSource.all();
+	};// @lock
 
 	container5.click = function container5_click (event)// @startlock
 	{// @endlock
@@ -108,7 +122,10 @@ function constructor (id) {
 
 	combobox1.change = function combobox1_change (event)// @startlock
 	{// @endlock
-		if(!this._inited){
+		if(!this.source.getCurrentElement()){
+			return false;
+		}
+		else if(!this._inited){
 			this._inited = true;
 			return false;
 		}
@@ -128,6 +145,7 @@ function constructor (id) {
 	};// @lock
 
 	// @region eventManager// @startlock
+	WAF.addListener(this.id + "_button1", "click", button1.click, "WAF");
 	WAF.addListener(this.id + "_container5", "click", container5.click, "WAF");
 	WAF.addListener(this.id + "_container3", "click", container3.click, "WAF");
 	WAF.addListener(this.id + "_combobox1", "change", combobox1.change, "WAF");

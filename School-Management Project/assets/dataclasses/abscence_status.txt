@@ -1,0 +1,1 @@
+A	AbscentT	TardyP	Parent ExcusedS	School ExcusedI	Inschoo SuspensionO	Out of School SuspensionX	TruantU	UnpreparedV	VacationY	Tardy and UnpreparedM	MedicalB	Bus was late

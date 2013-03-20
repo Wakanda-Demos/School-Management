@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><directory>
+
+<group ID="01000000000000000000000000000000" name="Admin">
+
+	<include group="superAdministrator" groupID="ACF03E629222472BAC663DDC1A631543"/>
+</group>
+
+<group ID="02000000000000000000000000000000" name="Debugger">
+
+	<include group="superAdministrator" groupID="ACF03E629222472BAC663DDC1A631543"/>
+</group>
+
+<group ID="BE3D24AE026741FCA139C07CB46B21C2" name="student">
+
+	<include group="recordOfficer" groupID="65134A0A8B5A47EFB603E558E98F901B"/>
+</group>
+
+<group ID="A0B117BAB6BE48DFBE35F4695F1BDBE2" name="parent">
+
+	<include group="recordOfficer" groupID="65134A0A8B5A47EFB603E558E98F901B"/>
+</group>
+
+<group ID="65134A0A8B5A47EFB603E558E98F901B" name="recordOfficer">
+
+	<include group="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD"/>
+</group>
+
+<group ID="7E024569A3494BEEBD7C7F0A22E8FA15" name="teacher">
+
+	<include group="recordOfficer" groupID="65134A0A8B5A47EFB603E558E98F901B"/>
+</group>
+
+<group ID="A0BFF88AE0834C9B8E291D9465D311BD" name="administrator">
+
+	<include group="superAdministrator" groupID="ACF03E629222472BAC663DDC1A631543"/>
+</group>
+
+<group ID="ACF03E629222472BAC663DDC1A631543" name="superAdministrator">
+
+	<include user="super" ID="322C08F47DDC43F794380E725B6EB924"/>
+</group>
+
+<group ID="617BAEC208FF475F997B79EAF58D6F81" name="loggedIn">
+
+	<include group="teacher" groupID="7E024569A3494BEEBD7C7F0A22E8FA15"/>
+
+	<include group="student" groupID="BE3D24AE026741FCA139C07CB46B21C2"/>
+
+	<include group="parent" groupID="A0B117BAB6BE48DFBE35F4695F1BDBE2"/>
+
+</group>
+
+<user ID="322C08F47DDC43F794380E725B6EB924" name="super" fullName="Super Administrator" thumbnailPath="super.jpg" password="fef4c1417d047c58ad4aa8336bb9ca19"/>
+</directory>

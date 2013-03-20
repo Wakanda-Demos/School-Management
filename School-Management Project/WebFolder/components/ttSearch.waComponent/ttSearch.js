@@ -11,7 +11,9 @@ function constructor (id) {
 	// @endregion// @endlock
 
 	this.load = function (data) {// @lock
-			
+		var
+		localDSs = [$comp.sources.teacher , $comp.sources.classroom , $comp.sources.studyGroup , $comp.sources.course];
+		
 		function selectQueryType(type , search){
 			var
 			pos = 12,
@@ -27,6 +29,9 @@ function constructor (id) {
 				},
 				'studyGroup' : {
 					widget : $$(getHtmlId('sgCombo'))
+				},
+				'course' : {
+					widget : $$(getHtmlId('courseCombo'))
 				}
 			};
 			
@@ -44,6 +49,10 @@ function constructor (id) {
 				this._init = true;
 				return;
 			}
+			else if(this.source && !this.source.getCurrentElement()){
+				return;
+			}
+			
 			if(typeof mappingObj != 'undefined'){
 				mappingObj.colorAttr = colorAttr;
 			}
@@ -51,18 +60,41 @@ function constructor (id) {
 			sources[getHtmlId('ttQueryStr')].sync();
 		}
 		
+		function initDataSources(initListeners){
+			for(var i = 0 , dataSource ; dataSource = localDSs[i] ; i++){
+				if(initListeners){
+					dataSource.all({
+						onSuccess: function(e){
+							e.dataSource.select(-1);
+						}
+					});
+				}
+				else{
+					dataSource.select(-1);
+				}
+			}
+		}
+		
 		selectQueryType('teacher');
+		initDataSources(true);
 	// @region namespaceDeclaration// @startlock
+	var courseCombo = {};	// @combobox
 	var combobox1 = {};	// @combobox
 	var button1 = {};	// @button
 	var ttQueryStrEvent = {};	// @dataSource
-	var textField1 = {};	// @textField
 	var sgCombo = {};	// @combobox
 	var classroomCombo = {};	// @combobox
 	var teacherCombo = {};	// @combobox
 	// @endregion// @endlock
 
 	// eventHandlers// @lock
+
+	courseCombo.change = function courseCombo_change (event)// @startlock
+	{// @endlock
+		if(this.getValue()){
+			initChangeEvent.call(this , 'course.ID = ' + this.getValue() , 'studyGroup.color' , true);
+		}
+	};// @lock
 
 	combobox1.change = function combobox1_change (event)// @startlock
 	{// @endlock
@@ -71,20 +103,18 @@ function constructor (id) {
 
 	button1.click = function button1_click (event)// @startlock
 	{// @endlock
-		$comp.sources.teacher.select(-1);
-		$comp.sources.classroom.select(-1);
-		$comp.sources.studyGroup.select(-1);
+		initDataSources(false);
 		initChangeEvent.call(this , '' , 'classroom.color');
 	};// @lock
 
 	ttQueryStrEvent.onAttributeChange = function ttQueryStrEvent_onAttributeChange (event)// @startlock
 	{// @endlock
-		sources.timeTable.query(window['ttQueryStr']);
-	};// @lock
-
-	textField1.change = function textField1_change (event)// @startlock
-	{// @endlock
-		initChangeEvent.call(this , this.getValue() , 'classroom.color');
+		var value = window['ttQueryStr'];
+		
+		if(value != this._oldValue){
+			sources.timeTable.query(value);
+		}
+		this._oldValue = value;
 	};// @lock
 
 	sgCombo.change = function sgCombo_change (event)// @startlock
@@ -109,10 +139,10 @@ function constructor (id) {
 	};// @lock
 
 	// @region eventManager// @startlock
+	WAF.addListener(this.id + "_courseCombo", "change", courseCombo.change, "WAF");
 	WAF.addListener(this.id + "_combobox1", "change", combobox1.change, "WAF");
 	WAF.addListener(this.id + "_button1", "click", button1.click, "WAF");
 	WAF.addListener(this.id + "_ttQueryStr", "onAttributeChange", ttQueryStrEvent.onAttributeChange, "WAF");
-	WAF.addListener(this.id + "_textField1", "change", textField1.change, "WAF");
 	WAF.addListener(this.id + "_sgCombo", "change", sgCombo.change, "WAF");
 	WAF.addListener(this.id + "_classroomCombo", "change", classroomCombo.change, "WAF");
 	WAF.addListener(this.id + "_teacherCombo", "change", teacherCombo.change, "WAF");

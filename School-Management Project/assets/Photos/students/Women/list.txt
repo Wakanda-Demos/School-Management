@@ -1,0 +1,14 @@
+firstname:lastname:login:password:birthday:address:phone:fax:avatar
+Doris:C. Smith:Hatilight:eew6xieNg:November 29, 1989: 2485 Black Stallion Road\nMt Sterling, KY 40353 :DorisCSmith@dayrep.com:859-498-3670:859-498-3670:Woman_001.jpg
+Muriel:M. Peralta:Doill1989:phae4EiS3:October 19, 1989: 1982 Brookview Drive\nBeaumont, TX 77701 :MurielMPeralta@armyspy.com:409-292-9010:409-292-9010:Woman_002.jpg
+Joyce:R. Perkins:Naters:Lamaibu7aiK:June 30, 1989: 3021 Broadcast Drive\nCharlotte, NC 28208 :JoyceRPerkins@teleworm.us:704-224-0007:704-224-0007:Woman_003.jpg
+Angelica:E. Rittenhouse:Matephy:esho7piCooL:May 18, 1989: 2315 Emeral Dreams Drive\nFreeport, IL 61032 :AngelicaERittenhouse@dayrep.com:815-235-9452:815-235-9452:Woman_004.jpg
+Maria:G. Parker:Buturears:haDai1ahw4ai:December 16, 1989: 3776 Randall Drive\nMoanalua, HI 96819 :MariaGParker@teleworm.us:808-836-3289:808-836-3289:Woman_005.jpg
+Shannon:H. Marks:Camapis:Meephiche6p:January 5, 1989: 3645 Deer Ridge Drive\nPiscataway, NJ 08854 :ShannonHMarks@armyspy.com:973-619-3680:973-619-3680:Woman_006.jpg
+Jacquelyn:T. Albert:Monts1989:uthiej5USh:April 9, 1989: 2168 Pin Oak Drive\nWhittier, CA 90606 :JacquelynTAlbert@teleworm.us:562-908-0607:562-908-0607:Woman_007.jpg
+Dorothy:L. Moody:Bectim1989:Lohkie2euch:May 7, 1989: 3466 My Drive\nLong Island City, NY 11101 :DorothyLMoody@armyspy.com:347-246-5731:347-246-5731:Woman_008.jpg
+Carol:W. James:Secianced:oopheiF2oh:May 13, 1989: 3461 Joy Lane\nBurbank, CA 91502 :CarolWJames@armyspy.com:818-524-4140:818-524-4140:Woman_009.jpg
+Betty:Y. Smith:Wough1989:eeXuiqu9w:September 23, 1989: 58 Earnhardt Drive\nLouisville, KY 40202 :BettyYSmith@teleworm.us:502-662-5467:502-662-5467:Woman_010.jpg
+Betty:Y. Smith:Wough1989:eeXuiqu9w:September 23, 1989: 58 Earnhardt Drive\nLouisville, KY 40202 :BettyYSmith@teleworm.us:502-662-5467:502-662-5467:Woman_011.jpg
+Beverly:D. Dowd:Worence:ieng3yiZ:February 25, 1989: 3100 Neville Street\nTerre Haute, IN 47802 :BeverlyDDowd@teleworm.us:812-605-9719:812-605-9719:Woman_012.jpg
+Jane:J. Shackelford:Rectores:eng5thaW0ie:January 5, 1989: 4285 Rockwell Lane\nRocky Mount, NC 27801 :JaneJShackelford@teleworm.us:252-602-5546:252-602-5546:Woman_013.jpg

@@ -12,12 +12,20 @@ function constructor (id) {
 
 	this.load = function (data) {// @lock
 		var
-		dataSource 	= sources.adminTeacher;
+		dataSource 	= sources.adminTeacher,
+		courseDS	= sources[getHtmlId('course')];
 		
 		getHtmlObj('container1').smSearch({
 			datasource: dataSource
 		});
+		
+		courseDS.all({
+			onSuccess: function(e){
+				e.dataSource.select(-1);
+			}
+		})
 	// @region namespaceDeclaration// @startlock
+	var button1 = {};	// @button
 	var combobox1 = {};	// @combobox
 	var image3 = {};	// @image
 	var container2 = {};	// @container
@@ -28,9 +36,18 @@ function constructor (id) {
 
 	// eventHandlers// @lock
 
+	button1.click = function button1_click (event)// @startlock
+	{// @endlock
+		courseDS.select(-1);
+		dataSource.all();
+	};// @lock
+
 	combobox1.change = function combobox1_change (event)// @startlock
 	{// @endlock
-		if(!this._inited){
+		if(!this.source.getCurrentElement()){
+			return false;
+		}
+		else if(!this._inited){
 			this._inited = true;
 			return false;
 		}
@@ -77,19 +94,29 @@ function constructor (id) {
 
 	matrix1.onChildrenDraw = function matrix1_onChildrenDraw (event)// @startlock
 	{// @endlock
-		var that = this;
-		dataSource.speciality.load({
-			onSuccess: function(e){
-				if(e.entity){
-					that.find('.color').css({
-						'background-color' : e.entity.color.getValue()
-					});
-				}
-			}
-		});
+		switch(true){
+			case dataSource.speciality instanceof WAF.DataSourceEmRelatedAttributeValue:
+				var that = this;
+				dataSource.speciality.load({
+					onSuccess: function(e){
+						if(e.entity){
+							that.find('.color').css({
+								'background-color' : e.entity.color.getValue()
+							});
+						}
+					}
+				});
+				break;
+			case dataSource.speciality instanceof WAF.Entity:
+				this.find('.color').css({
+					'background-color' : dataSource.speciality.color.getValue()
+				});
+				break;
+		}
 	};// @lock
 
 	// @region eventManager// @startlock
+	WAF.addListener(this.id + "_button1", "click", button1.click, "WAF");
 	WAF.addListener(this.id + "_combobox1", "change", combobox1.change, "WAF");
 	WAF.addListener(this.id + "_image3", "click", image3.click, "WAF");
 	WAF.addListener(this.id + "_container2", "click", container2.click, "WAF");

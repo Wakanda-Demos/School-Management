@@ -11,7 +11,15 @@ function constructor (id) {
 	// @endregion// @endlock
 
 	this.load = function (data) {// @lock
-
+	function format(number , size){
+		var res = number + '';
+		
+		while(res.length < size){
+			res = '0' + res;
+		}
+		
+		return res;
+	}
 	// @region namespaceDeclaration// @startlock
 	var timeTableEvent = {};	// @dataSource
 	// @endregion// @endlock
@@ -25,8 +33,8 @@ function constructor (id) {
 		end = this.endDate;
 		
 		timetable_time = {
-			start : begin ? begin.getHours() + ':' + begin.getMinutes() : '',
-			end : end ? end.getHours() + ':' + end.getMinutes() : ''
+			start : begin ? format(begin.getHours() , 2) + ':' + format(begin.getMinutes() , 2) : '',
+			end : end ? format(end.getHours() , 2) + ':' + format(end.getMinutes() , 2) : ''
 		}
 		
 		sources.timetable_time.sync();

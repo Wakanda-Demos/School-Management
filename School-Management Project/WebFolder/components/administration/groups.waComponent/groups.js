@@ -19,6 +19,8 @@ function constructor (id) {
 				attrName  : 'color'
 			}
 		});
+		
+		dg.source.all();
 	// @region namespaceDeclaration// @startlock
 	var studyGroupEvent = {};	// @dataSource
 	var container1 = {};	// @container

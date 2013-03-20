@@ -17,7 +17,7 @@ function constructor (id) {
 		'administrator': {
 			login	: 'administrator',
 			password: 'administrator'
-		}/*,
+		},
 		'teacher' : {
 			login	: 'teacher',
 			password: 'teacher'
@@ -25,7 +25,7 @@ function constructor (id) {
 		'student' : {
 			login	: 'student',
 			password: 'student'
-		}*/
+		}
 	}
 	// @region namespaceDeclaration// @startlock
 	var container1 = {};	// @container
@@ -40,9 +40,7 @@ function constructor (id) {
 		obj 	= loginMap[type];
 		
 		if(obj && waf.directory.loginByPassword(obj.login , obj.password)){
-			$$('login1').refresh();
-			sources.timeTable.all();
-			_ns.adminView.refreshMenues();
+			location.href = '/index/?view=agenda';
 		}
 	};// @lock
 

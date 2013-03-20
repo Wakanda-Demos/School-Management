@@ -12,6 +12,7 @@ function constructor (id) {
 
 	this.load = function (data) {// @lock
 		var
+		combo 	= $$(getHtmlId('combobox1')),
 		dataSource = sources.adminTeacher;
 	// @region namespaceDeclaration// @startlock
 	var container6 = {};	// @container
@@ -20,9 +21,47 @@ function constructor (id) {
 	// @endregion// @endlock
 
 	// eventHandlers// @lock
+	
+	if(dataSource.getCurrentElement() && dataSource.getCurrentElement().getKey()){
+		var
+		spec	= dataSource.getCurrentElement().speciality;
+		
+		switch(true){
+			case spec instanceof WAF.EntityAttributeRelated:
+				spec.load({
+					onSuccess: function(e){
+						spec = e.entity;
+					}
+				})
+				break;
+			case spec instanceof WAF.Entity:
+				break;
+		}
+		
+		if(combo.source.length == 0){
+			combo.source.all({
+				onSuccess: function(e){
+					if(spec){
+						e.dataSource.selectByKey(spec.getKey());
+					}
+					else{
+						e.dataSource.select(-1);
+					}
+				}
+			})
+		}
+		else if(spec){
+			combo.setValue(spec.getKey());
+		}
+		else{
+			combo.source.select(-1);
+		}
+	}
 
 	container6.click = function container6_click (event)// @startlock
 	{// @endlock
+		debugger;
+		dataSource.speciality.set(combo.source);
 		dataSource.save({
 			onSuccess: function(){
 				$$('mainDialog').closeDialog();
