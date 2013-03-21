@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow action="create" groupName="recordOfficer" groupID="65134A0A8B5A47EFB603E558E98F901B" resource="Model.Student" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="recordOfficer" groupID="65134A0A8B5A47EFB603E558E98F901B" resource="Model.Student" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="recordOfficer" groupID="65134A0A8B5A47EFB603E558E98F901B" resource="Model.Student" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.TimeTable" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.TimeTable" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.TimeTable" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Administrator" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.RecordOfficer" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="recordOfficer" groupID="65134A0A8B5A47EFB603E558E98F901B" resource="Model.RecordOfficer" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.RecordOfficer" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Classroom" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Classroom" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Classroom" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Course" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Course" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Course" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.StudyGroup" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.StudyGroup" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.StudyGroup" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="teacher" groupID="7E024569A3494BEEBD7C7F0A22E8FA15" resource="Model.CourseMaterial" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="teacher" groupID="7E024569A3494BEEBD7C7F0A22E8FA15" resource="Model.CourseMaterial" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="teacher" groupID="7E024569A3494BEEBD7C7F0A22E8FA15" resource="Model.CourseMaterial" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="superAdministrator" groupID="ACF03E629222472BAC663DDC1A631543" resource="Model.Administrator" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Administrator" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="superAdministrator" groupID="ACF03E629222472BAC663DDC1A631543" resource="Model.Administrator" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="recordOfficer" groupID="65134A0A8B5A47EFB603E558E98F901B" resource="Model.RecordOfficer" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="recordOfficer" groupID="65134A0A8B5A47EFB603E558E98F901B" resource="Model.Parent" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="recordOfficer" groupID="65134A0A8B5A47EFB603E558E98F901B" resource="Model.Parent" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="recordOfficer" groupID="65134A0A8B5A47EFB603E558E98F901B" resource="Model.Parent" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="loggedIn" groupID="617BAEC208FF475F997B79EAF58D6F81" resource="Model.Parent" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="loggedIn" groupID="617BAEC208FF475F997B79EAF58D6F81" resource="Model.Student" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="loggedIn" groupID="617BAEC208FF475F997B79EAF58D6F81" resource="Model.StudyGroup" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="loggedIn" groupID="617BAEC208FF475F997B79EAF58D6F81" resource="Model.CourseMaterial" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="loggedIn" groupID="617BAEC208FF475F997B79EAF58D6F81" resource="Model.Classroom" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="loggedIn" groupID="617BAEC208FF475F997B79EAF58D6F81" resource="Model.Course" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Teacher" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Teacher" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Teacher" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="loggedIn" groupID="617BAEC208FF475F997B79EAF58D6F81" resource="Model.Teacher" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="loggedIn" groupID="617BAEC208FF475F997B79EAF58D6F81" resource="Model.TimeTable" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Utils" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Utils" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Utils" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Utils" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="loggedIn" groupID="617BAEC208FF475F997B79EAF58D6F81" resource="Model.Vacancy" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Vacancy" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Vacancy" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Vacancy" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="loggedIn" groupID="617BAEC208FF475F997B79EAF58D6F81" resource="Model.Absence_Status" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="recordOfficer" groupID="65134A0A8B5A47EFB603E558E98F901B" resource="Model.Absence_Status" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="recordOfficer" groupID="65134A0A8B5A47EFB603E558E98F901B" resource="Model.Absence_Status" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="recordOfficer" groupID="65134A0A8B5A47EFB603E558E98F901B" resource="Model.Absence_Status" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="loggedIn" groupID="617BAEC208FF475F997B79EAF58D6F81" resource="Model.Attendance" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="teacher" groupID="7E024569A3494BEEBD7C7F0A22E8FA15" resource="Model.Attendance" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="teacher" groupID="7E024569A3494BEEBD7C7F0A22E8FA15" resource="Model.Attendance" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="teacher" groupID="7E024569A3494BEEBD7C7F0A22E8FA15" resource="Model.Attendance" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="read" groupName="loggedIn" groupID="617BAEC208FF475F997B79EAF58D6F81" resource="Model.Recurring" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Recurring" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Recurring" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Recurring" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="superAdministrator" groupID="ACF03E629222472BAC663DDC1A631543" resource="Model.School" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="superAdministrator" groupID="ACF03E629222472BAC663DDC1A631543" resource="Model.School" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="superAdministrator" groupID="ACF03E629222472BAC663DDC1A631543" resource="Model.School" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Agenda" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Agenda" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Agenda" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Academic_calendar" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Academic_calendar" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Academic_calendar" temporaryForcePermissions="false" type="dataClass"/>
+</permissions>

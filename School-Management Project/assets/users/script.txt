@@ -1,0 +1,99 @@
+link : http://www.fakenamegenerator.com/
+
+function formatNumber( number , size){
+	var res = number + "";
+	while(res.length < size){
+		res = '0' + res;
+	}
+	
+	return res;
+}
+
+function getUser(users , options){
+	var
+	fn		= $($('.content p').get(2)).find('strong').text(),
+	res 	= "",
+	extra	= $('.extra li'),
+	bday	= extra.get(11).innerHTML,
+	fullname= $('.address h3').text(),
+	address	= $('.address .adr').html();
+	
+	address = address.replace( /[\s\n\r]+/g, ' ' );
+	address = address.replace( /<br>/g, '\\n' );
+	
+	res += fn + ":" + fullname.replace(fn + ' ' , '') + ":";
+	res += extra.get(5).innerHTML + ":";
+	res += extra.get(7).innerHTML + ":";
+	res += bday.substr(0 , bday.indexOf('(') - 1) + ":";
+	res += address + ":";
+	res += extra.get(3).getElementsByClassName('value')[0].innerHTML + ":";
+	res += extra.get(1).getElementsByClassName('value')[0].innerHTML + ":";
+	res += extra.get(1).getElementsByClassName('value')[0].innerHTML + ":";
+	res += ($('.bcs img').attr('src').indexOf('female') < 0 ? "Man" : "Woman") + "_" + formatNumber(options.startFrom + users.length , options.formatTo) + ".jpg";
+
+	return res;
+}
+
+function myFunction(options){
+	
+    options = $.extend(true , {
+    	init : false,
+		displayUsers : false,
+		limit: 14,
+		startFrom: 1,
+		formatTo: 3,
+		form : {
+			gen : 100,
+			'age-max' : 50,
+			'age-min' : 24,
+			t : 'country',
+			n : ["us"],
+			c : ["us"]
+		}
+	} , options);
+	
+	function submitForm(){
+		for(var item in options.form){
+			if(options.form.hasOwnProperty(item)){
+				$('#' + item).val(options.form[item]);
+			}
+		}
+		$('#options').submit();
+	}
+	
+	if(options.init){
+		sessionStorage.users = '';
+		submitForm();
+    	return false;
+	}
+
+	var users;
+
+	if(!sessionStorage.users){
+		sessionStorage.users = "[]";
+	}
+
+	users = JSON.parse(sessionStorage.users);
+	
+	users.push(getUser(users , options));
+	
+	if(options.displayUsers || users.length >= options.limit){
+		for(var i = 0 , user ; user = users[i] ; i++){
+		    console.log(user);
+		}
+		
+		return false;
+	}
+	
+	sessionStorage.users = JSON.stringify(users);
+	submitForm();
+}
+
+$(function(){
+    myFunction({
+    	form : {
+           'age-max' : 20,
+    	   'age-min' : 24,
+        }
+    });
+});

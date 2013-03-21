@@ -1,0 +1,1 @@
+﻿/*** @author admin*/directory.setLoginListener("loginHandler");addHttpRequestHandler('/logmein' , 'scripts/handlersImpl.js' , 'loginMe');addHttpRequestHandler('/getCal' , 'scripts/handlersImpl.js' , 'exportCal');// Temporary handlers :addHttpRequestHandler('^/$' , 'scripts/handlersImpl.js' , 'index');
