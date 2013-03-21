@@ -1,1 +1,0 @@
-name:color[parseInt(Math.random()*colors.length)]1st grade2nd grade3rd grade4th grade5th grade
