@@ -1,5 +1,4 @@
-﻿var mappingObj;
-
+﻿
 WAF.onAfterInit = function onAfterInit() {// @lock
 	_ns.adminView.mapViewObj = {
 		'home' : {
@@ -13,19 +12,21 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 			tabID 	: 'agendaTab',
 			index 	: 2,
 			view 	: 'agenda',
-			allowedGroups	: ['loggedIn']
+			groups	: ['loggedIn']
 		},
 		'administration' : {
 			value 	: 'Administration',
 			tabID 	: 'adminTab',
 			index 	: 3,
 			view 	: 'administration',
-			allowedGroups	: ['administrator']
+			groups	: ['administrator']
 		}
 	}
 	
 	function setView(view){
 		var
+		mapObj			= _ns.adminView.mapViewObj,
+		groups			= mapObj[view].groups,
 		tabContainer 	= $$('tabContainer').$domNode,
 		tabWidget 		= $$('mainTab'),
 		mapObj 			= _ns.adminView.mapViewObj;
@@ -34,10 +35,12 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 			return false;
 		}
 		
-		if(mapObj[view].login){
-			if(!waf.directory.currentUserBelongsTo('administrator')){
-				location.href = '/logmein';
-				return false;
+		if(groups instanceof Array){
+			for(var i = 0 , g ; g = groups[i] ; i++){
+				if(!waf.directory.currentUserBelongsTo(g)){
+					setView('home');
+					return false;
+				}
 			}
 		}
 		
@@ -103,12 +106,12 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		for(attr in mapView){
 			if(mapView.hasOwnProperty(attr)){
 				var obj = mapView[attr];
-				if(obj.allowedGroups){
+				if(obj.groups){
 					$('#' + obj.tabID)
 					.unbind('click')
 					.addClass('disabled');
 					
-					for(var i = 0 , g ; g = obj.allowedGroups[i] ; i++){
+					for(var i = 0 , g ; g = obj.groups[i] ; i++){
 						if(waf.directory.currentUserBelongsTo(g)){
 							$('#' + obj.tabID)
 							.data('view' , obj.view)
@@ -135,6 +138,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	_ns.adminView.refreshMenues = refreshMenues;
 	_ns.adminView.openDialog 	= openDialog;
 	_ns.adminView.queryKey 		= _ns.parseUri(location.href).queryKey,
+	_ns.adminView.current		= {},
 	_ns.adminView.options		= $.extend(true , {
 		view 		: 'home',
 		calendar	: "week",

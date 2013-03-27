@@ -71,24 +71,25 @@ for(var i = 0 , fol1 ; fol1 = folders[i] ; i++){
 }
 
 var
-studyGroups = ds.StudyGroup.toArray('ID'),
-courses		= ds.Course.toArray('ID'),
-classrooms	= ds.Classroom.toArray('ID'),
-teachers	= ds.Teacher.toArray('ID');
+randomizer 	= new (require('utils').Randomizer)();
 
 ds.Teacher.forEach(function(entity){
-	entity.speciality = ds.Course(courses[parseInt(Math.random()*courses.length)]);
+	var course = ds.Course.find('$(this.teachers.length == 0)' , { allowJavascript: true });
+	if(!course){
+		course = randomizer.getRandom('Course');
+	}
+	entity.speciality = course;
 	entity.save();
 });
 
 ds.Student.forEach(function(entity){
-	entity.studyGroup = ds.StudyGroup(studyGroups[parseInt(Math.random()*studyGroups.length)]);
+	var sg = ds.StudyGroup.find('$(this.students.length == 0)' , { allowJavascript: true });
+	if(!sg){
+		sg = randomizer.getRandom('StudyGroup');
+	}
+	entity.studyGroup = sg;
 	entity.save();
 });
-
-Array.prototype.selectRandom = function randomInArray(){
-	return this[parseInt(Math.random()*this.length)];
-}
 
 ds.TimeTable.remove();
 
@@ -101,6 +102,16 @@ timeTableMeta	= {
     {
     	begin : {
     		hours : 7,
+    		minutes : 10
+    	},
+    	end	: {
+    		hours : 8,
+    		minutes : 0
+    	}
+    },
+    {
+    	begin : {
+    		hours : 8,
     		minutes : 10
     	},
     	end	: {
@@ -160,10 +171,10 @@ while(ds.TimeTable.count() < 40){
 	    var timeTable 		= new ds.TimeTable({
 	        beginDate	: beginDate,
 	        endDate		: endDate,
-	        studyGroup 	: studyGroups.selectRandom().ID,
-	        teacher 	: teachers.selectRandom().ID,
-	        classroom 	: classrooms.selectRandom().ID,
-	        course 		: courses.selectRandom().ID
+	        studyGroup 	: randomizer.getRandom('StudyGroup'),
+	        teacher 	: randomizer.getRandom('Teacher'),
+	        classroom 	: randomizer.getRandom('Classroom'),
+	        course 		: randomizer.getRandom('Course')
 	    })
 	    
 	    timeTable.save();

@@ -39,82 +39,6 @@ for(var i in util){
 util.save();
 
 ds.Log.clear();
-//ds.Log.disable();
-
-loginByPassword('super' , 'super');
-
-function randomStr(){
-    var
-    defaultConfig	= {
-        onlyNumbers	: false,
-        length		: 10,
-        chars		: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
-        spaceBetweenEach : 0
-    },
-    config 	= defaultConfig
-    res 	= "";
-	
-    if(arguments.length == 0){
-        config = defaultConfig;
-    }
-    else if(typeof arguments[0] == "number"){
-        config.length = arguments[0];
-		
-        config = __utils.extend(defaultConfig , arguments[1]);
-    }
-    else if(typeof arguments[0] == "object"){
-        config = __utils.extend(defaultConfig , arguments[0]);
-    }
-		
-    if(config.onlyNumbers){
-        config.chars = '1234567890';
-    }
-	
-    for(var i=0 ; i < config.length ; i++){
-        j = Math.floor(Math.random() * config.chars.length);
-        res += config.chars.charAt(j);
-    }
-	
-    return res;
-}
-
-function nextPerson(){
-    var
-    nextFn 	= fnStream.read('\n'),
-    city	= citiesStream.read('\n'),
-    ln		= lnStream.read('\r'),
-    fn 		= nextFn.split('\t')[0],
-    gender	= nextFn.split('\t')[1],
-    res 	= {},
-    randomIndex;
-	
-    res 	= {
-        login 		: fn + '.' + ln,
-        password	: "wakanda",
-        email		: fn.toLowerCase() + '.' + ln.toLowerCase() + '@wakanda.org',
-        address		: city,
-        phone		: '+33 1 6 ' + randomStr(6 , {
-            onlyNumbers : true,
-            spaceBetweenEach: 2
-        }),
-        fax			: '0' + randomStr(9 , {
-            onlyNumbers : true
-        }),
-        firstname	: ln,
-        lastname	: fn
-    };
-	
-    if(!parseInt(gender)){
-        randomIndex = parseInt(Math.random()*menPhotos.files.length);
-        res.avatar 	= loadImage(menPhotos.files[randomIndex]);
-    }
-    else{
-        randomIndex = parseInt(Math.random()*womenPhotos.files.length);
-        res.avatar 	= loadImage(womenPhotos.files[randomIndex]);
-    }
-	
-    return res;
-}
 
 // Clear all data
 for(var _i in ds.dataClasses){
@@ -139,14 +63,12 @@ while(!absStream.end()){
 //Generate the studyGroups
 for(var _i = 0 , sg ; sg = studyGroups[_i] ; _i++){
     var studyG = new ds.StudyGroup({
-        name: sg,
-        color: '#' + colors[parseInt(Math.random()*colors.length)]
+        name	: sg,
+        color 	: '#' + colors[_i%colors.length]
     });
     
     studyG.save();
 }
-
-studyGroups	= ds.StudyGroup.toArray('ID');
 
 // Generate the course
 for(var _i = 0 , c ; c = courses[_i] ; _i++){
@@ -155,26 +77,18 @@ for(var _i = 0 , c ; c = courses[_i] ; _i++){
         name		: c,
         description	: 'Description of the course : ' + c,
         summary		: 'The summary of the course : ' + c,
-        color: '#' + colors[parseInt(Math.random()*colors.length)]
+        color 		: '#' + colors[_i%colors.length]
     });
 	
     course.save();
-	
-    for(var _j = 0 ; _j < 5 ; _j++){
-        new ds.CourseMaterial({
-            course: course
-        }).save();
-    }
 }
 
 // Generate classrooms
 for(var _i = 0 , cr ; cr = classrooms[_i] ; _i++){
 	new ds.Classroom({
         name	: cr,
-        color: '#' + colors[parseInt(Math.random()*colors.length)]
+        color 	: '#' + colors[_i%colors.length]
     }).save();
 }
 
 absStream.close();
-
-ds.StudyGroup.all();
