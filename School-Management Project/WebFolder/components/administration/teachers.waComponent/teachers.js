@@ -32,7 +32,6 @@ function constructor (id) {
 	var container4 = {};	// @container
 	var button1 = {};	// @button
 	var combobox1 = {};	// @combobox
-	var image3 = {};	// @image
 	var container2 = {};	// @container
 	var image2 = {};	// @image
 	var matrix1 = {};	// @matrix
@@ -64,11 +63,6 @@ function constructor (id) {
 		dataSource.query('speciality.ID = ' + this.getValue());
 	};// @lock
 
-	image3.click = function image3_click (event)// @startlock
-	{// @endlock
-		location.href = 'mailto:' + dataSource.email;
-	};// @lock
-
 	container2.click = function container2_click (event)// @startlock
 	{// @endlock
 		dataSource.addNewElement();
@@ -97,6 +91,10 @@ function constructor (id) {
 
 	matrix1.onChildrenDraw = function matrix1_onChildrenDraw (event)// @startlock
 	{// @endlock
+		$(this)
+		.find('.waf-clone-component2_component1_image3 a')
+		.attr('href' , 'mailto:' + dataSource.email);
+		
 		switch(true){
 			case dataSource.speciality instanceof WAF.DataSourceEmRelatedAttributeValue:
 				var that = this;
@@ -122,7 +120,6 @@ function constructor (id) {
 	WAF.addListener(this.id + "_container4", "dblclick", container4.dblclick, "WAF");
 	WAF.addListener(this.id + "_button1", "click", button1.click, "WAF");
 	WAF.addListener(this.id + "_combobox1", "change", combobox1.change, "WAF");
-	WAF.addListener(this.id + "_image3", "click", image3.click, "WAF");
 	WAF.addListener(this.id + "_container2", "click", container2.click, "WAF");
 	WAF.addListener(this.id + "_image2", "click", image2.click, "WAF");
 	WAF.addListener(this.id + "_matrix1", "onChildrenDraw", matrix1.onChildrenDraw, "WAF");
