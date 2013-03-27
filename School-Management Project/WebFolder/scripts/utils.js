@@ -104,7 +104,10 @@ _ns = {
 		msg = "This version do not allows photo upload";
 		
 		if(dhtmlx.alert){
-			dhtmlx.alert(msg);
+			dhtmlx.alert({
+				id : 'uploadAlert',
+				text : msg
+			});
 		}
 		else{
 			alert(msg);

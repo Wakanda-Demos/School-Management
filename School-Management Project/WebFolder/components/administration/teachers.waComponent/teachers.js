@@ -23,18 +23,27 @@ function constructor (id) {
 			onSuccess: function(e){
 				e.dataSource.select(-1);
 			}
-		})
+		});
+		
+		document.getElementById(getHtmlId('matrix1')).onselectstart = function(){
+			return false;
+		}
 	// @region namespaceDeclaration// @startlock
+	var container4 = {};	// @container
 	var button1 = {};	// @button
 	var combobox1 = {};	// @combobox
 	var image3 = {};	// @image
 	var container2 = {};	// @container
-	var container4 = {};	// @container
 	var image2 = {};	// @image
 	var matrix1 = {};	// @matrix
 	// @endregion// @endlock
 
 	// eventHandlers// @lock
+
+	container4.dblclick = function container4_dblclick (event)// @startlock
+	{// @endlock
+		_ns.adminView.openDialog('teacherDetails');
+	};// @lock
 
 	button1.click = function button1_click (event)// @startlock
 	{// @endlock
@@ -64,12 +73,6 @@ function constructor (id) {
 	{// @endlock
 		dataSource.addNewElement();
 		_ns.adminView.openDialog('teacherDetails')
-	};// @lock
-
-	container4.dblclick = function container4_dblclick (event)// @startlock
-	{// @endlock
-		_ns.adminView.openDialog('teacherDetails');
-		return false;
 	};// @lock
 
 	image2.click = function image2_click (event)// @startlock
@@ -116,11 +119,11 @@ function constructor (id) {
 	};// @lock
 
 	// @region eventManager// @startlock
+	WAF.addListener(this.id + "_container4", "dblclick", container4.dblclick, "WAF");
 	WAF.addListener(this.id + "_button1", "click", button1.click, "WAF");
 	WAF.addListener(this.id + "_combobox1", "change", combobox1.change, "WAF");
 	WAF.addListener(this.id + "_image3", "click", image3.click, "WAF");
 	WAF.addListener(this.id + "_container2", "click", container2.click, "WAF");
-	WAF.addListener(this.id + "_container4", "dblclick", container4.dblclick, "WAF");
 	WAF.addListener(this.id + "_image2", "click", image2.click, "WAF");
 	WAF.addListener(this.id + "_matrix1", "onChildrenDraw", matrix1.onChildrenDraw, "WAF");
 	// @endregion// @endlock

@@ -99,6 +99,7 @@ function constructor (id) {
 	}
 	
 	// @region namespaceDeclaration// @startlock
+	var adminStudentEvent = {};	// @dataSource
 	var button1 = {};	// @button
 	var container5 = {};	// @container
 	var container3 = {};	// @container
@@ -108,6 +109,12 @@ function constructor (id) {
 	// @endregion// @endlock
 
 	// eventHandlers// @lock
+
+	adminStudentEvent.onCollectionChange = function adminStudentEvent_onCollectionChange (event)// @startlock
+	{// @endlock
+		window[getHtmlId('nbStudents')] = this.length + ' student' + (this.length > 1 ? 's' : '');
+		sources[getHtmlId('nbStudents')].sync();
+	};// @lock
 
 	button1.click = function button1_click (event)// @startlock
 	{// @endlock
@@ -150,6 +157,7 @@ function constructor (id) {
 	};// @lock
 
 	// @region eventManager// @startlock
+	WAF.addListener("adminStudent", "onCollectionChange", adminStudentEvent.onCollectionChange, "WAF");
 	WAF.addListener(this.id + "_button1", "click", button1.click, "WAF");
 	WAF.addListener(this.id + "_container5", "click", container5.click, "WAF");
 	WAF.addListener(this.id + "_container3", "click", container3.click, "WAF");

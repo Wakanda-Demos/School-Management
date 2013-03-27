@@ -1,0 +1,1 @@
+﻿function List(){	this._list = [];}List.prototype.add = function(item){	this._list.push(item);}List.prototype.count = function(){	this._list.length;}List.prototype.get = function(index){	var result = null;    if (index < this.count()) {        result = this._list[index];    }    return result;}List.prototype.add = function(item){	this._list.push(item);}
