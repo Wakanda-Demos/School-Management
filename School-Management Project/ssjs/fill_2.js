@@ -32,7 +32,7 @@ for(var i = 0 , fol1 ; fol1 = folders[i] ; i++){
 			person 	= new dc(),
 			values	= line.split(':');
 			
-			if(line == 'break'){
+			if(line.trim() == 'break'){
 				break;
 			}
 			
