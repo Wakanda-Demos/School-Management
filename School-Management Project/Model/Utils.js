@@ -6,8 +6,9 @@
 
 (function(){
 	var
-	__Utils		= model.Utils 		= {},
-	__methods	= __Utils.methods 	= {};
+	__Utils			= model.Utils 		= {},
+	__methods		= __Utils.methods 	= {},
+	directoryROLES	= __myNameSpace.DirectoryROLES;
 	
 	__methods.toCamelCase = function(str){
 		return str.substring(0,1).toUpperCase() + str.substring(1);
@@ -125,7 +126,13 @@
 	__methods.switchTimeTables.scope = 'public';
 	
 	__methods.generateRandomData = function(){
+		var
+		curSession	= currentSession(),
+		promoteToken= curSession.promoteWith(directoryROLES.ADMINISTRATOR);
+		
 		importScripts('ssjs/fill_1.js' , 'ssjs/fill_2.js');
+		
+		curSession.unPromote(promoteToken);
 	}
 	__methods.generateRandomData.scope = 'public';
 })();

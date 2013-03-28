@@ -2,8 +2,6 @@ var
 folders		= Folder(getFolder('path') + 'assets/users').folders,
 dataClasses	= [ 'Teacher' , 'Student' , 'Administrator'	];
 
-loginByPassword('super' , 'super');
-
 for(var i = 0 , fol1 ; fol1 = folders[i] ; i++){
 	var
 	dc = ds[dataClasses[i]];
@@ -156,7 +154,7 @@ date.setDate(date.getDate() - date.getDay() + 1);
 date.setSeconds(0);
 date.setMilliseconds(0);
 
-while(ds.TimeTable.count() < 40){
+while(ds.TimeTable.count() < 50){
 	for(var i = 0 , seance ; seance = timeTableMeta.seances[i] ; i++){
 		var
 		beginDate = new Date(date),

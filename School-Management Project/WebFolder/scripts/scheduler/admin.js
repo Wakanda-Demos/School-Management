@@ -281,13 +281,17 @@
 	});
 	
 	scheduler.attachEvent("onEventChanged", function(event_id,event_object){
+		debugger;
 		var validation = validateEvent.call(this , event_object);
 		if(validation.valid && event_id.toString().indexOf('#') < 0){
 			var
 			res = ds.TimeTable.editItem(event_id , mappingObj.getObject(event_object));
 			
 			if(res && res.getKey){
-				scheduler.changeEventId(event_id , res.getKey());
+				if(event_id != res.getKey()){
+					scheduler.changeEventId(event_id , res.getKey());
+				}
+				
 				refreshFromEntity(res);
 			}
 		}
@@ -316,6 +320,7 @@
   	});
 	
 	scheduler.attachEvent("onEventSave",function(id,data,is_new_event){
+		debugger;
 		var validator = validateEvent.call(this , data);
 		return validator.valid;
 	});
