@@ -248,6 +248,12 @@
 						ev[dataS.mapAttr] = dsource.getCurrentElement().getKey();
 					}
 				}
+				
+				var
+				t = $$(rangeCompoID)._getSchedulerTime();
+				
+				ev.start_date 	= t.start_date;
+				ev.end_date		= t.end_date;
 			}
 		},
 		'time_range' : {
@@ -260,11 +266,7 @@
 				}
 			},
 			get_value:function(node,ev){
-				var
-				t = $$(node.id)._getSchedulerTime();
-				
-				ev.start_date 	= t.start_date;
-				ev.end_date		= t.end_date;
+				// have been done in the "timeTable_details" section !
 			}
 		}
 	});
@@ -281,7 +283,6 @@
 	});
 	
 	scheduler.attachEvent("onEventChanged", function(event_id,event_object){
-		debugger;
 		var validation = validateEvent.call(this , event_object);
 		if(validation.valid && event_id.toString().indexOf('#') < 0){
 			var
@@ -320,7 +321,6 @@
   	});
 	
 	scheduler.attachEvent("onEventSave",function(id,data,is_new_event){
-		debugger;
 		var validator = validateEvent.call(this , data);
 		return validator.valid;
 	});
