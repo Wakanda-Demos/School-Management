@@ -1,10 +1,24 @@
 var
-folders		= Folder(getFolder('path') + 'assets/users').folders,
-dataClasses	= [ 'Teacher' , 'Student' , 'Administrator'	];
+baseFolder	= Folder(getFolder('path') + 'assets/users'),
+mapClasses	= [
+{
+	dcName 	: 'Teacher',
+	folder	: 'teachers'
+},
+{
+	dcName 	: 'Student',
+	folder	: 'students'
+},
+{
+	dcName 	: 'Administrator',
+	folder	: 'administrators'
+}];
 
-for(var i = 0 , fol1 ; fol1 = folders[i] ; i++){
+for(var i = 0 , mapObj ; mapObj = mapClasses[i] ; i++){
 	var
-	dc = ds[dataClasses[i]];
+	fol1= Folder(baseFolder.path + mapObj.folder),
+	dc 	= ds[mapObj.dcName];
+	
 	if(!dc){
 		continue;
 	}
