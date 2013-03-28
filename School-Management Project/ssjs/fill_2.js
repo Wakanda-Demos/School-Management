@@ -51,6 +51,8 @@ for(var i = 0 , mapObj ; mapObj = mapClasses[i] ; i++){
 			}
 			
 			for(var k = 0 , attr ; attr = attrs[k] ; k++){
+				attr = attr.trim();
+				
 				if(!dc[attr]){
 					continue;
 				}
@@ -65,13 +67,13 @@ for(var i = 0 , mapObj ; mapObj = mapClasses[i] ; i++){
 						person[attr] = new Date(values[k]);
 						break;
 					case "image":
-						person[attr] = loadImage(fol2.path + values[k]);
+						person[attr] = loadImage(fol2.path + values[k].trim());
 						break;
 				}
 				
-				dc['gender'] = fol2.name == 'Men' ? true : false;
-				
 			}
+				
+			dc['gender'] = fol2.name == 'Men' ? true : false;
 			
 			try{
 				person.save();
