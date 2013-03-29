@@ -93,13 +93,13 @@ function constructor (id) {
 	{// @endlock
 		var that = this;
 		
-		this
+		$(this)
 		.find('.waf-clone-component2_component1_image3 a')
 		.attr('href' , 'mailto:' + dataSource.email);
 		
 		dataSource.speciality.load({
 			onSuccess: function(e){
-				that.find('.color').css({
+				$(that).find('.color').css({
 					'background-color' : e.entity.color.getValue()
 				});
 			}

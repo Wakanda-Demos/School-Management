@@ -46,7 +46,6 @@ body#waf-body *{
 }
 .waf-combobox.waf-state-active{
  text-shadow:none;
- font-weight:700 !important;
 }
 
 .tabContainer.selected.waf-project-paramsTab .waf-widget.waf-richText {
