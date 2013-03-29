@@ -22,4 +22,4 @@ studio_log*
 bkpts.json
 # Wakanda backup
 *.waBackup
-
+breakpoints.json
