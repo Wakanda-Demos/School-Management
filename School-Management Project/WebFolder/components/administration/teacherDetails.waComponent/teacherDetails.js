@@ -60,7 +60,6 @@ function constructor (id) {
 
 	container6.click = function container6_click (event)// @startlock
 	{// @endlock
-		debugger;
 		dataSource.speciality.set(combo.source);
 		dataSource.save({
 			onSuccess: function(){
