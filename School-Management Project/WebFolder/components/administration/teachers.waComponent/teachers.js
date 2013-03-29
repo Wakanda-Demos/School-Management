@@ -91,29 +91,19 @@ function constructor (id) {
 
 	matrix1.onChildrenDraw = function matrix1_onChildrenDraw (event)// @startlock
 	{// @endlock
-		$(this)
+		var that = this;
+		
+		this
 		.find('.waf-clone-component2_component1_image3 a')
 		.attr('href' , 'mailto:' + dataSource.email);
 		
-		switch(true){
-			case dataSource.speciality instanceof WAF.DataSourceEmRelatedAttributeValue:
-				var that = this;
-				dataSource.speciality.load({
-					onSuccess: function(e){
-						if(e.entity){
-							$(that).find('.color').css({
-								'background-color' : e.entity.color.getValue()
-							});
-						}
-					}
+		dataSource.speciality.load({
+			onSuccess: function(e){
+				that.find('.color').css({
+					'background-color' : e.entity.color.getValue()
 				});
-				break;
-			case dataSource.speciality instanceof WAF.Entity:
-				this.find('.color').css({
-					'background-color' : dataSource.speciality.color.getValue()
-				});
-				break;
-		}
+			}
+		});
 	};// @lock
 
 	// @region eventManager// @startlock
