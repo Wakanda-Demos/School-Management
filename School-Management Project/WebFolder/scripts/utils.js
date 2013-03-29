@@ -84,19 +84,7 @@ _ns = {
 	        return;
 	    }
 		
-	    that.getDataClass().getEntity( key , {
-	        onSuccess: function(e){
-	            var
-	            attributes	= that.getDataClass().getAttributes(),
-	            entity 	= e.entity;
-				
-	            for(var i = 0 , attr ; attr = attributes[i] ; i++){
-	                that[attr.name] = entity[attr.name].getValue();
-	            }
-				
-	            that.autoDispatch();
-	        }
-	    });
+	    that.serverRefresh({forceReload : true});
 	}
 	
 	WAF.widget.FileUpload.prototype._sendFiles = function(){
