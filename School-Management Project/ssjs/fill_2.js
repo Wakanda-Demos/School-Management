@@ -115,6 +115,16 @@ timeTableMeta	= {
     seances		: [
     {
     	begin : {
+    		hours : 6,
+    		minutes : 10
+    	},
+    	end	: {
+    		hours : 7,
+    		minutes : 0
+    	}
+    },
+    {
+    	begin : {
     		hours : 7,
     		minutes : 10
     	},
@@ -150,16 +160,6 @@ timeTableMeta	= {
     	},
     	end	: {
     		hours : 11,
-    		minutes : 0
-    	}
-    },
-    {
-    	begin : {
-    		hours : 11,
-    		minutes : 10
-    	},
-    	end	: {
-    		hours : 12,
     		minutes : 0
     	}
     }],
