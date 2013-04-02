@@ -29,42 +29,42 @@
 		{
 			selector: '#timeRangeDetails_textField1',//start_date
 			rule	: 'notEmpty',
-			message	: 'Start date is mondatory',
+			message	: 'Start date is mandatory',
 			attr	: 'start_date',
 			code	: '001'
 		},
 		{
 			selector: '#timeRangeDetails_textField2',//end_date
 			rule	: 'notEmpty',
-			message	: 'Start date is mondatory',
+			message	: 'Start date is mandatory',
 			attr	: 'end_date',
 			code	: '002'
 		},
 		{
 			selector: '#timeTableDetails_combobox1', //classroom
 			rule	: 'notEmpty',
-			message	: 'Classroom is mondatory',
+			message	: 'Classroom is mandatory',
 			attr	: 'classroomID',
 			code	: '001'
 		},
 		{
 			selector: '#timeTableDetails_combobox2', // Course
 			rule	: 'notEmpty',
-			message	: 'Course is mondatory',
+			message	: 'Course is mandatory',
 			attr	: 'courseID',
 			code	: '003'
 		},
 		{
 			selector: '#timeTableDetails_combobox3', // StudyGroup
 			rule	: 'notEmpty',
-			message	: 'The group is mondatory',
+			message	: 'The group is mandatory',
 			attr	: 'studyGroupID',
 			code	: '004'
 		},
 		{
 			selector: '#waf-temp-container-timeTableDetails_matrix1', // Teacher
 			rule	: 'notEmpty',
-			message	: 'The teacher is mondatory',
+			message	: 'The teacher is mandatory',
 			attr	: 'teacherID',
 			code	: '005'
 		}
@@ -98,7 +98,7 @@
 			res.valid = false;
 			refreshEvent.call(that, event_object.id);
 			res.errors.push({
-				message : 'You can not add this course to this day!',
+				message : 'You cannot add this course to this day.',
 				errorCode: '007'
 			});
 		}
@@ -375,6 +375,8 @@
   		ttDSection	= scheduler.formSection('timeTableDetails'),
   		rSection	= scheduler.formSection('recurring');
   		
+  		$(rSection.node).find('input[name=date_of_end]').datepicker({changeMonth: true, changeYear: true});
+  		
   		$(trSection.header).hide();
   		$(tSection.node).parent().hide();
   		$(ttDSection.header).hide().parent().css({'background-color' : 'rgb(234, 233, 233)'});
@@ -422,6 +424,38 @@
 		});
 		
 		return true;
+	}
+	
+	var
+	labelChanges = [
+		{
+			oldVal	: 'value="1" />day',
+			newVal	: 'value="1" />day(s)'
+		},
+		{
+			oldVal	: 'value="1" />month',
+			newVal	: 'value="1" />month(s)'
+		},
+		{
+			oldVal	: 'Every workday',
+			newVal	: 'Every weekday'
+		},
+		{
+			oldVal	: 'week next days:',
+			newVal	: 'week(s) on:'
+		},
+		{
+			oldVal	: 'day every',
+			newVal	: 'day(s) every'
+		},
+		{
+			oldVal	: 'occurrences',
+			newVal	: 'occurrence(s)'
+		}
+	]
+	
+	for(var i = 0 , ch ; ch = labelChanges[i] ; i++){
+		scheduler.__recurring_template = scheduler.__recurring_template.replace(new RegExp(ch.oldVal , 'g') , ch.newVal);
 	}
   	
   	$('#' + containerID).addClass('dhx_cal_container calendar');

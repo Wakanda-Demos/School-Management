@@ -48,6 +48,7 @@ function constructor (id) {
 	{// @endlock
 		courseDS.select(-1);
 		dataSource.all();
+		getHtmlObj('container1').smSearch('clear')
 	};// @lock
 
 	combobox1.change = function combobox1_change (event)// @startlock
@@ -71,7 +72,7 @@ function constructor (id) {
 
 	image2.click = function image2_click (event)// @startlock
 	{// @endlock
-		var msg = 'Do you want to delete this teacher ?';
+		var msg = 'Are you sure you want to delete this teacher?';
 		
 		if(dhtmlx.confirm){
 			dhtmlx.confirm({

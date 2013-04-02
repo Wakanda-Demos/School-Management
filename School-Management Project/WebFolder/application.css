@@ -15,6 +15,14 @@ body#waf-body *{
 	height:100%;
 }
 
+.waf-dataGrid-body{
+	overflow-x: hidden;
+}
+
+.ui-widget{
+	font-size: 0.7em;
+}
+
 .waf-combobox-list .ui-menu-item a.ui-state-hover {
  background-image:none;
  background-color:rgb(152, 200, 255);
@@ -380,7 +388,7 @@ div.dhx_menu_head {
 	border-width: 0px;
 }
 select:not(.ui-datepicker-month):not(.ui-datepicker-year){
-	width: 90px;
+	width: 117px;
 	height: 33px;
 	border: 1px rgb(223, 223, 223) solid;
 	border-radius: 4px;
@@ -397,6 +405,10 @@ select:not(.ui-datepicker-month):not(.ui-datepicker-year){
 	font-weight:300;
 	font-size:15px;
 	color:rgb(103,103,103);
+}
+
+.dhx_repeat_right{
+	width:162px;
 }
 .dhx_form_repeat input[type=text]{
 	height:29px;

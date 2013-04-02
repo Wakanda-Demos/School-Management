@@ -17,7 +17,8 @@ function constructor (id) {
 		insertColPicker(dg , true , {
 			colPOptions: {
 				attrName  : 'color'
-			}
+			},
+			confirm : 'Are you sure you want to delete this class?'
 		});
 		
 		dg.source.all();

@@ -89,7 +89,7 @@ _ns = {
 	
 	WAF.widget.FileUpload.prototype._sendFiles = function(){
 		var
-		msg = "This version do not allows photo upload";
+		msg = "This version does not allow you to upload a photo.";
 		
 		if(dhtmlx.alert){
 			dhtmlx.alert({
@@ -171,12 +171,12 @@ _ns = {
 				form 		= $('<form>').appendTo(element),
 				field		= $('<input>').appendTo(form).addClass('field'),
 				delBtn		= $('<div>').appendTo(form).addClass('delete'),
-				span		= $('<span>').html('x').appendTo(delBtn),
-				submitBtn	= $('<button type="submit"></button>').appendTo(element);
+				span		= $('<span>').html('x').appendTo(delBtn)/*,
+				submitBtn	= $('<button type="submit"></button>').appendTo(element)*/;
 				
-				submitBtn.css({
-					width: h
-				});
+//				submitBtn.css({
+//					width: h
+//				});
 				
 				form.css({
 					width: w-h-10
