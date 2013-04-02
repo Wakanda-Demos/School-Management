@@ -222,11 +222,13 @@ div.dhx_menu_head {
 	background-color:#54a4ff;
 	color:white;
 	text-shadow:none;
+	font-weight: normal;
 }
 
 .dhx_cal_tab,
 .dhx_cal_today_button{
 	height:33px;
+	font-weight: normal;
 }
 
 .dhx_scale_hour{

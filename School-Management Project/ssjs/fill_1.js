@@ -25,7 +25,7 @@ colors			= [
 ];
 
 var
-courses 	= [ 'Geography', 'physics', 'Physical Education', 'Theater', 'Cooking', 'General Science', 'Mathematics', 'English' , 'French' , 'Latin' , 'Biology' , 'History' , 'Chemistry' , 'Economics' , 'Linguistics'],
+courses 	= [ 'Geography', 'Physics', 'Physical Education', 'Theater', 'Cooking', 'General Science', 'Mathematics', 'English' , 'French' , 'Latin' , 'Biology' , 'History' , 'Chemistry' , 'Economics' , 'Linguistics'],
 classrooms	= [ 'C101', 'C102', 'C103', 'C104', 'C105',  'C201', 'C202', 'C203', 'C204', 'C205', 'C301', 'C302', 'C303', 'C304', 'C305'],
 studyGroups	= [ '1st grade' , '2nd grade' , '3rd grade' , '4th grade' , '5th grade'];
 
