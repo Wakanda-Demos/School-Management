@@ -16,7 +16,8 @@ function constructor (id) {
 		insertColPicker(dg , true , {
 			colPOptions: {
 				attrName  : 'color'
-			}
+			},
+			confirm : 'Do you want to remove this classroom?'
 		});
 	// @region namespaceDeclaration// @startlock
 	var container1 = {};	// @container

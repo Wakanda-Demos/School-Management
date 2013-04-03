@@ -6,6 +6,33 @@ body#waf-body *{
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
+.ui-rangeSlider-label{
+	top:0px;
+	bottom:auto !important;
+}
+
+.ui-rangeSlider-container{
+	margin: 37px 15px !important;
+}
+
+.ui-rangeSlider-arrow{
+	margin-top:37px;
+}
+
+.ui-rangeSlider-label{
+	font-size:12px !important;
+}
+
+.ui-rangeSlider-container,
+.ui-rangeSlider-arrow{
+	height: 15px !important;
+}
+
+.ui-rangeSlider-bar{
+	height: 14px !important;
+}
+
+
 .isLink{
 	cursor:pointer;
 }
@@ -140,7 +167,7 @@ div.dhx_menu_head {
     line-height:100%;
     text-indent:10px; 
     font-family:arial, sans-serif; 
-    font-size:1em; 
+    font-size: 14px;
     color:#333; 
     border:none; 
     margin: 1px;

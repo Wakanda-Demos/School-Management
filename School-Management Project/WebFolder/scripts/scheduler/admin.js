@@ -57,7 +57,7 @@
 		{
 			selector: '#timeTableDetails_combobox3', // StudyGroup
 			rule	: 'notEmpty',
-			message	: 'The group is mandatory',
+			message	: 'The grade is mandatory',
 			attr	: 'studyGroupID',
 			code	: '004'
 		},
@@ -178,21 +178,33 @@
 			}
 		}
 	}
+	// DEPRECATED
+//	function fixTimeRange(ev_object){
+//		var
+//		begin 		= ev_object.start_date,
+//		end 		= ev_object.end_date,
+//		beginStr 	= begin.getHours(),
+//		endStr 		= end.getHours();
+//		
+//		beginStr 	= (beginStr > 12 ? beginStr - 12 : beginStr) + ':' + begin.getMinutes() + (beginStr <= 12 ? 'am' : 'pm');
+//		endStr 		= (endStr > 12 ? endStr - 12 : endStr) + ':' + end.getMinutes() + (endStr <= 12 ? 'am' : 'pm');
+//		
+//		$$(rangeCompoID)._setTime({
+//		    date	: begin,
+//		    begin	: beginStr,
+//		    end 	: endStr
+//		});
+//	}
 	
-	function fixeTimeRange(ev_object){
+	function fixTimeRange(ev_object){
 		var
-		begin 		= ev_object.start_date,
-		end 		= ev_object.end_date,
-		beginStr 	= begin.getHours(),
-		endStr 		= end.getHours();
-		
-		beginStr 	= (beginStr > 12 ? beginStr - 12 : beginStr) + ':' + begin.getMinutes() + (beginStr <= 12 ? 'am' : 'pm');
-		endStr 		= (endStr > 12 ? endStr - 12 : endStr) + ':' + end.getMinutes() + (endStr <= 12 ? 'am' : 'pm');
+		begin 	= ev_object.start_date,
+		end		= ev_object.end_date;
 		
 		$$(rangeCompoID)._setTime({
 		    date	: begin,
-		    begin	: beginStr,
-		    end 	: endStr
+		    begin	: begin.getHours()*60 + begin.getMinutes(),
+		    end 	: end.getHours()*60 + end.getMinutes()
 		});
 	}
 	
@@ -258,11 +270,11 @@
 		},
 		'time_range' : {
 			render:function(sns){
-				return '<div id="' + rangeCompoID + '" data-type="component" data-constraint-top="true" style="height:43px" data-constraint-left="true" class="waf-widget waf-component default inherited"></div>';
+				return '<div id="' + rangeCompoID + '" data-type="component" data-constraint-top="true" style="height:65px" data-constraint-left="true" class="waf-widget waf-component default inherited"></div>';
 			},
 			set_value:function(node,value,ev){
 				if($(node).children().length){
-					fixeTimeRange(ev);
+					fixTimeRange(ev);
 				}
 			},
 			get_value:function(node,ev){
@@ -355,14 +367,14 @@
 			});
 			
 			rangeWebCompo.loadComponent({
-				path: '/components/selectTime.waComponent',
+				path: "/components/selectTimeRange.waComponent",
 				onSuccess: function(){
 					scheduler.setLightboxSize();
 					
 					$$(this.id)._setMinTime(scheduler.config.first_hour*60);
 					$$(this.id)._setMaxTime(scheduler.config.last_hour*60);
 					
-  					fixeTimeRange(event_object);
+  					fixTimeRange(event_object);
 				}
 			});
   		}

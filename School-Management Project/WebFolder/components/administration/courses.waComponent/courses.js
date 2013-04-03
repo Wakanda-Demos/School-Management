@@ -17,7 +17,8 @@ function constructor (id) {
 		insertColPicker(dg , true , {
 			colPOptions: {
 				attrName  : 'color'
-			}
+			},
+			confirm : 'Do you want to remove this subject?'
 		});
 		
 		dg.source.all();

@@ -61,6 +61,7 @@ for(var i = 0 , mapObj ; mapObj = mapClasses[i] ; i++){
 				
 				switch(dc[attr].type){
 					case "string":
+					case "number":
 						person[attr] = values[k];
 						break;
 					case "date":

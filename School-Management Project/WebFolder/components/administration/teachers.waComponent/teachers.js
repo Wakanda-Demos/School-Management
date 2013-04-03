@@ -100,9 +100,11 @@ function constructor (id) {
 		
 		dataSource.speciality.load({
 			onSuccess: function(e){
-				$(that).find('.color').css({
-					'background-color' : e.entity.color.getValue()
-				});
+				if(e.entity){
+					$(that).find('.color').css({
+						'background-color' : e.entity.color.getValue()
+					});
+				}
 			}
 		});
 	};// @lock

@@ -70,7 +70,7 @@ function constructor (id) {
 		
 		col.buildFromSelection(sel, { onSuccess: function(ev){
 			selectedSts.setEntityCollection(ev.entityCollection);
-			debugger;
+			
 			switch(action){
 				case 'delete':
 					if(selectedSts.length < 1){
