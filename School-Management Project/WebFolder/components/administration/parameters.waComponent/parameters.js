@@ -22,6 +22,8 @@ function constructor (id) {
 		schoolSource 	= sources['school'],
 		agendaSource	= sources[getHtmlId('agenda0')];
 		
+		agendaSource._init = true;
+		
 		$tRange.css('overflow' , 'visible').rangeSlider({
 			bounds	:{min: 0, max: 24*60},
 			step	: 10,
@@ -34,6 +36,13 @@ function constructor (id) {
 			
 			agendaSource.from 	= adminV.formatTimeFromNumber(values.min);
 			agendaSource.to 	= adminV.formatTimeFromNumber(values.max);
+			
+			if(agendaSource._init){
+				delete agendaSource._init;
+			}
+			else{
+				agendaSource._touched = true;
+			}
 		});
 		
 	// @region namespaceDeclaration// @startlock
@@ -56,18 +65,41 @@ function constructor (id) {
 
 	saveAll.click = function saveAll_click (event)// @startlock
 	{// @endlock
-		var msg = "All changes have been saved";
+		var
+		alert		= true,
+		messages 	= ['All changes have been saved'],
+		options		= {};
 		
 		agendaSource.save({
-			onSuccess: function(){
+			onSuccess: function(e){
+				if(e.dataSource._touched){
+					delete e.dataSource._touched;
+					messages.push({
+						text: '(*) These settings will take effect when you refresh the Agenda page or when you log out and log back in.',
+						css : {
+							'color'		: 'red',
+							'font-size'	: 12
+						}
+					});
+					
+					messages.push('Would you like to reload the page?');
+					
+					options.type 	= 'dialog-reload';
+					alert			= false;
+					options.callback = function(ok){
+						if(ok){
+							location.reload();
+						}
+					}
+				}
+				
 				schoolSource.save({
 					onSuccess: function(){
-						if(dhtmlx.alert){
-							dhtmlx.alert(msg)
-						}
-						else{
-							alert(msg);
-						}
+						adminV.displayMessage({
+							messages	: messages,
+							options		: options,
+							alert		: alert
+						});
 					}
 				});
 			}

@@ -38,6 +38,9 @@ body#waf-body *{
 	height: 12px !important;
 }
 
+.dhtmlx-dialog-reload{
+	width : 553px;
+}
 
 .isLink{
 	cursor:pointer;

@@ -31,6 +31,73 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		return str;
 	}
 	
+	function displayMessage(config){
+		var
+		type,
+		dhtml 	= typeof dhtmlx != 'undefined',
+		br 		= dhtml ? '<br/>' : '\n',
+		msg 	= '';
+		
+		config = $.extend(true , {
+			type 	: 'alert',
+			alert	: true,
+			messages: [],
+			options	: {
+				callback : function(){
+					
+				}
+			}
+		} , config);
+		
+		type = config.alert ? 'alert' : 'confirm'
+		
+		for(var i = 0 , message ; message = config.messages[i] ; i++){
+			msg += br;
+			
+			switch(typeof message){
+				case 'string':
+					msg += message;
+					break;
+				case 'object':
+					message = $.extend(true , {
+						tag	: 'span',
+						text: '',
+						css : {},
+						attr: {}
+					} , message);
+					
+					if(dhtml){
+						var
+						html = document.createElement('span');
+						
+						$(html)
+						.css(message.css)
+						.attr(message.attr)
+						.text(message.text);
+						
+						msg += html.outerHTML;
+					}
+					else{
+						msg += message.text;
+					}
+					
+					break;
+			}
+		}
+		
+		if(dhtml){
+			var
+			options = config.options;
+			
+			options.text = msg;
+			
+			dhtmlx[type](options);
+		}
+		else{
+			config.options.callback(window[type](msg));
+		}
+	}
+	
 	function formatTimeFromNumber(val){
 		var
 		nbMinutes	= val%60
@@ -171,6 +238,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	_ns.adminView.openDialog 		= openDialog;
 	_ns.adminView.queryKey 			= _ns.parseUri(location.href).queryKey,
 	_ns.adminView.current			= {},
+	_ns.adminView.displayMessage	= displayMessage,
 	_ns.adminView.getDateFromMinutes= getDateFromMinutes;
 	_ns.adminView.formatNumber		= formatNumber;
 	_ns.adminView.formatTimeFromNumber = formatTimeFromNumber;
