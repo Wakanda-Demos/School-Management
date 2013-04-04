@@ -40,7 +40,7 @@ function constructor (id) {
 
 	courseEvent.onCollectionChange = function courseEvent_onCollectionChange (event)// @startlock
 	{// @endlock
-		window[getHtmlId('nbCourses')] = this.length + ' course' + (this.length > 1 ? 's' : '');
+		window[getHtmlId('nbCourses')] = this.length + ' subject' + (this.length > 1 ? 's' : '');
 		sources[getHtmlId('nbCourses')].sync();
 	};// @lock
 

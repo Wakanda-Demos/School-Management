@@ -308,6 +308,17 @@
 				refreshFromEntity(res);
 			}
 		}
+		
+		else if(!validation.valid){
+			ds.TimeTable.getEntity(event_id , {
+				forceReload : true,
+				onSuccess: function(e){
+					if(e.entity){
+						refreshFromEntity(e.entity);
+					}
+				}
+			})
+		}
   	});
   	
   	scheduler.attachEvent("onBeforeEventDelete", function(event_id,event_object){

@@ -100,6 +100,8 @@ function constructor (id) {
 							options		: options,
 							alert		: alert
 						});
+						
+						scheduler.refreshSchoolConfig();
 					}
 				});
 			}
