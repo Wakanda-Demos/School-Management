@@ -116,52 +116,62 @@ timeTableMeta	= {
     seances		: [
     {
     	begin : {
-    		hours : 6,
-    		minutes : 10
-    	},
-    	end	: {
     		hours : 7,
     		minutes : 0
-    	}
-    },
-    {
-    	begin : {
-    		hours : 7,
-    		minutes : 10
     	},
     	end	: {
     		hours : 8,
-    		minutes : 0
-    	}
-    },
-    {
-    	begin : {
-    		hours : 8,
-    		minutes : 10
-    	},
-    	end	: {
-    		hours : 9,
-    		minutes : 0
+    		minutes : 45
     	}
     },
     {
     	begin : {
     		hours : 9,
-    		minutes : 10
+    		minutes : 0
     	},
     	end	: {
     		hours : 10,
-    		minutes : 0
+    		minutes : 45
     	}
     },
     {
     	begin : {
-    		hours : 10,
-    		minutes : 10
-    	},
-    	end	: {
     		hours : 11,
     		minutes : 0
+    	},
+    	end	: {
+    		hours : 12,
+    		minutes : 45
+    	}
+    },
+    {
+    	begin : {
+    		hours : 13,
+    		minutes : 0
+    	},
+    	end	: {
+    		hours : 14,
+    		minutes : 45
+    	}
+    },
+    {
+    	begin : {
+    		hours : 15,
+    		minutes : 0
+    	},
+    	end	: {
+    		hours : 16,
+    		minutes : 45
+    	}
+    },
+    {
+    	begin : {
+    		hours : 17,
+    		minutes : 0
+    	},
+    	end	: {
+    		hours : 18,
+    		minutes : 45
     	}
     }],
     workingDays		: agenda.getWorkingDays()

@@ -23,13 +23,19 @@ body#waf-body *{
 	font-size:12px !important;
 }
 
+.ui-rangeSlider-arrow-inner{
+	border-width:8px !important;
+	margin-top:-9px !important;
+	margin-left:-7px !important;
+}
+
 .ui-rangeSlider-container,
 .ui-rangeSlider-arrow{
 	height: 15px !important;
 }
 
 .ui-rangeSlider-bar{
-	height: 14px !important;
+	height: 12px !important;
 }
 
 

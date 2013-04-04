@@ -13,26 +13,8 @@ function constructor (id) {
 	var
 	config 	= ds.School.getSchedulerConfig(),
 	min		= config.first_hour*60,
-	max		= config.last_hour*60;
-	
-	function format(str , nb){
-		while(str.length < nb){
-			str = '0' + str;
-		}
-		
-		return str;
-	}
-	
-	function getDate(baseDate , nb){
-		var
-		nbM = nb%60;
-		nbH = (nb - nbM)/60;
-		
-		baseDate.setHours(nbH);
-		baseDate.setMinutes(nbM);
-		
-		return new Date(baseDate);
-	}
+	max		= config.last_hour*60,
+	adminV 	= _ns.adminView;
 	
 	this.load = function (data) {// @lock
 		var
@@ -77,8 +59,8 @@ function constructor (id) {
 			range 	= $tRange.rangeSlider("values");
 			
 			return {
-	    		start_date 	: getDate($date.datepicker("getDate") , range.min),
-	    		end_date 	: getDate($date.datepicker("getDate") , range.max)
+	    		start_date 	: adminV.getDateFromMinutes($date.datepicker("getDate") , range.min),
+	    		end_date 	: adminV.getDateFromMinutes($date.datepicker("getDate") , range.max)
 	    	};
 	    }
 	    
@@ -90,8 +72,6 @@ function constructor (id) {
 	    $tRange.css('overflow' , 'visible').rangeSlider({
 			bounds	:{min: min, max: max},
 			step	: 5,
-			min	: 0,
-			max	: 100,
 			formatter:function(val){
 				var
 				nbMinutes	= val%60
@@ -102,7 +82,7 @@ function constructor (id) {
 					nbHours -= 12;
 				}
 
-				return format(nbHours + '' , 2) + ':' + format(nbMinutes + '' , 2) + ' ' + (pm ? 'PM' : 'AM');
+				return adminV.formatNumber(nbHours + '' , 2) + ':' + adminV.formatNumber(nbMinutes + '' , 2) + ' ' + (pm ? 'PM' : 'AM');
 			}
 		});
 	
