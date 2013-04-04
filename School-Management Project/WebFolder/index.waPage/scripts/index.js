@@ -31,6 +31,19 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		return str;
 	}
 	
+	function formatTimeFromNumber(val){
+		var
+		nbMinutes	= val%60
+		nbHours 	= (val - nbMinutes)/60,
+		pm			= nbHours > 12;
+
+		if(pm){
+			nbHours -= 12;
+		}
+
+		return nbHours + ':' + formatNumber(nbMinutes + '' , 2) + ' ' + (pm ? 'PM' : 'AM');
+	}
+	
 	function getDateFromMinutes(baseDate , nb){
 		var
 		nbM = nb%60;
@@ -160,6 +173,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	_ns.adminView.current			= {},
 	_ns.adminView.getDateFromMinutes= getDateFromMinutes;
 	_ns.adminView.formatNumber		= formatNumber;
+	_ns.adminView.formatTimeFromNumber = formatTimeFromNumber;
 	_ns.adminView.options			= $.extend(true , {
 		view 		: 'home',
 		calendar	: "week",

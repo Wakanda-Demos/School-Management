@@ -26,24 +26,14 @@ function constructor (id) {
 			bounds	:{min: 0, max: 24*60},
 			step	: 10,
 			formatter:function(val){
-				var
-				nbMinutes	= val%60,
-				nbHours 	= (val - nbMinutes)/60,
-				pm			= nbHours > 12;
-
-				if(pm){
-					nbHours -= 12;
-				}
-
-				return adminV.formatNumber(nbHours + '' , 2) + ':' + adminV.formatNumber(nbMinutes + '' , 2) + ' ' + (pm ? 'PM' : 'AM');
+				return adminV.formatTimeFromNumber(val);
 			}
 		}).on('valuesChanged' , function(e , data){
 			var
-			values		= data.values,
-			fFormatter	= $(this).rangeSlider('option' , 'formatter');
+			values	= data.values;
 			
-			agendaSource.from 	= fFormatter(values.min);
-			agendaSource.to 	= fFormatter(values.max);
+			agendaSource.from 	= adminV.formatTimeFromNumber(values.min);
+			agendaSource.to 	= adminV.formatTimeFromNumber(values.max);
 		});
 		
 	// @region namespaceDeclaration// @startlock

@@ -44,13 +44,12 @@ function constructor (id) {
 		
 		$comp._getTime = function(){
 			var
-			fFormatter	= $tRange.rangeSlider('option' , 'formatter'),
 			range 		= $tRange.rangeSlider("values");
 			
 	    	return {
 	    		date : $date.datepicker("getDate"),
-	    		begin: fFormatter.call($tRange , range.min),
-	    		end	 : fFormatter.call($tRange , range.max)
+	    		begin: adminV.formatTimeFromNumber(range.min),
+	    		end	 : adminV.formatTimeFromNumber(range.max)
 	    	};
 	    }
 	    
@@ -73,16 +72,7 @@ function constructor (id) {
 			bounds	:{min: min, max: max},
 			step	: 5,
 			formatter:function(val){
-				var
-				nbMinutes	= val%60
-				nbHours 	= (val - nbMinutes)/60,
-				pm			= nbHours > 12;
-
-				if(pm){
-					nbHours -= 12;
-				}
-
-				return adminV.formatNumber(nbHours + '' , 2) + ':' + adminV.formatNumber(nbMinutes + '' , 2) + ' ' + (pm ? 'PM' : 'AM');
+				return adminV.formatTimeFromNumber(val);
 			}
 		});
 	
