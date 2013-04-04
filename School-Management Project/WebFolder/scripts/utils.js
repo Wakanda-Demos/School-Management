@@ -307,6 +307,7 @@ _ns = {
 		this.map 			= {};
 		this.colorAttr		= null;
 		this.defaultColor 	= 'white';
+		this._offset		= new Date().getTimezoneOffset()/60;
 		
 		this.types = {
 			start_date: 'date',
@@ -338,9 +339,10 @@ _ns = {
 	Mapping.prototype.fixType = function(attrName , attrValue){
 		switch(this.types[attrName]){
 			case 'date':
-				var d = new Date(attrValue)
+				var d = new Date(attrValue);
+				
 				return d.getFullYear() + '-' + (d.getMonth() + 1 ) + '-' + 
-							d.getDate() + ' ' + d.getHours() + ':' + d.getMinutes() +
+							d.getDate() + ' ' + (d.getHours() + this._offset) + ':' + d.getMinutes() +
 							':' + d.getSeconds();
 			default:
 				return attrValue;
