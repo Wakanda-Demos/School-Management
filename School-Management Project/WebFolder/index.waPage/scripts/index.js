@@ -52,28 +52,75 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		type = config.alert ? 'alert' : 'confirm'
 		
 		for(var i = 0 , message ; message = config.messages[i] ; i++){
-			msg += br;
-			
 			switch(typeof message){
 				case 'string':
 					msg += message;
 					break;
 				case 'object':
 					message = $.extend(true , {
-						tag	: 'span',
-						text: '',
-						css : {},
-						attr: {}
+						tag			: 'span',
+						text		: '',
+						css 		: {},
+						attr		: {},
+						type 		: null,
+						addClass	: null,
+						icon		: null
 					} , message);
 					
 					if(dhtml){
 						var
-						html = document.createElement('span');
+						$msg 	= $(document.createElement(message.tag)),
+						html 	= document.createElement('div');
 						
-						$(html)
+						$msg
 						.css(message.css)
 						.attr(message.attr)
-						.text(message.text);
+						.text(message.text)
+						.addClass(message.addClass);
+						
+						switch(message.type){
+							case 'error':
+								message.icon = '/images/error.png';
+								$(html).css({
+									color	: '#b94a48'
+								});
+								break;
+							case 'warning':
+								message.icon = '/images/warning.png';
+								$(html).css({
+									color	: '#c09853'
+								});
+								break;
+							case 'info':
+								message.icon = '/images/info.png';
+								$(html).css({
+									color	: '#3a87ad'
+								});
+								break;
+						}
+						
+						if(message.icon){
+							var
+							$img = $('<img>');
+							
+							$img
+							.attr({
+								width : 20,
+								height: 19,
+								src	  : message.icon
+							})
+							.css({
+								'margin-right' : 8
+							});
+							
+							$(html)
+							.css({
+								'text-align' : 'left'
+							})
+							.append($img);
+						}
+						
+						$(html).append($msg);
 						
 						msg += html.outerHTML;
 					}
@@ -83,6 +130,8 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 					
 					break;
 			}
+			
+			msg += br;
 		}
 		
 		if(dhtml){
@@ -112,6 +161,10 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	}
 	
 	function getDateFromMinutes(baseDate , nb){
+		if(!baseDate){
+			return null;
+		}
+		
 		var
 		nbM = nb%60;
 		nbH = (nb - nbM)/60;

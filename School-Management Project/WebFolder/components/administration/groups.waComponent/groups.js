@@ -18,7 +18,7 @@ function constructor (id) {
 			colPOptions: {
 				attrName  : 'color'
 			},
-			confirm : 'Are you sure you want to delete this class?'
+			confirm : 'Are you sure you want to delete this grade?'
 		});
 		
 		dg.source.all();
@@ -31,7 +31,7 @@ function constructor (id) {
 
 	studyGroupEvent.onCollectionChange = function studyGroupEvent_onCollectionChange (event)// @startlock
 	{// @endlock
-		window[getHtmlId('nbGroups')] = this.length + ' group' + (this.length > 1 ? 's' : '');
+		window[getHtmlId('nbGroups')] = this.length + ' grade' + (this.length > 1 ? 's' : '');
 		sources[getHtmlId('nbGroups')].sync();
 	};// @lock
 

@@ -25,11 +25,11 @@ function constructor (id) {
 				widgetID : 'container3',
 				current : 'students'
 			},
-			'groups' : {
+			'grades' : {
 				widgetID : 'container4',
 				current : 'groups'
 			},
-			'courses' : {
+			'subjects' : {
 				widgetID : 'container5',
 				current : 'courses'
 			},
@@ -87,12 +87,12 @@ function constructor (id) {
 
 	container5.click = function container5_click (event)// @startlock
 	{// @endlock
-		setAdminTab('courses');
+		setAdminTab('subjects');
 	};// @lock
 
 	container4.click = function container4_click (event)// @startlock
 	{// @endlock
-		setAdminTab('groups');
+		setAdminTab('grades');
 	};// @lock
 
 	container3.click = function container3_click (event)// @startlock

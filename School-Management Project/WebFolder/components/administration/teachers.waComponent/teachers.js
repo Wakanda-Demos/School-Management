@@ -74,20 +74,21 @@ function constructor (id) {
 	{// @endlock
 		var msg = 'Are you sure you want to delete this teacher?';
 		
-		if(dhtmlx.confirm){
-			dhtmlx.confirm({
-				type:"confirm-warning",
-				text: msg,
-				callback: function(resp) {
-					if(resp){
-						dataSource.removeCurrent();
-					}
-				}
-			})
-		}
-		else if(confirm(msg)){
-			dataSource.removeCurrent();
-		}
+//		if(this._clickAdded){
+//			return false;
+//		}
+		
+		_ns.adminView.displayMessage({
+            messages	: [msg],
+            options	: {
+                callback : function(resp){
+                    if(resp){
+                        dataSource.removeCurrent();
+                    }
+                }
+            },
+            alert : false
+        });
 	};// @lock
 
 	matrix1.onChildrenDraw = function matrix1_onChildrenDraw (event)// @startlock

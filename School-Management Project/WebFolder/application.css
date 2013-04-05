@@ -42,6 +42,50 @@ body#waf-body *{
 	width : 553px;
 }
 
+/**
+ * Dhtmlx Alerts
+ **/
+ .dhtmlx-dialog-info .dhtmlx_popup_controls .dhtmlx_popup_button div,
+ .dhtmlx-dialog-error .dhtmlx_popup_controls .dhtmlx_popup_button div,
+ .dhtmlx-dialog-warning .dhtmlx_popup_controls .dhtmlx_popup_button div,
+ .dhtmlx-dialog-error .dhtmlx_popup_title,
+ .dhtmlx-dialog-warning .dhtmlx_popup_title,
+ .dhtmlx-dialog-info .dhtmlx_popup_title{
+ 	color:rgb(101, 101, 101);
+ 	text-shadow: none;
+ }
+ 
+ /************ Error dialog ************/
+.dhtmlx-dialog-error .dhtmlx_popup_title{
+	background : #f8d9cf;
+}
+ 
+.dhtmlx-dialog-error .dhtmlx_popup_controls .dhtmlx_popup_button,
+.dhtmlx-dialog-error .dhtmlx_popup_controls .dhtmlx_popup_button div{
+	background: #f8d9cf;
+	border-color: rgb(241, 204, 193);
+}
+ /************ Info dialog ************/
+.dhtmlx-dialog-info .dhtmlx_popup_title{
+	background : #cde0f1;
+}
+ 
+.dhtmlx-dialog-info .dhtmlx_popup_controls .dhtmlx_popup_button,
+.dhtmlx-dialog-info .dhtmlx_popup_controls .dhtmlx_popup_button div{
+	background : #cde0f1;
+	border-color: rgb(183, 209, 233);
+}
+ /********** Warning dialog **********/
+.dhtmlx-dialog-warning .dhtmlx_popup_title{
+	background : #f5e5b8;
+}
+ 
+.dhtmlx-dialog-warning .dhtmlx_popup_controls .dhtmlx_popup_button,
+.dhtmlx-dialog-warning .dhtmlx_popup_controls .dhtmlx_popup_button div{
+	background: rgb(240, 225, 185);
+	border-color: rgb(236, 214, 176);
+}
+
 .isLink{
 	cursor:pointer;
 }
@@ -272,7 +316,7 @@ div.dhx_menu_head {
 .dhx_cal_tab,
 .dhx_cal_today_button{
 	height:33px;
-	font-weight: normal;
+	font-weight: 300;
 }
 
 .dhx_scale_hour{
