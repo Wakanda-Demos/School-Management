@@ -27,7 +27,7 @@
             function updateTimeRange(){
                 $tRange.rangeSlider('values' , ((this.from_am ? 0 : 12) + this.from_hours)*60 + this.from_minutes , ((this.to_am ? 0 : 12) + this.to_hours)*60 + this.to_minutes);
             }
-		
+            
             $tRange.css('overflow' , 'visible').rangeSlider({
                 bounds	:{
                     min: 0, 
