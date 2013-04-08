@@ -507,8 +507,8 @@ _ns = {
 				var d = new Date(attrValue);
 				
 				return d.getFullYear() + '-' + (d.getMonth() + 1 ) + '-' + 
-							d.getDate() + ' ' + (d.getHours() + this._offset) + ':' + d.getMinutes() +
-							':' + d.getSeconds();
+						d.getDate() + ' ' + (d.getHours() + 2*this._offset) + ':' + d.getMinutes() +
+						':' + d.getSeconds();
 			default:
 				return attrValue;
 		}
