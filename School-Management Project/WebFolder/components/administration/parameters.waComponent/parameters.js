@@ -81,10 +81,10 @@
 		
                 agendaSource.save({
                     onSuccess: function(e){
+						msg.append('changes_saved');
+      
                         if(e.dataSource._touched){
                             delete e.dataSource._touched;
-					
-                            msg.append('changes_saved');
                             
                             msg.append( 'refresh_agenda' , {
                                 css : {
@@ -103,7 +103,7 @@
                                 }
                             }
                         }
-				
+                        
                         schoolSource.save({
                             onSuccess: function(){
                                 msg.display({
