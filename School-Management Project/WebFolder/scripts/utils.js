@@ -350,6 +350,10 @@ _ns = {
 	}
 	
 	Message.prototype.display = function (config){
+		if(!(config.messages && config.messages.length) && !this.getStack().length){
+			return;
+		}
+		
 		var
 		type,
 		dhtml 	= typeof dhtmlx != 'undefined',
@@ -359,7 +363,8 @@ _ns = {
 		config = $.extend(true , {
 			type 	: 'alert',
 			alert	: true,
-			messages: this.stack,
+			icons	: true,
+			messages: this.getStack(),
 			options	: {
 				callback : function(){
 					
@@ -417,7 +422,7 @@ _ns = {
 								break;
 						}
 						
-						if(message.icon){
+						if(message.icon && config.icons){
 							var
 							$img = $('<img>');
 							
