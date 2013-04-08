@@ -22,6 +22,63 @@ colors			= [
 	'2742b8',
 	'8d6675',
 	'b82760'
+],
+messages	= [
+	{
+		message : 'You cannot add this course to this day.',
+		key 	: 'prevent_add_course',
+		type 	: 'error'
+	},
+	{
+		message : 'Start date is mandatory',
+		key 	: 'sdate_mandatory',
+		type 	: 'error'
+	},
+	{
+		message : 'End date is mandatory',
+		key 	: 'edate_mandatory',
+		type 	: 'error'
+	},
+	{
+		message : 'Classroom is mandatory',
+		key 	: 'cr_mandatory',
+		type 	: 'error'
+	},
+	{
+		message : 'Course is mandatory',
+		key 	: 'course_mandatory',
+		type 	: 'error'
+	},
+	{
+		message : 'Grade is mandatory',
+		key 	: 'grade_mandatory',
+		type 	: 'error'
+	},
+	{
+		message : 'Teacher is mandatory',
+		key 	: 'teacher_mandatory',
+		type 	: 'error'
+	},
+	{
+		message : '(*) These settings will take effect when you refresh the Agenda page or when you log out and log back in.',
+		key 	: 'refresh_agenda',
+		type 	: 'warning'
+	},
+	{
+		message : 'Would you like to reload the page?',
+		key 	: 'reload_page',
+		type 	: 'confirm'
+	},
+	{
+		message : 'Are you sure you want to delete this teacher?',
+		key 	: 'tconfirm_delete',
+		type 	: 'confirm'
+	},
+	{
+		message : 'All changes have been saved',
+		key 	: 'changes_saved',
+		type 	: 'info'
+	}
 ];
 
 var
@@ -89,6 +146,11 @@ for(var _i = 0 , cr ; cr = classrooms[_i] ; _i++){
         name	: cr,
         color 	: '#' + colors[_i%colors.length]
     }).save();
+}
+
+// Generate messages
+for(var _i = 0 , msg ; msg = messages[_i] ; _i++){
+	new ds.Message(msg).save();
 }
 
 absStream.close();

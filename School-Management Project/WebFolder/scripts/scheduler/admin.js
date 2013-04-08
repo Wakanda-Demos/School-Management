@@ -37,48 +37,48 @@
 	        
 	        return true;
         },
-        message	: 'You cannot add this course to this day.',
+        key		: 'prevent_add_course',
         code	: '000'
     },
     {
         selector: '#timeRangeDetails_date',//date
         rule	: 'notEmpty',
-        message	: 'Start date is mandatory',
+        key		: 'sdate_mandatory',
         attr	: 'start_date',
         code	: '001'
     },
     {
         selector: '#timeRangeDetails_date',//end_date
         rule	: 'notEmpty',
-        message	: 'End date is mandatory',
+        key		: 'edate_mandatory',
         attr	: 'end_date',
         code	: '002'
     },
     {
         selector: '#timeTableDetails_combobox1', //classroom
         rule	: 'notEmpty',
-        message	: 'Classroom is mandatory',
+        key		: 'cr_mandatory',
         attr	: 'classroomID',
         code	: '001'
     },
     {
         selector: '#timeTableDetails_combobox2', // Course
         rule	: 'notEmpty',
-        message	: 'Course is mandatory',
+        key		: 'course_mandatory',
         attr	: 'courseID',
         code	: '003'
     },
     {
         selector: '#timeTableDetails_combobox3', // StudyGroup
         rule	: 'notEmpty',
-        message	: 'Grade is mandatory',
+        key		: 'grade_mandatory',
         attr	: 'studyGroupID',
         code	: '004'
     },
     {
         selector: '#waf-temp-container-timeTableDetails_matrix1', // Teacher
         rule	: 'notEmpty',
-        message	: 'Teacher is mandatory',
+        key		: 'teacher_mandatory',
         attr	: 'teacherID',
         code	: '005'
     }
@@ -107,10 +107,10 @@
     }
 	  	
     function validateEvent(event_object){
-        var
-        that        = this,
-        res 		= {
-            errors 	: [],
+    	var
+        msg         = _ns.Message.getInstance(),
+        res         = {
+            errors  : [],
             wornings: [],
             valid	: true
         };
@@ -122,31 +122,17 @@
             $widget = $(rule.selector);
 			
             if(!validator.call(rule , event_object)){
-                res.errors.push({
-                    message : rule.message,
-                    errorCode: rule.code
-                });
+                msg.append( rule.key , {});
                 $widget.addClass('sm-error');
             }
         }
 		
-        if(res.errors.length){
-            var
-            messages	= [];
-            
-            for(var i = 0 , err ; err = res.errors[i] ; i++){
-                messages.push({
-                	text : err.message,
-                	type : 'error'
-                });
-            }
-            
-            _ns.adminView.displayMessage({
-                messages: messages,
+        if(msg.getStack().length){
+            msg.display({
                 options	: {
                     type    : 'dialog-error',
                     title   : 'Errors',
-                    css 	: {
+                    css     : {
                     	'text-align' : 'left'
                     }
                 }

@@ -302,6 +302,171 @@ _ns = {
 		});
 	})(jQuery);
 	
+	function Message(){
+		this.stack = [];
+		if ( Message.caller != Message.getInstance ) {  
+			throw new Error("This object cannot be instanciated");  
+		}
+	}
+	
+	Message.instance = null;
+	
+	Message.getInstance = function() {  
+	  if (this.instance == null) {
+	      this.instance = new Message();
+	      this.instance._init();
+	  }  
+	  
+	  return this.instance;
+	}
+	
+	Message.prototype._init = function(){
+		this._messages = ds.Message.getMessages();
+	}
+	
+	Message.prototype.getMessage = function(key){
+		return this._messages[key];
+	}
+	
+	Message.prototype.append = function(key , config){
+		if(config){
+			var msg = this.getMessage(key);
+			if(msg){
+				config = $.extend(true , msg , config);
+				this.stack.push(config);
+			}
+		}
+		else{
+			this.stack.push(this.getMessage(key));
+		}
+	}
+	
+	Message.prototype.flush = function(){
+		this.stack = [];
+	}
+	
+	Message.prototype.getStack = function(){
+		return this.stack;
+	}
+	
+	Message.prototype.display = function (config){
+		var
+		type,
+		dhtml 	= typeof dhtmlx != 'undefined',
+		br 		= dhtml ? '<br/>' : '\n',
+		msg 	= '';
+		
+		config = $.extend(true , {
+			type 	: 'alert',
+			alert	: true,
+			messages: this.stack,
+			options	: {
+				callback : function(){
+					
+				}
+			}
+		} , config);
+		
+		type = config.alert ? 'alert' : 'confirm'
+		
+		for(var i = 0 , message ; message = config.messages[i] ; i++){
+			switch(typeof message){
+				case 'string':
+					msg += message;
+					break;
+				case 'object':
+					message = $.extend(true , {
+						tag			: 'span',
+						message		: '',
+						css 		: {},
+						attr		: {},
+						type 		: null,
+						addClass	: null,
+						icon		: null
+					} , message);
+					
+					if(dhtml){
+						var
+						$msg 	= $(document.createElement(message.tag)),
+						html 	= document.createElement('div');
+						
+						$msg
+						.css(message.css)
+						.attr(message.attr)
+						.text(message.message)
+						.addClass(message.addClass);
+						
+						switch(message.type){
+							case 'error':
+								message.icon = '/images/error.png';
+								$(html).css({
+									color	: '#b94a48'
+								});
+								break;
+							case 'warning':
+								message.icon = '/images/warning.png';
+								$(html).css({
+									color	: '#c09853'
+								});
+								break;
+							case 'info':
+								message.icon = '/images/info.png';
+								$(html).css({
+									color	: '#3a87ad'
+								});
+								break;
+						}
+						
+						if(message.icon){
+							var
+							$img = $('<img>');
+							
+							$img
+							.attr({
+								width : 20,
+								height: 19,
+								src	  : message.icon
+							})
+							.css({
+								'margin-right' : 8
+							});
+							
+							$(html)
+							.css({
+								'text-align' : 'left'
+							})
+							.append($img);
+						}
+						
+						$(html).append($msg);
+						
+						msg += html.outerHTML;
+					}
+					else{
+						msg += message.message;
+					}
+					
+					break;
+			}
+			
+			msg += br;
+		}
+		
+		if(dhtml){
+			var
+			options = config.options;
+			
+			options.text = msg;
+			
+			dhtmlx[type](options);
+		}
+		else{
+			config.options.callback(window[type](msg));
+		}
+		
+		this.flush();
+	}
+	
 	function Mapping(){
 		this.baseObj 		= sources.timeTable;
 		this.map 			= {};
@@ -601,6 +766,7 @@ _ns = {
 	
 	_ns.parseUri 			= parseUri;
 	_ns.Mapping 			= Mapping;
+	_ns.Message 			= Message;
 	_ns.initSchedulerFields	= initSchedulerFields;
 	_ns.syncWithDS			= syncWithDS;
 })();
