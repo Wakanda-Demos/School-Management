@@ -63,7 +63,6 @@ function constructor (id) {
 		$comp.sources['fields'].sync();
 		
 		function selectQueryType(type , search){
-			console.log(type)
 			var
 			pos = 12,
 			mapObj = {
