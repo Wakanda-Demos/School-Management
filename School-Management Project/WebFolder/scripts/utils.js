@@ -673,7 +673,6 @@ $.widget( "ui.combobox", {
 
         this.button = $( "<button type='button'>&nbsp;</button>" )
         .prop( "tabIndex", -1 )
-        .prop( "title", "Show All Items" )
         .insertAfter( input )
         .button({
             icons: {
@@ -682,6 +681,7 @@ $.widget( "ui.combobox", {
             text: false
         })
         .removeClass( "ui-corner-all" )
+        .removeAttr('title')
         .addClass( "ui-corner-right ui-button-icon" )
         .click(function() {
             // close if already visible

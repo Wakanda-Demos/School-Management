@@ -38,10 +38,11 @@ function constructor (id) {
 	container1.click = function container1_click (event)// @startlock
 	{// @endlock
 		var src = dg.source;
-		if(src){
+		dg.$domNode.find('.content-edit').blur();
+		setTimeout(function(){
 			src.addNewElement();
-			dg.editCell(src.length - 1 , 0);
-		}
+			dg.editCell(src.getPosition() , 0);
+		} , 200)
 	};// @lock
 
 	// @region eventManager// @startlock

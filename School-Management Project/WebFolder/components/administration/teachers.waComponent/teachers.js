@@ -74,10 +74,6 @@ function constructor (id) {
 	{// @endlock
 		var msg = 'Are you sure you want to delete this teacher?';
 		
-//		if(this._clickAdded){
-//			return false;
-//		}
-		
 		_ns.adminView.displayMessage({
             messages	: [msg],
             options	: {

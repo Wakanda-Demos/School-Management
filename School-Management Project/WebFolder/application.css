@@ -360,8 +360,8 @@ div.dhx_menu_head {
 	right:66px;
 }
 
-.dhx_cal_prev_button,
-.dhx_cal_next_button{
+.dhx_cal_navline .dhx_cal_prev_button,
+.dhx_cal_navline .dhx_cal_next_button{
 	border:none;
 	top:16px !important;
 	width:22px;

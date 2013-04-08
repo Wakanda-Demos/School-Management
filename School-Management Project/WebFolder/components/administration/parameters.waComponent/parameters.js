@@ -24,6 +24,10 @@ function constructor (id) {
 		
 		agendaSource._init = true;
 		
+		function updateTimeRange(){
+			$tRange.rangeSlider('values' , ((this.from_am ? 0 : 12) + this.from_hours)*60 + this.from_minutes , ((this.to_am ? 0 : 12) + this.to_hours)*60 + this.to_minutes);
+		}
+		
 		$tRange.css('overflow' , 'visible').rangeSlider({
 			bounds	:{min: 0, max: 24*60},
 			step	: 10,
@@ -45,6 +49,8 @@ function constructor (id) {
 			}
 		});
 		
+		updateTimeRange.call($comp.sources.agenda0);
+		
 	// @region namespaceDeclaration// @startlock
 	var agenda0Event = {};	// @dataSource
 	var container2 = {};	// @container
@@ -55,7 +61,7 @@ function constructor (id) {
 
 	agenda0Event.onCurrentElementChange = function agenda0Event_onCurrentElementChange (event)// @startlock
 	{// @endlock
-		$tRange.rangeSlider('values' , ((this.from_am ? 0 : 12) + this.from_hours)*60 + this.from_minutes , ((this.to_am ? 0 : 12) + this.to_hours)*60 + this.to_minutes);
+		updateTimeRange.call(this);
 	};// @lock
 
 	container2.click = function container2_click (event)// @startlock
