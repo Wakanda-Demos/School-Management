@@ -23,14 +23,16 @@ function constructor (id) {
 		end = this.endDate;
 		
 		timetable_time = {
-			start : adminV.formatTimeFromNumber(begin.getHours()*60 + begin.getMinutes()),
-			end : adminV.formatTimeFromNumber(end.getHours()*60 + end.getMinutes())
+			start : adminV.formatTimeFromNumber(begin ? begin.getHours()*60 + begin.getMinutes() : null),
+			end : adminV.formatTimeFromNumber(end ? end.getHours()*60 + end.getMinutes() : null)
 		}
 		
 		sources.timetable_time.sync();
 	}
 	
-	refresh.call(dataS);
+	if(dataS.getCurrentElement()){
+		refresh.call(dataS);
+	}
 	// eventHandlers// @lock
 
 	timeTableEvent.onCurrentElementChange = function timeTableEvent_onCurrentElementChange (event)// @startlock
