@@ -1,0 +1,1 @@
+﻿/*** @author admin*/var __myNameSpace 	= __myNameSpace || {};(function(){	var	baseFolder		= 'Scripts/',	extension		= '.js',	filesToInclude	= ['utils' , 'errors'];		for(var i = 0 , file ; file = filesToInclude[i] ; i++){		include(baseFolder + file + extension);	}})();
