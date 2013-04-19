@@ -89,7 +89,7 @@ _ns = {
 	
 	WAF.widget.FileUpload.prototype._sendFiles = function(){
 		var
-		msg = "This version do not allows photo upload";
+		msg = "This version does not allow you to upload a photo.";
 		
 		if(dhtmlx.alert){
 			dhtmlx.alert({
@@ -171,12 +171,12 @@ _ns = {
 				form 		= $('<form>').appendTo(element),
 				field		= $('<input>').appendTo(form).addClass('field'),
 				delBtn		= $('<div>').appendTo(form).addClass('delete'),
-				span		= $('<span>').html('x').appendTo(delBtn),
-				submitBtn	= $('<button type="submit"></button>').appendTo(element);
+				span		= $('<span>').html('x').appendTo(delBtn)/*,
+				submitBtn	= $('<button type="submit"></button>').appendTo(element)*/;
 				
-				submitBtn.css({
-					width: h
-				});
+//				submitBtn.css({
+//					width: h
+//				});
 				
 				form.css({
 					width: w-h-10
@@ -272,7 +272,7 @@ _ns = {
 						}
 					},
 					onShow: function(){
-						$(this).ColorPickerSetColor('#7a3d3d');
+						$(this).ColorPickerSetColor(options.datasource[options.attrName]);
 					},
 					onChange: function (hsb, hex, rgb) {
 						var res;
@@ -302,11 +302,182 @@ _ns = {
 		});
 	})(jQuery);
 	
+	function Message(){
+		this.stack = [];
+		if ( Message.caller != Message.getInstance ) {  
+			throw new Error("This object cannot be instanciated");  
+		}
+	}
+	
+	Message.instance = null;
+	
+	Message.getInstance = function() {  
+	  if (this.instance == null) {
+	      this.instance = new Message();
+	      this.instance._init();
+	  }  
+	  
+	  return this.instance;
+	}
+	
+	Message.prototype._init = function(){
+		this._messages = ds.Message.getMessages();
+	}
+	
+	Message.prototype.getMessage = function(key){
+		return this._messages[key];
+	}
+	
+	Message.prototype.append = function(key , config){
+		if(config){
+			var msg = this.getMessage(key);
+			if(msg){
+				config = $.extend(true , msg , config);
+				this.stack.push(config);
+			}
+		}
+		else{
+			this.stack.push(this.getMessage(key));
+		}
+	}
+	
+	Message.prototype.flush = function(){
+		this.stack = [];
+	}
+	
+	Message.prototype.getStack = function(){
+		return this.stack;
+	}
+	
+	Message.prototype.display = function (config){
+		if(!(config.messages && config.messages.length) && !this.getStack().length){
+			return;
+		}
+		
+		var
+		type,
+		dhtml 	= typeof dhtmlx != 'undefined',
+		br 		= dhtml ? '<br/>' : '\n',
+		msg 	= '';
+		
+		config = $.extend(true , {
+			type 	: 'alert',
+			alert	: true,
+			icons	: true,
+			messages: this.getStack(),
+			options	: {
+				callback : function(){
+					
+				}
+			}
+		} , config);
+		
+		type = config.alert ? 'alert' : 'confirm'
+		
+		for(var i = 0 , message ; message = config.messages[i] ; i++){
+			switch(typeof message){
+				case 'string':
+					msg += message;
+					break;
+				case 'object':
+					message = $.extend(true , {
+						tag			: 'span',
+						message		: '',
+						css 		: {},
+						attr		: {},
+						type 		: null,
+						addClass	: null,
+						icon		: null
+					} , message);
+					
+					if(dhtml){
+						var
+						$msg 	= $(document.createElement(message.tag)),
+						html 	= document.createElement('div');
+						
+						$msg
+						.css(message.css)
+						.attr(message.attr)
+						.text(message.message)
+						.addClass(message.addClass);
+						
+						switch(message.type){
+							case 'error':
+								message.icon = '/images/error.png';
+								$(html).css({
+									color	: '#b94a48'
+								});
+								break;
+							case 'warning':
+								message.icon = '/images/warning.png';
+								$(html).css({
+									color	: '#c09853'
+								});
+								break;
+							case 'info':
+								message.icon = '/images/info.png';
+								$(html).css({
+									color	: '#3a87ad'
+								});
+								break;
+						}
+						
+						if(message.icon && config.icons){
+							var
+							$img = $('<img>');
+							
+							$img
+							.attr({
+								width : 20,
+								height: 19,
+								src	  : message.icon
+							})
+							.css({
+								'margin-right' : 8
+							});
+							
+							$(html)
+							.css({
+								'text-align' : 'left'
+							})
+							.append($img);
+						}
+						
+						$(html).append($msg);
+						
+						msg += html.outerHTML;
+					}
+					else{
+						msg += message.message;
+					}
+					
+					break;
+			}
+			
+			msg += br;
+		}
+		
+		if(dhtml){
+			var
+			options = config.options;
+			
+			options.text = msg;
+			
+			dhtmlx[type](options);
+		}
+		else{
+			config.options.callback(window[type](msg));
+		}
+		
+		this.flush();
+	}
+	
 	function Mapping(){
 		this.baseObj 		= sources.timeTable;
 		this.map 			= {};
 		this.colorAttr		= null;
 		this.defaultColor 	= 'white';
+		this._offset		= new Date().getTimezoneOffset()/60;
 		
 		this.types = {
 			start_date: 'date',
@@ -338,10 +509,11 @@ _ns = {
 	Mapping.prototype.fixType = function(attrName , attrValue){
 		switch(this.types[attrName]){
 			case 'date':
-				var d = new Date(attrValue)
+				var d = new Date(attrValue);
+				
 				return d.getFullYear() + '-' + (d.getMonth() + 1 ) + '-' + 
-							d.getDate() + ' ' + d.getHours() + ':' + d.getMinutes() +
-							':' + d.getSeconds();
+						d.getDate() + ' ' + (d.getHours() + 2*this._offset) + ':' + d.getMinutes() +
+						':' + d.getSeconds();
 			default:
 				return attrValue;
 		}
@@ -599,6 +771,122 @@ _ns = {
 	
 	_ns.parseUri 			= parseUri;
 	_ns.Mapping 			= Mapping;
+	_ns.Message 			= Message;
 	_ns.initSchedulerFields	= initSchedulerFields;
 	_ns.syncWithDS			= syncWithDS;
 })();
+
+// Modified jQuery ui combobox 
+$.widget( "ui.combobox", {
+    _create: function() {
+        var self = this,
+        select = this.element.hide(),
+        selected = select.children( ":selected" ),
+        value = selected.val() ? selected.text() : "";
+        var input = this.input = $( "<input>" )
+        .attr('placeholder' , '[Select]')
+        .insertAfter( select )
+        .val( value )
+        .autocomplete({
+            delay: 0,
+            minLength: 0,
+            source: function( request, response ) {
+                var matcher = new RegExp( $.ui.autocomplete.escapeRegex(request.term), "i" );
+                response( select.children( "option" ).map(function() {
+                    var text = $( this ).text();
+                    if ( this.value && ( !request.term || matcher.test(text) ) )
+                        return {
+                            label: text.replace(
+                                new RegExp(
+                                    "(?![^&;]+;)(?!<[^<>]*)(" +
+                                    $.ui.autocomplete.escapeRegex(request.term) +
+                                    ")(?![^<>]*>)(?![^&;]+;)", "gi"
+                                    ), "<strong>$1</strong>" ),
+                            value: text,
+                            option: this
+                        };
+                }) );
+            },
+            select: function( event, ui ) {
+                ui.item.option.selected = true;
+                self._trigger( "selected", event, {
+                    item: ui.item.option
+                });
+            },
+            change: function( event, ui ) {
+                if ( !ui.item ) {
+                    var matcher = new RegExp( "^" + $.ui.autocomplete.escapeRegex( $(this).val() ) + "$", "i" ),
+                    valid = false;
+                    select.children( "option" ).each(function() {
+                        if ( $( this ).text().match( matcher ) ) {
+                            this.selected = valid = true;
+                            return false;
+                        }
+                    });
+                    if ( !valid ) {
+                        // remove invalid value, as it didn't match anything
+                        $( this ).val( "" );
+                        select.val( "" );
+                        input.data( "autocomplete" ).term = "";
+                        return false;
+                    }
+                }
+            }
+        })
+        .addClass( "ui-widget ui-widget-content ui-corner-left" );
+
+        input.data( "autocomplete" )._renderItem = function( ul, item ) {
+            return $( "<li></li>" )
+            .data( "item.autocomplete", item )
+            .append( "<a>" + item.label + "</a>" )
+            .appendTo( ul );
+        };
+
+        this.button = $( "<button type='button'>&nbsp;</button>" )
+        .prop( "tabIndex", -1 )
+        .insertAfter( input )
+        .button({
+            icons: {
+                primary: "ui-icon-triangle-1-s"
+            },
+            text: false
+        })
+        .removeClass( "ui-corner-all" )
+        .removeAttr('title')
+        .addClass( "ui-corner-right ui-button-icon" )
+        .click(function() {
+            // close if already visible
+            if ( input.autocomplete( "widget" ).is( ":visible" ) ) {
+                input.autocomplete( "close" );
+                return;
+            }
+
+            // work around a bug (likely same cause as #5265)
+            $( this ).blur();
+
+            // pass empty string as value to search for, displaying all results
+            input.autocomplete( "search", "" );
+            //input.focus();
+        });
+        
+    },
+
+    destroy: function() {
+        this.input.remove();
+        this.button.remove();
+        this.element.show();
+        $.Widget.prototype.destroy.call( this );
+    },
+    
+    //allows programmatic selection of combo using the option value
+    setValue: function (value) {
+        var $input = this.input;
+        $("option", this.element).each(function () {
+            if ($(this).val() == value) {
+                this.selected = true;
+                $input.val(this.text);
+                return false;
+            }
+        });
+    }
+});

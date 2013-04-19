@@ -15,14 +15,21 @@ function constructor (id) {
 	// @region namespaceDeclaration// @startlock
 	var courseEvent = {};	// @dataSource
 	// @endregion// @endlock
-		
+		$comp.refreshTeachers = function(){
+			var course = $comp.sources.course;
+			
+			if(course.getCurrentElement()){
+				sources[getHtmlId('teacher')].query('speciality.ID == ' + course.getCurrentElement().getKey())
+			}
+			else{
+				sources[getHtmlId('teacher')].query('null');
+			}
+		}
 	// eventHandlers// @lock
 
 	courseEvent.onCurrentElementChange = function courseEvent_onCurrentElementChange (event)// @startlock
 	{// @endlock
-		if(this.getCurrentElement()){
-			sources[getHtmlId('teacher')].query('speciality.ID == ' + this.getCurrentElement().getKey())
-		}
+		$comp.refreshTeachers();
 	};// @lock
 
 	// @region eventManager// @startlock

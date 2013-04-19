@@ -23,6 +23,42 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		}
 	}
 	
+	function formatNumber(str , nb){
+		while(str.length < nb){
+			str = '0' + str;
+		}
+		
+		return str;
+	}
+	
+	function formatTimeFromNumber(val){
+		var
+		nbMinutes	= val%60
+		nbHours 	= (val - nbMinutes)/60,
+		pm			= nbHours > 12;
+
+		if(pm){
+			nbHours -= 12;
+		}
+
+		return nbHours + ':' + formatNumber(nbMinutes + '' , 2) + ' ' + (pm ? 'PM' : 'AM');
+	}
+	
+	function getDateFromMinutes(baseDate , nb){
+		if(!baseDate){
+			return null;
+		}
+		
+		var
+		nbM = nb%60;
+		nbH = (nb - nbM)/60;
+		
+		baseDate.setHours(nbH);
+		baseDate.setMinutes(nbM);
+		
+		return new Date(baseDate);
+	}
+	
 	function setView(view){
 		var
 		mapObj			= _ns.adminView.mapViewObj,
@@ -134,12 +170,15 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		}
 	}
 	
-	_ns.adminView.setView 		= setView;
-	_ns.adminView.refreshMenues = refreshMenues;
-	_ns.adminView.openDialog 	= openDialog;
-	_ns.adminView.queryKey 		= _ns.parseUri(location.href).queryKey,
-	_ns.adminView.current		= {},
-	_ns.adminView.options		= $.extend(true , {
+	_ns.adminView.setView 			= setView;
+	_ns.adminView.refreshMenues 	= refreshMenues;
+	_ns.adminView.openDialog 		= openDialog;
+	_ns.adminView.queryKey 			= _ns.parseUri(location.href).queryKey,
+	_ns.adminView.current			= {},
+	_ns.adminView.getDateFromMinutes= getDateFromMinutes;
+	_ns.adminView.formatNumber		= formatNumber;
+	_ns.adminView.formatTimeFromNumber = formatTimeFromNumber;
+	_ns.adminView.options			= $.extend(true , {
 		view 		: 'home',
 		calendar	: "week",
 		adminTab	: "teachers"

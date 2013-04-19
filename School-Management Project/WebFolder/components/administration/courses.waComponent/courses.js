@@ -17,7 +17,8 @@ function constructor (id) {
 		insertColPicker(dg , true , {
 			colPOptions: {
 				attrName  : 'color'
-			}
+			},
+			confirm : 'Do you want to remove this subject?'
 		});
 		
 		dg.source.all();
@@ -31,15 +32,16 @@ function constructor (id) {
 	container1.click = function container1_click (event)// @startlock
 	{// @endlock
 		var src = dg.source;
-		if(src){
+		dg.$domNode.find('.content-edit').blur();
+		setTimeout(function(){
 			src.addNewElement();
 			dg.editCell(src.getPosition() , 0);
-		}
+		} , 200)
 	};// @lock
 
 	courseEvent.onCollectionChange = function courseEvent_onCollectionChange (event)// @startlock
 	{// @endlock
-		window[getHtmlId('nbCourses')] = this.length + ' course' + (this.length > 1 ? 's' : '');
+		window[getHtmlId('nbCourses')] = this.length + ' subject' + (this.length > 1 ? 's' : '');
 		sources[getHtmlId('nbCourses')].sync();
 	};// @lock
 

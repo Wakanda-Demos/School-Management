@@ -60,7 +60,7 @@
 <allow action="update" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Recurring" temporaryForcePermissions="false" type="dataClass"/>
 <allow action="remove" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Recurring" temporaryForcePermissions="false" type="dataClass"/>
 <allow action="create" groupName="superAdministrator" groupID="ACF03E629222472BAC663DDC1A631543" resource="Model.School" temporaryForcePermissions="false" type="dataClass"/>
-<allow action="update" groupName="superAdministrator" groupID="ACF03E629222472BAC663DDC1A631543" resource="Model.School" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.School" temporaryForcePermissions="false" type="dataClass"/>
 <allow action="remove" groupName="superAdministrator" groupID="ACF03E629222472BAC663DDC1A631543" resource="Model.School" temporaryForcePermissions="false" type="dataClass"/>
 <allow action="create" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Agenda" temporaryForcePermissions="false" type="dataClass"/>
 <allow action="update" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Agenda" temporaryForcePermissions="false" type="dataClass"/>
@@ -69,4 +69,7 @@
 <allow action="update" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Academic_calendar" temporaryForcePermissions="false" type="dataClass"/>
 <allow action="remove" groupName="administrator" groupID="A0BFF88AE0834C9B8E291D9465D311BD" resource="Model.Academic_calendar" temporaryForcePermissions="false" type="dataClass"/>
 <allow action="promote" groupName="administrator" groupID="ACF03E629222472BAC663DDC1A631543" resource="Model.Utils.generateRandomData" temporaryForcePermissions="false" type="method"/>
+<allow action="create" groupName="superAdministrator" groupID="ACF03E629222472BAC663DDC1A631543" resource="Model.Message" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="superAdministrator" groupID="ACF03E629222472BAC663DDC1A631543" resource="Model.Message" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="superAdministrator" groupID="ACF03E629222472BAC663DDC1A631543" resource="Model.Message" temporaryForcePermissions="false" type="dataClass"/>
 </permissions>

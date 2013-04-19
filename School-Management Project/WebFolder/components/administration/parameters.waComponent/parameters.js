@@ -1,62 +1,134 @@
 ﻿
 (function Component (id) {// @lock
 
-// Add the code that needs to be shared between components here
+    // Add the code that needs to be shared between components here
 
-function constructor (id) {
+    function constructor (id) {
+        var
+        config 	= ds.School.getSchedulerConfig(),
+        min		= config.first_hour*60,
+        max		= config.last_hour*60,
+        adminV 	= _ns.adminView;
+	
+        // @region beginComponentDeclaration// @startlock
+        var $comp = this;
+        this.name = 'parameters';
+        // @endregion// @endlock
 
-	// @region beginComponentDeclaration// @startlock
-	var $comp = this;
-	this.name = 'parameters';
-	// @endregion// @endlock
-
-	this.load = function (data) {// @lock
-		var
-		calendar		= sources[getHtmlId('school_calendar')]
-		schoolSource 	= sources['school'],
-		agendaSource	= sources[getHtmlId('agenda0')];
+        this.load = function (data) {// @lock
+            var
+            $tRange			= getHtmlObj('timeRange'),
+            calendar		= sources[getHtmlId('school_calendar')]
+            schoolSource 	= sources['school'],
+            agendaSource	= sources[getHtmlId('agenda0')];
 		
-	// @region namespaceDeclaration// @startlock
-	var container2 = {};	// @container
-	var saveAll = {};	// @container
-	// @endregion// @endlock
-
-	// eventHandlers// @lock
-
-	container2.click = function container2_click (event)// @startlock
-	{// @endlock
-		calendar.addNewElement();
-	};// @lock
-
-	saveAll.click = function saveAll_click (event)// @startlock
-	{// @endlock
-		var msg = "All changes have been saved";
+            agendaSource._init = true;
 		
-		schoolSource.save({
-			onSuccess: function(){
-				agendaSource.save({
-					onSuccess: function(){
-						if(dhtmlx.alert){
-							dhtmlx.alert(msg)
-						}
-						else{
-							alert(msg);
-						}
-					}
-				});
-			}
-		});
+            function updateTimeRange(){
+                $tRange.rangeSlider('values' , ((this.from_am ? 0 : 12) + this.from_hours)*60 + this.from_minutes , ((this.to_am ? 0 : 12) + this.to_hours)*60 + this.to_minutes);
+            }
+            
+            $tRange.css('overflow' , 'visible').rangeSlider({
+                bounds	:{
+                    min: 0, 
+                    max: 24*60
+                },
+                step	: 10,
+                formatter:function(val){
+                    return adminV.formatTimeFromNumber(val);
+                }
+            }).on('valuesChanged' , function(e , data){
+                var
+                values	= data.values;
+			
+                agendaSource.from 	= adminV.formatTimeFromNumber(values.min);
+                agendaSource.to 	= adminV.formatTimeFromNumber(values.max);
+			
+                if(agendaSource._init){
+                    delete agendaSource._init;
+                }
+                else{
+                    agendaSource._touched = true;
+                }
+            });
 		
-	};// @lock
+            updateTimeRange.call($comp.sources.agenda0);
+		
+            // @region namespaceDeclaration// @startlock
+            var agenda0Event = {};	// @dataSource
+            var container2 = {};	// @container
+            var saveAll = {};	// @container
+            // @endregion// @endlock
 
-	// @region eventManager// @startlock
-	WAF.addListener(this.id + "_container2", "click", container2.click, "WAF");
-	WAF.addListener(this.id + "_saveAll", "click", saveAll.click, "WAF");
-	// @endregion// @endlock
+            // eventHandlers// @lock
 
-	};// @lock
+            agenda0Event.onCurrentElementChange = function agenda0Event_onCurrentElementChange (event)// @startlock
+            {// @endlock
+                updateTimeRange.call(this);
+            };// @lock
+
+            container2.click = function container2_click (event)// @startlock
+            {// @endlock
+                calendar.addNewElement();
+            };// @lock
+
+            saveAll.click = function saveAll_click (event)// @startlock
+            {// @endlock
+                var
+                alert	= true,
+                msg 	= _ns.Message.getInstance(),
+                options	= {};
+		
+                agendaSource.save({
+                    onSuccess: function(e){
+						msg.append('changes_saved');
+      
+                        if(e.dataSource._touched){
+                            delete e.dataSource._touched;
+                            
+                            msg.append( 'refresh_agenda' , {
+                                css : {
+                                    'color'		: 'red',
+                                    'font-size'	: 12
+                                }
+                            });
+					
+                            msg.append('reload_page');
+					
+                            options.type 	= 'dialog-reload';
+                            alert               = false;
+                            options.callback    = function(ok){
+                                if(ok){
+                                    location.reload();
+                                }
+                            }
+                        }
+                        
+                        schoolSource.save({
+                            onSuccess: function(){
+                                msg.display({
+                                    options	: options,
+                                    alert	: alert,
+                                    icons	: false
+                                });
+                                
+                                scheduler.refreshSchoolConfig();
+                            }
+                        });
+                    }
+                });
+		
+            };// @lock
+
+            // @region eventManager// @startlock
+            WAF.addListener(this.id + "_agenda0", "onCurrentElementChange", agenda0Event.onCurrentElementChange, "WAF");
+            WAF.addListener(this.id + "_container2", "click", container2.click, "WAF");
+            WAF.addListener(this.id + "_saveAll", "click", saveAll.click, "WAF");
+        // @endregion// @endlock
+
+        };// @lock
 
 
-}// @startlock
-return constructor;
+    }// @startlock
+    return constructor;
 })();// @endlock

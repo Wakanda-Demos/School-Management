@@ -17,7 +17,8 @@ function constructor (id) {
 		insertColPicker(dg , true , {
 			colPOptions: {
 				attrName  : 'color'
-			}
+			},
+			confirm : 'Are you sure you want to delete this grade?'
 		});
 		
 		dg.source.all();
@@ -30,17 +31,18 @@ function constructor (id) {
 
 	studyGroupEvent.onCollectionChange = function studyGroupEvent_onCollectionChange (event)// @startlock
 	{// @endlock
-		window[getHtmlId('nbGroups')] = this.length + ' group' + (this.length > 1 ? 's' : '');
+		window[getHtmlId('nbGroups')] = this.length + ' grade' + (this.length > 1 ? 's' : '');
 		sources[getHtmlId('nbGroups')].sync();
 	};// @lock
 
 	container1.click = function container1_click (event)// @startlock
 	{// @endlock
 		var src = dg.source;
-		if(src){
+		dg.$domNode.find('.content-edit').blur();
+		setTimeout(function(){
 			src.addNewElement();
-			dg.editCell(src.length - 1 , 0);
-		}
+			dg.editCell(src.getPosition() , 0);
+		} , 200)
 	};// @lock
 
 	// @region eventManager// @startlock

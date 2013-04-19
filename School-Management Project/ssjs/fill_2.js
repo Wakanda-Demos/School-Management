@@ -61,6 +61,7 @@ for(var i = 0 , mapObj ; mapObj = mapClasses[i] ; i++){
 				
 				switch(dc[attr].type){
 					case "string":
+					case "number":
 						person[attr] = values[k];
 						break;
 					case "date":
@@ -115,52 +116,62 @@ timeTableMeta	= {
     seances		: [
     {
     	begin : {
-    		hours : 6,
-    		minutes : 10
-    	},
-    	end	: {
     		hours : 7,
     		minutes : 0
-    	}
-    },
-    {
-    	begin : {
-    		hours : 7,
-    		minutes : 10
     	},
     	end	: {
     		hours : 8,
-    		minutes : 0
-    	}
-    },
-    {
-    	begin : {
-    		hours : 8,
-    		minutes : 10
-    	},
-    	end	: {
-    		hours : 9,
-    		minutes : 0
+    		minutes : 45
     	}
     },
     {
     	begin : {
     		hours : 9,
-    		minutes : 10
+    		minutes : 0
     	},
     	end	: {
     		hours : 10,
-    		minutes : 0
+    		minutes : 45
     	}
     },
     {
     	begin : {
-    		hours : 10,
-    		minutes : 10
-    	},
-    	end	: {
     		hours : 11,
     		minutes : 0
+    	},
+    	end	: {
+    		hours : 12,
+    		minutes : 45
+    	}
+    },
+    {
+    	begin : {
+    		hours : 13,
+    		minutes : 0
+    	},
+    	end	: {
+    		hours : 14,
+    		minutes : 45
+    	}
+    },
+    {
+    	begin : {
+    		hours : 15,
+    		minutes : 0
+    	},
+    	end	: {
+    		hours : 16,
+    		minutes : 45
+    	}
+    },
+    {
+    	begin : {
+    		hours : 17,
+    		minutes : 0
+    	},
+    	end	: {
+    		hours : 18,
+    		minutes : 45
     	}
     }],
     workingDays		: agenda.getWorkingDays()
@@ -173,6 +184,7 @@ date.setMilliseconds(0);
 while(ds.TimeTable.count() < 50){
 	for(var i = 0 , seance ; seance = timeTableMeta.seances[i] ; i++){
 		var
+		course = randomizer.getRandom('Course'),
 		beginDate = new Date(date),
 		endDate = new Date(date);
 		
@@ -186,9 +198,9 @@ while(ds.TimeTable.count() < 50){
 	        beginDate	: beginDate,
 	        endDate		: endDate,
 	        studyGroup 	: randomizer.getRandom('StudyGroup'),
-	        teacher 	: randomizer.getRandom('Teacher'),
+	        teacher 	: randomizer.getRandomFromCollection(ds.Teacher.query('speciality.ID = :1' , course)),
 	        classroom 	: randomizer.getRandom('Classroom'),
-	        course 		: randomizer.getRandom('Course')
+	        course 		: course
 	    })
 	    
 	    timeTable.save();

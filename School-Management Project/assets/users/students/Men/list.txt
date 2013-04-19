@@ -1,4 +1,5 @@
 firstname:lastname:login:password:birthday:address:email:phone:geocode:avatar
+Student::student:student:April 14, 1989: 4081 Wilkinson Street\nBrentwood, TN 37027 :HowardSKim@armyspy.com:615-447-3905:35.927989, -86.732176:Man_001.png
 Ray:L. Phillips:Bineir:quooPh3ee:May 18, 1989: 3080 Red Maple Drive\nLos Angeles, CA 90046 :RayLPhillips@dayrep.com:323-436-8442:34.165349, -118.396509:Man_002.png
 Marshall:S. Taylor:Mititem:woSu7oam8:January 10, 1989: 206 Fort Street\nKent, WA 98032 :MarshallSTaylor@dayrep.com:253-250-8759:47.464241, -122.211183:Man_003.png
 Sean:L. Thompkins:Andestalmoss:bah0foShoh:September 21, 1989: 2770 Saint Francis Way\nMilwaukee, WI 53226 :SeanLThompkins@dayrep.com:262-980-8033:43.129817, -88.104147:Man_004.png
@@ -24,4 +25,3 @@ Mark:W. Roberts:HiscoÃ¶pence:uruu2Oofagh:November 26, 1989: 3450 Del Dew Drive
 David:L. Johnson:Uniscomen:ahwaL4ah:September 2, 1989: 1227 Meadow View Drive\nHartford, CT 06103 :DavidLJohnson@teleworm.us:860-534-4067:41.75338, -72.588751:Man_023.png
 Neil:M. Sorrell:Altoot:Gai2Ubodai:February 20, 1989: 3049 Asylum Avenue\nStamford, CT 06905 :NeilMSorrell@teleworm.us:203-703-3424:41.04682, -73.617773:Man_024.png
 Derrick:C. Winburn:Masimed:ohG7iefae:November 27, 1989: 1887 Tyler Avenue\nHialeah, FL 33012 :DerrickCWinburn@teleworm.us:305-368-7792:25.871645, -80.237083:Man_025.png
-Student::student:student:April 14, 1989: 4081 Wilkinson Street\nBrentwood, TN 37027 :HowardSKim@armyspy.com:615-447-3905:35.927989, -86.732176:Man_001.png

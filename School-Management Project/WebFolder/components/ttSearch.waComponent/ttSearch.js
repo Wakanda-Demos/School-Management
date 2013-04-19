@@ -12,26 +12,82 @@ function constructor (id) {
 
 	this.load = function (data) {// @lock
 		var
-		localDSs = [$comp.sources.teacher , $comp.sources.classroom , $comp.sources.studyGroup , $comp.sources.course];
+		localDSs 		= [$comp.sources.teacher , $comp.sources.classroom , $comp.sources.studyGroup , $comp.sources.course],
+		fieldsOptions	= [
+		{
+			label	: 'Teacher',
+			value	: 'teacher',
+			groups	: ['student' , 'administrator']
+		},
+		{
+			label	: 'Classroom',
+			value	: 'classroom'
+		},
+		{
+			label	: 'Grade',
+			value	: 'grade',
+			groups	: ['teacher' , 'administrator']
+		},
+		{
+			label	: 'Course',
+			value	: 'course'
+		}
+		];
+		
+		var fields = window[getHtmlId('fields')] = [];
+		for(var i = 0 , fOpt ; i < fieldsOptions.length ; i++){
+			var
+			fOpt 	= fieldsOptions[i],
+			groups	= fOpt.groups;
+			
+			if(groups){
+				for(var j = 0 ; j < groups.length ; j++){
+					var g = groups[j];
+					
+					if(waf.directory.currentUserBelongsTo(g)){
+						fields.push({
+							value	: fOpt.value,
+							label	: fOpt.label
+						});
+						break;
+					}
+				}
+			}
+			else{
+				fields.push({
+					value	: fOpt.value,
+					label	: fOpt.label
+				});
+			}
+		}
+		$comp.sources['fields'].sync();
 		
 		function selectQueryType(type , search){
 			var
 			pos = 12,
 			mapObj = {
 				'teacher' : {
-					widget : $$(getHtmlId('teacherCombo'))
+					position 	: 0,
+					label 		: 'Teacher',
+					widget 		: $$(getHtmlId('teacherCombo'))
 				},
 				'classroom' : {
-					widget : $$(getHtmlId('classroomCombo'))
+					position	: 1,
+					label		: 'Classroom',
+					widget 		: $$(getHtmlId('classroomCombo'))
 				},
-				'custom' : {
-					widget : $$(getHtmlId('customQuery'))
-				},
-				'studyGroup' : {
-					widget : $$(getHtmlId('sgCombo'))
+//				'custom' : {
+//					widget : $$(getHtmlId('customQuery'))
+//				},
+				'grade' : {
+					position	: 2,
+					label		: 'Classroom',
+					widget 		: $$(getHtmlId('sgCombo'))
 				},
 				'course' : {
-					widget : $$(getHtmlId('courseCombo'))
+					position	: 3,
+					label		: 'Classroom',
+					widget 		: $$(getHtmlId('courseCombo'))
 				}
 			};
 			
@@ -75,7 +131,7 @@ function constructor (id) {
 			}
 		}
 		
-		selectQueryType('teacher');
+		selectQueryType($comp.sources['fields'].value);
 		initDataSources(true);
 	// @region namespaceDeclaration// @startlock
 	var courseCombo = {};	// @combobox

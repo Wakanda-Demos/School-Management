@@ -48,6 +48,7 @@ function constructor (id) {
 	{// @endlock
 		courseDS.select(-1);
 		dataSource.all();
+		getHtmlObj('container1').smSearch('clear')
 	};// @lock
 
 	combobox1.change = function combobox1_change (event)// @startlock
@@ -71,22 +72,19 @@ function constructor (id) {
 
 	image2.click = function image2_click (event)// @startlock
 	{// @endlock
-		var msg = 'Do you want to delete this teacher ?';
+		var msg = 'Are you sure you want to delete this teacher?';
 		
-		if(dhtmlx.confirm){
-			dhtmlx.confirm({
-				type:"confirm-warning",
-				text: msg,
-				callback: function(resp) {
-					if(resp){
-						dataSource.removeCurrent();
-					}
-				}
-			})
-		}
-		else if(confirm(msg)){
-			dataSource.removeCurrent();
-		}
+		_ns.adminView.displayMessage({
+            messages	: [msg],
+            options	: {
+                callback : function(resp){
+                    if(resp){
+                        dataSource.removeCurrent();
+                    }
+                }
+            },
+            alert : false
+        });
 	};// @lock
 
 	matrix1.onChildrenDraw = function matrix1_onChildrenDraw (event)// @startlock
@@ -99,9 +97,11 @@ function constructor (id) {
 		
 		dataSource.speciality.load({
 			onSuccess: function(e){
-				$(that).find('.color').css({
-					'background-color' : e.entity.color.getValue()
-				});
+				if(e.entity){
+					$(that).find('.color').css({
+						'background-color' : e.entity.color.getValue()
+					});
+				}
 			}
 		});
 	};// @lock

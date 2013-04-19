@@ -73,8 +73,13 @@ function constructor (id) {
 			
 			switch(action){
 				case 'delete':
+					if(selectedSts.length < 1){
+						break;
+					}
+					
 					var
-					msg = 'Do you want to remove the ' + selectedSts.length + ' selected student(s) ?';
+					plural = selectedSts.length > 1,
+					msg = 'Are you sure you want to remove the' + (plural ? ' ' + selectedSts.length : '') + ' selected student' + (plural ? 's' : '') + '?';
 					
 					if(dhtmlx && dhtmlx.confirm){
 						dhtmlx.confirm({
