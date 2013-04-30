@@ -135,4 +135,23 @@
 		curSession.unPromote(promoteToken);
 	}
 	__methods.generateRandomData.scope = 'public';
+	
+	__methods.loginAs = function(user){
+		switch(user){
+			case 'administrator':
+				loginByPassword('administrator', 'administrator');
+				break;
+			case 'teacher':
+				loginByPassword('teacher', 'teacher');
+				break;
+			case 'student':
+				loginByPassword('student', 'student');
+				break;
+			default:
+				return false;
+		}
+		
+		return true;
+	}
+	__methods.loginAs.scope = 'public';
 })();

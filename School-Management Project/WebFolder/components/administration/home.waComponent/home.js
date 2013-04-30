@@ -12,21 +12,6 @@ function constructor (id) {
 
 	this.load = function (data) {// @lock
 	
-	//No, no we're not that stupid :D !! The passwords are stored in the client side for demo purposes
-	var loginMap = {
-		'administrator': {
-			login	: 'administrator',
-			password: 'administrator'
-		},
-		'teacher' : {
-			login	: 'teacher',
-			password: 'teacher'
-		},
-		'student' : {
-			login	: 'student',
-			password: 'student'
-		}
-	}
 	// @region namespaceDeclaration// @startlock
 	var container1 = {};	// @container
 	// @endregion// @endlock
@@ -35,11 +20,7 @@ function constructor (id) {
 
 	container1.click = function container1_click (event)// @startlock
 	{// @endlock
-		var
-		type 	= $$(getHtmlId('combobox1')).getValue(),
-		obj 	= loginMap[type];
-		
-		if(obj && waf.directory.loginByPassword(obj.login , obj.password)){
+		if(ds.Utils.loginAs($$(getHtmlId('combobox1')).getValue())){
 			location.href = '/index/?view=agenda';
 		}
 	};// @lock
