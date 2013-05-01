@@ -1104,7 +1104,7 @@ _ns = {
 		}, "WAF")
 		
 		if(config.initQuery !== false){
-			var col	= this.getEntityCollection();
+			var col	= config.dataSource.getEntityCollection();
 			
 			col._private.pageSize = config.cacheSize;
 			config.dataSource.query(config.initQuery);
