@@ -213,9 +213,10 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	documentEvent.onLoad = function documentEvent_onLoad (event)// @startlock
 	{// @endlock
 		var
-		html 	= '',
-		options = _ns.adminView.options,
-		groups	= [
+		html 		= '',
+		options 	= _ns.adminView.options,
+		$scheduler 	= $$('scheduler').$domNode,
+		groups		= [
 			{
 				name 	: 'administrator',
 				script	: '/scripts/scheduler/admin.js',
@@ -228,23 +229,6 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 			}
 		];
 		
-		html 	+= '<div class="dhx_cal_navline" height="100px">';
-		html 	+= 	'<div class="dhx_cal_prev_button">&nbsp;</div>';
-		html 	+= 	'<div class="dhx_cal_next_button">&nbsp;</div>';
-		html 	+= 	'<div class="dhx_cal_today_button"></div>';
-		html 	+= 	'<div class="dhx_cal_date"></div>';
-		html 	+= 	'<div class="dhx_cal_tab dhx_cal_tab_first" name="day_tab" style="right: 261px;"></div>';
-		html 	+= 	'<div class="dhx_cal_tab" name="week_tab" style="right:200px;"></div>';
-		html 	+= 	'<div class="dhx_cal_tab dhx_cal_tab_last" name="month_tab" style="right: 139px;"></div>';
-		html 	+= 	'<div class="dhx_cal_date"></div>';
-		html 	+= 	'<div class="dhx_minical_icon" id="dhx_minical_icon">&nbsp;</div>';
-		html 	+= '</div>';
-		html 	+= '<div class="dhx_cal_header">';
-		html 	+= '</div>';
-		html 	+= 	'<div class="dhx_cal_data">';
-		html 	+= '</div>';
-		
-		$$('scheduler').$domNode.append(html);
 		center('main');
 		center('mainDialog');
 		
@@ -253,11 +237,9 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		for(var i = 0 , g ; g = groups[i] ; i++){
 			if(waf.directory.currentUserBelongsTo(g.name)){
 				$.getScript(g.script, function(data, textStatus, jqxhr) {
-					mappingObj = initScheduler('scheduler' , new Date(), options.calendar , {
+					mappingObj = initScheduler($scheduler.attr('id') , new Date(), options.calendar , {
 						dataSource 	: sources.timeTable,
-						readonly	: g.readonly,
 						fields		: {
-							id				: 'ID',
 							text			: "comment",
 							rec_type 		: 'rec_type',
 							end_date		: "endDate",
@@ -269,6 +251,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 							studyGroupID	: "studyGroup",
 							event_length 	: 'tt_length'
 						},
+						cacheSize	: 80,
 						colorAttr	: 'classroom.color',
 						initQuery	: ''
 					});

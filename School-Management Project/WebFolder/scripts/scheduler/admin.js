@@ -1,5 +1,6 @@
 ﻿function initScheduler(containerID , date, view , syncObj) {
     var
+	html 			= '',
     compoID 		= 'timeTableDetails',
     rangeCompoID	= 'timeRangeDetails',
     dataSources 	= [
@@ -84,7 +85,7 @@
     }
     ]
     mappingObj = _ns.Mapping.getInstance();
-    mappingObj.init(syncObj.fields , syncObj.dataSource.getDataClass());
+    mappingObj.init(syncObj.fields , syncObj.dataSource);
 	
     function validator(event_obj){
     	if(typeof this.rule == 'function'){
@@ -314,16 +315,7 @@
     scheduler.attachEvent("onEventChanged", function(event_id,event_object){
         var validation = validateEvent.call(this , event_object);
         if(validation.valid && event_id.toString().indexOf('#') < 0){
-            var
-            res = ds.TimeTable.editItem(event_id , mappingObj.getObject(event_object));
-			
-            if(res && res.getKey){
-                if(event_id != res.getKey()){
-                    scheduler.changeEventId(event_id , res.getKey());
-                }
-				
-                refreshFromEntity(res);
-            }
+            mappingObj.saveSource(event_id , event_object);
         }
 		
         else if(!validation.valid){
@@ -339,27 +331,63 @@
     });
   	
     scheduler.attachEvent("onBeforeEventDelete", function(event_id,event_object){
-        if(event_object.event_pid){
-            return ds.TimeTable.editItem(event_id , mappingObj.getObject(event_object));
-        }
-        else if(ds.TimeTable.editItem(event_id , mappingObj.getObject(event_object) , true)){
-            return true;
-        }
+        if(event_object._dont_save){
+  			delete event_object._dont_save;
+  			return true;
+  		}
+  		
+  		if(event_object.event_pid){
+			event_object.rec_type = "none";
+			mappingObj.saveSource(event_id , event_object);
+		}
+		else {
+			var opts = {
+				onSuccess: function(e){
+					e.dataSource.removeCurrent();
+				}
+			}
+			if(event_object._position){
+				mappingObj.source.select(mappingObj.getRealPosition(event_object._position) , opts);
+			}
+			else{
+				mappingObj.source.selectByKey(event_id , opts);
+			}
+		}
 		
-        return false;
+		return true;
     });
   	
     scheduler.attachEvent("onEventAdded", function(event_id,event_object){
         var validation = validateEvent.call(this , event_object);
         if(validation.valid){
-            var res = ds.TimeTable.editItem(event_id , mappingObj.getObject(event_object));
-            if(res && res.getKey){
-                scheduler.changeEventId(event_id , res.getKey());
-                refreshFromEntity(res);
-            }
+            if(event_object._dont_save){
+	  			delete event_object._dont_save;
+	  			return;
+	  		}
+	  		else{
+	  			event_object._new = true;
+	  			mappingObj.saveSource(event_id , event_object);
+	  		}
         }
     });
-	
+    
+	scheduler.attachEvent("onBeforeDrag", function(event_id, mode, native_event_object){
+  		switch(mode){
+  			case 'move':
+  			case 'resize':
+  				if(false){
+	  				delete scheduler._ignore_click;
+	  			}
+	  			else{
+	  				scheduler._ignore_click = true;
+	  				mappingObj.select(scheduler.getEvent(event_id));
+	  			}
+  				break;
+  		}
+  		
+  		return true;
+  	});
+  	
     scheduler.attachEvent("onEventSave",function(id,data,is_new_event){
         var validator = validateEvent.call(this , data);
         return validator.valid;
@@ -507,7 +535,27 @@
         scheduler.__recurring_template = scheduler.__recurring_template.replace(new RegExp(ch.oldVal , 'g') , ch.newVal);
     }
   	
-    $('#' + containerID).addClass('dhx_cal_container calendar');
+  	html 	+= '<div class="dhx_cal_navline" height="100px">';
+	html 	+= 	'<div class="dhx_cal_prev_button">&nbsp;</div>';
+	html 	+= 	'<div class="dhx_cal_next_button">&nbsp;</div>';
+	html 	+= 	'<div class="dhx_cal_today_button"></div>';
+	html 	+= 	'<div class="dhx_cal_date"></div>';
+	html 	+= 	'<div class="dhx_cal_tab dhx_cal_tab_first" name="day_tab" style="right: 261px;"></div>';
+	html 	+= 	'<div class="dhx_cal_tab" name="week_tab" style="right:200px;"></div>';
+	html 	+= 	'<div class="dhx_cal_tab dhx_cal_tab_last" name="month_tab" style="right: 139px;"></div>';
+	html 	+= 	'<div class="dhx_cal_date"></div>';
+	html 	+= 	'<div class="dhx_minical_icon" id="dhx_minical_icon">&nbsp;</div>';
+	html 	+= '</div>';
+	html 	+= '<div class="dhx_cal_header">';
+	html 	+= '</div>';
+	html 	+= 	'<div class="dhx_cal_data">';
+	html 	+= '</div>';
+  	
+    $('#' + containerID)
+  	.empty()
+  	.append(html)
+  	.addClass('waf-project-noStyle dhx_cal_container calendar');
+  	
     scheduler.init(containerID , date , view);
 	
     return _ns.syncWithDS(syncObj);
