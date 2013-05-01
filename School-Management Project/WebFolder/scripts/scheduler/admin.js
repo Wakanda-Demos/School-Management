@@ -171,37 +171,6 @@
             })
         }
     }
-  		
-    function fixDataSources(ev_object){
-        for(var i = 0 , dataS ; dataS = dataSources[i] ; i++ ){
-            var name = dataS.global ? dataS.name : compoID + '_' + dataS.name;
-            if(sources[name]){
-                if(dataS.getAll){
-                    sources[name].all({
-                        onSuccess: function(ev){
-                            ev.dataSource.selectByKey(ev_object[ev.userData.mapAttr]);
-                        },
-                        userData: dataS
-                    });
-                }
-                else{
-                    sources[name].selectByKey(ev_object[dataS.mapAttr]);
-                }
-            }
-        }
-    }
-	
-    function fixTimeRange(ev_object){
-        var
-        begin 	= ev_object.start_date,
-        end		= ev_object.end_date;
-		
-        $$(rangeCompoID)._setTime({
-            date	: begin,
-            begin	: begin.getHours()*60 + begin.getMinutes(),
-            end 	: end.getHours()*60 + end.getMinutes()
-        });
-    }
 	
     function refreshFromEntity(entity){
         var
@@ -237,30 +206,10 @@
                 return '<div id="' + compoID + '" data-type="component" data-constraint-top="true" style="height:286px" data-constraint-left="true" class="waf-widget waf-component default inherited"></div>';
             },
             set_value:function(node,value,ev){
-                if($(node).children().length){
-                    fixDataSources(ev);
-                }
+				
             },
             get_value:function(node,ev){
-                var
-                dc		= _ns.Mapping.dc,
-                mapObj 	= _ns.Mapping.getInstance();
-				
-                for(var i = 0 , dataS ; dataS = dataSources[i] ; i++ ){
-                    var
-                    name 	= dataS.global ? dataS.name : compoID + '_' + dataS.name,
-                    dsource = sources[name];
-					
-                    if(dsource && dsource.getCurrentElement()){
-                        ev[dataS.mapAttr] = dsource.getCurrentElement().getKey();
-                    }
-                }
-				
-                var
-                t = $$(rangeCompoID)._getSchedulerTime();
-				
-                ev.start_date 	= t.start_date;
-                ev.end_date		= t.end_date;
+            	
             }
         },
         'time_range' : {
@@ -269,11 +218,11 @@
             },
             set_value:function(node,value,ev){
                 if($(node).children().length){
-                    fixTimeRange(ev);
+                	$$(rangeCompoID)._fixSource.call(syncObj.dataSource);
                 }
             },
             get_value:function(node,ev){
-            // have been done in the "timeTable_details" section !
+            	
             }
         }
     });
@@ -405,12 +354,7 @@
                 'data-type': 'component',
                 'data-theme': 'metal inherited'
             });
-            compoWidget.loadComponent({
-                path: '/components/selectTimeTableDetails.waComponent',
-                onSuccess: function(){
-                    fixDataSources(event_object);
-                }
-            });
+            compoWidget.loadComponent('/components/selectTimeTableDetails.waComponent');
         }
   		
         if(!$$(rangeCompoID)){
@@ -421,18 +365,7 @@
                 'data-type': 'component',
                 'data-theme': 'metal inherited'
             });
-			
-            rangeWebCompo.loadComponent({
-                path: "/components/selectTimeRange.waComponent",
-                onSuccess: function(){
-                    scheduler.setLightboxSize();
-					
-                    $$(this.id)._setMinTime(scheduler.config.first_hour*60);
-                    $$(this.id)._setMaxTime(scheduler.config.last_hour*60);
-					
-                    fixTimeRange(event_object);
-                }
-            });
+            rangeWebCompo.loadComponent('/components/selectTimeRange.waComponent');
         }
   		
         var

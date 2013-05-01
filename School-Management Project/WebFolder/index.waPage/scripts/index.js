@@ -251,7 +251,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 							studyGroupID	: "studyGroup",
 							event_length 	: 'tt_length'
 						},
-						cacheSize	: 80,
+						cacheSize	: 40,
 						colorAttr	: 'classroom.color',
 						initQuery	: ''
 					});

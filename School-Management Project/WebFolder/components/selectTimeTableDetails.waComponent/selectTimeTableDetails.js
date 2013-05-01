@@ -13,29 +13,48 @@ function constructor (id) {
 	this.load = function (data) {// @lock
 		
 	// @region namespaceDeclaration// @startlock
-	var courseEvent = {};	// @dataSource
+	var teacherEvent = {};	// @dataSource
+	var combobox2 = {};	// @combobox
 	// @endregion// @endlock
-		$comp.refreshTeachers = function(){
-			var course = $comp.sources.course;
-			
-			if(course.getCurrentElement()){
-				sources[getHtmlId('teacher')].query('speciality.ID == ' + course.getCurrentElement().getKey())
-			}
-			else{
-				sources[getHtmlId('teacher')].query('null');
-			}
-		}
+		
 	// eventHandlers// @lock
 
-	courseEvent.onCurrentElementChange = function courseEvent_onCurrentElementChange (event)// @startlock
+	teacherEvent.onCurrentElementChange = function teacherEvent_onCurrentElementChange (event)// @startlock
 	{// @endlock
-		$comp.refreshTeachers();
+//		if(!this._fromCombo){
+//			$comp.widgets.combobox2._fromTeacher = true
+//			sources.timeTable.teacher.set(this);
+//		}
+//		else{
+//			delete this._fromCombo;
+//		}
+	};// @lock
+
+	combobox2.change = function combobox2_change (event)// @startlock
+	{// @endlock
+		if(this.getValue()){
+			var tt 	= sources.timeTable.getCurrentElement(),
+				key	= tt ? tt.teacher.relKey : null;
+				
+			$comp.sources.teacher.query('speciality.ID == ' + this.getValue() , {
+				onSuccess: function(e){
+					if(e.dataSource.length > 1){
+						e.dataSource.selectByKey(key , {
+							onSuccess: function(ev){
+								ev._ignore = true;
+							}
+						});
+					}
+				}
+			})
+		}
 	};// @lock
 
 	// @region eventManager// @startlock
-	WAF.addListener(this.id + "_course", "onCurrentElementChange", courseEvent.onCurrentElementChange, "WAF");
+	WAF.addListener(this.id + "_teacher", "onCurrentElementChange", teacherEvent.onCurrentElementChange, "WAF");
+	WAF.addListener(this.id + "_combobox2", "change", combobox2.change, "WAF");
 	// @endregion// @endlock
-
+	
 	};// @lock
 
 

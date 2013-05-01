@@ -18,54 +18,41 @@ function constructor (id) {
 	
 	this.load = function (data) {// @lock
 		var
+		dataS	= sources.timeTable,
 		$tRange	= getHtmlObj('timeRange'),
 		$date	= getHtmlObj('date');
 		
-		$date.datepicker();
+		$tRange
+		.rangeSlider('bounds' , min , max)
+		.on({
+			'valuesChanged': function(e, values){
+				var
+				baseD= new Date(dataS.beginDate),
+				vals = $(this).rangeSlider('values');
+				
+				dataS.beginDate = adminV.getDateFromMinutes(baseD,vals.min);
+				dataS.endDate = adminV.getDateFromMinutes(baseD,vals.max);
+			}
+		});
 		
-		$comp._setBounds = function(min , max){
-			var
-			bounds 	= $tRange.rangeSlider('bounds'),
-			obj 	= {
-				min : min ? min : bounds.min,
-				max : max ? max : bounds.max
-			};
-			
-			$tRange.rangeSlider('bounds' , obj.min , obj.max);
-		}
-		
-		$comp._setMinTime = function(min){
-			this._setBounds(min , null);
-		}
-		
-		$comp._setMaxTime = function(max){
-			this._setBounds(null , max);
-		}
-		
-		$comp._getTime = function(){
-			var
-			range 		= $tRange.rangeSlider("values");
-			
-	    	return {
-	    		date : $date.datepicker("getDate"),
-	    		begin: adminV.formatTimeFromNumber(range.min),
-	    		end	 : adminV.formatTimeFromNumber(range.max)
-	    	};
-	    }
+		$date
+		.datepicker()
+		.on({
+			'change': function(){
+				vals = $tRange.rangeSlider('values');
+				dataS.beginDate = adminV.getDateFromMinutes($(this).datepicker('getDate'),vals.min);
+			}
+		})
 	    
-		$comp._getSchedulerTime = function(){
-			var
-			range 	= $tRange.rangeSlider("values");
+	    $comp._fixSource = function _fixTime(){
+	    	var begin 	= this.beginDate,
+				end 	= this.endDate;
 			
-			return {
-	    		start_date 	: adminV.getDateFromMinutes($date.datepicker("getDate") , range.min),
-	    		end_date 	: adminV.getDateFromMinutes($date.datepicker("getDate") , range.max)
-	    	};
-	    }
-	    
-	    $comp._setTime = function(time){
-	    	$date.datepicker("setDate" , time.date);
-	    	$tRange.rangeSlider('values' , time.begin , time.end);
+			$tRange.rangeSlider('values',
+				begin ? begin.getHours()*60 + begin.getMinutes():null,
+				end ? end.getHours()*60 + end.getMinutes():null);
+				
+			$date.datepicker('setDate', dataS.beginDate);
 	    }
 	    
 	    $tRange.css('overflow' , 'visible').rangeSlider({
@@ -75,6 +62,8 @@ function constructor (id) {
 				return adminV.formatTimeFromNumber(val);
 			}
 		});
+		
+		$comp._fixSource.call(dataS);
 	
 	// @region namespaceDeclaration// @startlock
 	var image1 = {};	// @image
