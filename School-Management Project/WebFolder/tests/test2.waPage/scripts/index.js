@@ -1,47 +1,10 @@
 ﻿
 WAF.onAfterInit = function onAfterInit() {// @lock
-
+	
 // @region namespaceDeclaration// @startlock
 	var documentEvent = {};	// @document
 // @endregion// @endlock
-	function formatNumber(str , nb){
-		while(str.length < nb){
-			str = '0' + str;
-		}
-		
-		return str;
-	}
 	
-	function formatTimeFromNumber(val){
-		var
-		nbMinutes	= val%60
-		nbHours 	= (val - nbMinutes)/60,
-		pm			= nbHours > 12;
-
-		if(pm){
-			nbHours -= 12;
-		}
-
-		return nbHours + ':' + formatNumber(nbMinutes + '' , 2) + ' ' + (pm ? 'PM' : 'AM');
-	}
-	
-	function getDateFromMinutes(baseDate , nb){
-		if(!baseDate){
-			return null;
-		}
-		
-		var
-		nbM = nb%60;
-		nbH = (nb - nbM)/60;
-		
-		baseDate.setHours(nbH);
-		baseDate.setMinutes(nbM);
-		
-		return new Date(baseDate);
-	}
-	_ns.adminView.getDateFromMinutes= getDateFromMinutes;
-	_ns.adminView.formatNumber		= formatNumber;
-	_ns.adminView.formatTimeFromNumber = formatTimeFromNumber;
 // eventHandlers// @lock
 
 	documentEvent.onLoad = function documentEvent_onLoad (event)// @startlock
@@ -62,9 +25,9 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 				studyGroupID	: "studyGroup",
 				event_length 	: 'tt_length'
 			},
-			cacheSize	: 40,
+			cacheSize	: 80,
 			colorAttr	: 'classroom.color',
-			initQuery	: ''
+			initQuery	: false
 		});
 	};// @lock
 

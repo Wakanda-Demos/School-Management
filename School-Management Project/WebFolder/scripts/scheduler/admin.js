@@ -190,6 +190,7 @@
     }
 
     scheduler.config = $.extend({} , scheduler.config , ds.School.getSchedulerConfig());
+    
     scheduler.config = $.extend({} , scheduler.config , {
         buttons_left: ["dhx_cancel_btn" , "dhx_delete_btn"],
         buttons_right: ["dhx_save_btn"]

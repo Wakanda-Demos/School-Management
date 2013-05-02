@@ -181,7 +181,7 @@ date.setDate(date.getDate() - date.getDay() + 1);
 date.setSeconds(0);
 date.setMilliseconds(0);
 
-while(ds.TimeTable.count() < 50){
+while(ds.TimeTable.count() < 1000){
 	for(var i = 0 , seance ; seance = timeTableMeta.seances[i] ; i++){
 		var
 		course = randomizer.getRandom('Course'),

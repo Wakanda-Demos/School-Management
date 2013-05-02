@@ -717,52 +717,6 @@ _ns = {
 		return position;
 	}
 	
-	Mapping.prototype.getColorValue = function(obj){
-		if(!obj || !this.colorAttr || !this.dc || typeof this.colorAttr != 'string'){
-			return this.defaultColor;
-		}
-		
-		if(!(obj instanceof WAF.Entity)){
-			obj = new WAF.Entity(this.dc, obj);
-		}
-
-		var
-		res 	= obj,
-		attribs = this.colorAttr.split('.');
-
-		if(obj instanceof WAF.Entity){
-			res 	= obj;
-			
-			for(var i = 0 , attr ; attr = attribs[i] ; i++){
-				res = res[attr];
-
-				if(!res){
-					return this.defaultColor;
-				}
-				
-				if(res instanceof WAF.EntityAttributeRelated){
-					res.load({
-						onSuccess: function(e){
-					    	res = e.entity;
-						}
-					});
-				}
-				else if(res.getValue){
-					return res.getValue();
-				}
-				
-				if(!res){
-					return this.defaultColor;
-				}
-			}
-		}
-		else{
-			return this.defaultColor;
-		}
-
-		return res;
-	}
-	
 	Mapping.prototype.getReverseObject = function(obj , _dont_fix){
 		var res = {};
 			
@@ -1004,6 +958,8 @@ _ns = {
 				recieved	= 0,
 				arr 		= [];
 				
+				debugger;
+				
 				mappingObj.clear();
 				col._private.pageSize = config.cacheSize;
 				
@@ -1016,17 +972,21 @@ _ns = {
 				
 				function push(element , position){
 					var
+					ent = new WAF.Entity(mappingObj.dc, element),
 					res	= mappingObj.getReverseObject(element);
 					
-					res['color']		= mappingObj.getColorValue(element);
-					res['id'] 			= element[primKey];
-					res['_position'] 	= position;
-					
-					arr.push(res);
-					recieved++;
-					
-					draw();
-					getElement(position + 1);
+					ent.getAttributeValue(mappingObj.colorAttr, {
+						onSuccess: function(e){
+							res['color'] 		= e.result;
+							res['id'] 			= element[primKey];
+							res['_position'] 	= position;
+							
+							arr.push(res);
+							recieved++;
+							draw();
+							getElement(position + 1);
+						}
+					});
 				}
 				
 				function getElement(position){
@@ -1117,6 +1077,102 @@ _ns = {
 		return this._private.primaryKey;
 	}
 	
+	WAF.Entity.prototype.getAttributeValue = function(attrPath, opts){
+		var attrs= attrPath.split('.'),
+			that= this;
+		
+		opts = $.extend(true, {
+			onSuccess: false,
+			onError: false
+		}, opts);
+		
+		function getNext(entity){
+			if(!entity){
+				returnResponse("An error has occured!", 'error');
+				return;
+			}
+			
+			var attr = attrs[0];
+			
+			switch(true){
+				case entity[attr] instanceof WAF.EntityAttributeSimple:
+					if(attrs.length > 1){
+						returnResponse("Unknwon attribute : " + attrs.slice(1).join('.'), 'error');
+					}
+					
+					returnResponse(entity[attr].getValue());
+					break;
+				case entity[attr] instanceof WAF.EntityAttributeRelated:
+					entity[attr].load({
+						onSuccess: function(e){
+							attrs = attrs.slice(1);
+							getNext(e.entity);
+						}
+					});
+					break;
+				default:
+					returnResponse("Unknwon attribute", 'error');
+					break;
+			}
+		}
+		
+		function returnResponse(result, type){
+			switch(type){
+				case 'error':
+					if(typeof opts.onError == 'function'){
+						opts.onError.call(that, {error: result});
+					}
+					break;
+				default:
+					if(typeof opts.onSuccess == 'function'){
+						opts.onSuccess.call(that, {result: result});
+					}
+					break;
+			}
+		}
+		
+		getNext(this);
+	}
+	
+	function formatNumber(str , nb){
+		while(str.length < nb){
+			str = '0' + str;
+		}
+		
+		return str;
+	}
+	
+	function formatTimeFromNumber(val){
+		var
+		nbMinutes	= val%60
+		nbHours 	= (val - nbMinutes)/60,
+		pm			= nbHours > 12;
+
+		if(pm){
+			nbHours -= 12;
+		}
+
+		return nbHours + ':' + formatNumber(nbMinutes + '' , 2) + ' ' + (pm ? 'PM' : 'AM');
+	}
+	
+	function getDateFromMinutes(baseDate , nb){
+		if(!baseDate){
+			return null;
+		}
+		
+		var
+		nbM = nb%60;
+		nbH = (nb - nbM)/60;
+		
+		baseDate.setHours(nbH);
+		baseDate.setMinutes(nbM);
+		
+		return new Date(baseDate);
+	}
+	
+	_ns.getDateFromMinutes	= getDateFromMinutes;
+	_ns.formatNumber		= formatNumber;
+	_ns.formatTimeFromNumber = formatTimeFromNumber;
 	_ns.parseUri 			= parseUri;
 	_ns.Mapping 			= Mapping;
 	_ns.Message 			= Message;
