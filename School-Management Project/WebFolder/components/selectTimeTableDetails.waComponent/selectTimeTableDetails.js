@@ -11,39 +11,85 @@ function constructor (id) {
 	// @endregion// @endlock
 
 	this.load = function (data) {// @lock
+		var attrs			= ['_course', '_classroom', '_grade'],
+			requiredCols 	= {
+				init: function(all){
+					for(var i = 0, attr; attr = attrs[i]; i++){
+						requiredCols[attr] = false;
+						if(all){
+							Object.defineProperty(requiredCols, attr.substring(1), {
+								set: function(){
+									_checkReady();
+								},
+								get: function(){
+									return null;
+								},
+								configurable: true
+							});
+						}
+					}
+				}
+			};
 		
+		requiredCols.init(true);
 	// @region namespaceDeclaration// @startlock
-	var teacherEvent = {};	// @dataSource
+	var ttcourseEvent = {};	// @dataSource
+	var ttclassroomEvent = {};	// @dataSource
+	var ttstudyGroupEvent = {};	// @dataSource
 	var combobox2 = {};	// @combobox
 	// @endregion// @endlock
+		function _checkReady(){
+			for(var attr in attrs){
+				if(!attrs[attr]){
+					return false;
+				}
+			}
+			
+			requiredCols.init(false);
+			$($comp).trigger('_ready');
+		}
 		
+		$($comp).on('_ready', function(){
+			sources.timeTable.dispatch('onCurrentElementChange');
+//			if(!requiredCols.triggred){
+//				requiredCols.triggred = true;
+//				sources.timeTable.dispatch('onCurrentElementChange');
+//				console.log('dispatched');
+//			}
+		});
 	// eventHandlers// @lock
 
-	teacherEvent.onCurrentElementChange = function teacherEvent_onCurrentElementChange (event)// @startlock
+	ttcourseEvent.onCollectionChange = function ttcourseEvent_onCollectionChange (event)// @startlock
 	{// @endlock
-//		if(!this._fromCombo){
-//			$comp.widgets.combobox2._fromTeacher = true
-//			sources.timeTable.teacher.set(this);
-//		}
-//		else{
-//			delete this._fromCombo;
-//		}
+		if(this.length > 0){
+			requiredCols['course'] = true;
+		}
+	};// @lock
+
+	ttclassroomEvent.onCollectionChange = function ttclassroomEvent_onCollectionChange (event)// @startlock
+	{// @endlock
+		if(this.length > 0){
+			requiredCols['classroom'] = true;
+		}
+	};// @lock
+
+	ttstudyGroupEvent.onCollectionChange = function ttstudyGroupEvent_onCollectionChange (event)// @startlock
+	{// @endlock
+		if(this.length > 0){
+			requiredCols['grade'] = true;
+		}
 	};// @lock
 
 	combobox2.change = function combobox2_change (event)// @startlock
 	{// @endlock
-		if(this.getValue()){
+		if(this.getValue() && !sources.timeTable._doNotRefreshTeachers){
 			var tt 	= sources.timeTable.getCurrentElement(),
 				key	= tt ? tt.teacher.relKey : null;
 				
 			$comp.sources.teacher.query('speciality.ID == ' + this.getValue() , {
 				onSuccess: function(e){
 					if(e.dataSource.length > 1){
-						e.dataSource.selectByKey(key , {
-							onSuccess: function(ev){
-								ev._ignore = true;
-							}
-						});
+						e.dataSource.selectByKey(key);
 					}
 				}
 			})
@@ -51,7 +97,9 @@ function constructor (id) {
 	};// @lock
 
 	// @region eventManager// @startlock
-	WAF.addListener(this.id + "_teacher", "onCurrentElementChange", teacherEvent.onCurrentElementChange, "WAF");
+	WAF.addListener("ttcourse", "onCollectionChange", ttcourseEvent.onCollectionChange, "WAF");
+	WAF.addListener("ttclassroom", "onCollectionChange", ttclassroomEvent.onCollectionChange, "WAF");
+	WAF.addListener("ttstudyGroup", "onCollectionChange", ttstudyGroupEvent.onCollectionChange, "WAF");
 	WAF.addListener(this.id + "_combobox2", "change", combobox2.change, "WAF");
 	// @endregion// @endlock
 	

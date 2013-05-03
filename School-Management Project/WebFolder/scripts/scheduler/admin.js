@@ -207,7 +207,7 @@
                 return '<div id="' + compoID + '" data-type="component" data-constraint-top="true" style="height:286px" data-constraint-left="true" class="waf-widget waf-component default inherited"></div>';
             },
             set_value:function(node,value,ev){
-				
+				sources.timeTable.dispatch('onCurrentElementChange');
             },
             get_value:function(node,ev){
             	

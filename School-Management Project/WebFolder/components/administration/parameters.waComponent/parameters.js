@@ -7,8 +7,7 @@
         var
         config 	= ds.School.getSchedulerConfig(),
         min		= config.first_hour*60,
-        max		= config.last_hour*60,
-        adminV 	= _ns.adminView;
+        max		= config.last_hour*60;
 	
         // @region beginComponentDeclaration// @startlock
         var $comp = this;
@@ -35,14 +34,14 @@
                 },
                 step	: 10,
                 formatter:function(val){
-                    return adminV.formatTimeFromNumber(val);
+                    return _ns.formatTimeFromNumber(val);
                 }
             }).on('valuesChanged' , function(e , data){
                 var
                 values	= data.values;
 			
-                agendaSource.from 	= adminV.formatTimeFromNumber(values.min);
-                agendaSource.to 	= adminV.formatTimeFromNumber(values.max);
+                agendaSource.from 	= _ns.formatTimeFromNumber(values.min);
+                agendaSource.to 	= _ns.formatTimeFromNumber(values.max);
 			
                 if(agendaSource._init){
                     delete agendaSource._init;

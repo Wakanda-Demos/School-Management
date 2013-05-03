@@ -36,7 +36,7 @@ scheduler.templates.event_date = function(date){
 	var
 	nb	= date.getHours()*60 + date.getMinutes();
 	
-	return _ns.adminView.formatTimeFromNumber(nb);
+	return _ns.formatTimeFromNumber(nb);
 }
 
 scheduler.config = $.extend({} , scheduler.config , {
