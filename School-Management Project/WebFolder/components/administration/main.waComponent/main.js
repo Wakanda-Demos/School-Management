@@ -53,6 +53,10 @@ function constructor (id) {
 			}
 			
 			$comp.sources.currentTab.sync();
+			
+			if(history){
+				history.pushState({}, '', '?view=administration&adminTab=' + tab)
+			}
 		}
 		
 		_ns.adminView.setAdminTab = setAdminTab;

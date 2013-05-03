@@ -27,7 +27,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 			},
 			cacheSize	: 80,
 			colorAttr	: 'classroom.color',
-			initQuery	: false
+			initQuery	: ''
 		});
 	};// @lock
 

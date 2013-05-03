@@ -958,8 +958,6 @@ _ns = {
 				recieved	= 0,
 				arr 		= [];
 				
-				debugger;
-				
 				mappingObj.clear();
 				col._private.pageSize = config.cacheSize;
 				
@@ -978,6 +976,16 @@ _ns = {
 					ent.getAttributeValue(mappingObj.colorAttr, {
 						onSuccess: function(e){
 							res['color'] 		= e.result;
+							res['id'] 			= element[primKey];
+							res['_position'] 	= position;
+							
+							arr.push(res);
+							recieved++;
+							draw();
+							getElement(position + 1);
+						},
+						onError: function(e){
+							res['color'] 		= mappingObj.defaultColor;
 							res['id'] 			= element[primKey];
 							res['_position'] 	= position;
 							
@@ -1170,13 +1178,13 @@ _ns = {
 		return new Date(baseDate);
 	}
 	
-	_ns.getDateFromMinutes	= getDateFromMinutes;
-	_ns.formatNumber		= formatNumber;
-	_ns.formatTimeFromNumber = formatTimeFromNumber;
-	_ns.parseUri 			= parseUri;
-	_ns.Mapping 			= Mapping;
-	_ns.Message 			= Message;
-	_ns.syncWithDS			= syncWithDS;
+	_ns.Message 				= Message;
+	_ns.Mapping 				= Mapping;
+	_ns.parseUri 				= parseUri;
+	_ns.syncWithDS				= syncWithDS;
+	_ns.formatNumber			= formatNumber;
+	_ns.getDateFromMinutes		= getDateFromMinutes;
+	_ns.formatTimeFromNumber 	= formatTimeFromNumber;
 })(_ns);
 
 // Modified jQuery ui combobox 
