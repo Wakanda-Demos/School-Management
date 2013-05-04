@@ -915,7 +915,6 @@ _ns = {
 					_position	: this.getPosition()
 				}
 			} , options );
-			console.log(this.getPosition())
 			
 			WAF.DataSourceEm.removeCurrent.call(this , options , userData);
 		}

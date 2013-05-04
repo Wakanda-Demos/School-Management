@@ -131,6 +131,12 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 			setView('home');
 		}
 	}
+
+	scheduler.attachEvent("onViewChange", function (mode , date){
+		if(history){
+			history.pushState({}, '', '?view=agenda&calendar=' + mode);
+		}
+	});
 	
 	_ns.adminView.setView 			= setView;
 	_ns.adminView.refreshMenues 	= refreshMenues;
@@ -202,12 +208,8 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 							text			: "comment",
 							rec_type 		: 'rec_type',
 							end_date		: "endDate",
-							courseID		: "course",
 							event_pid 		: 'tt_pid',
-							teacherID		: "teacher",
 							start_date		: "beginDate",
-							classroomID		: "classroom",
-							studyGroupID	: "studyGroup",
 							event_length 	: 'tt_length'
 						},
 						cacheSize	: 40,

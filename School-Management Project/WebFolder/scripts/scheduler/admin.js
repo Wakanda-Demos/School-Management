@@ -57,30 +57,30 @@
     },
     {
         selector: '#timeTableDetails_combobox1', //classroom
-        rule	: 'notEmpty',
+        rule	: 'relatedEntityNotEmplty',
         key		: 'cr_mandatory',
-        attr	: 'classroomID',
+        attr	: 'classroom',
         code	: '001'
     },
     {
         selector: '#timeTableDetails_combobox2', // Course
-        rule	: 'notEmpty',
+        rule	: 'relatedEntityNotEmplty',
         key		: 'course_mandatory',
-        attr	: 'courseID',
+        attr	: 'course',
         code	: '003'
     },
     {
         selector: '#timeTableDetails_combobox3', // StudyGroup
-        rule	: 'notEmpty',
+        rule	: 'relatedEntityNotEmplty',
         key		: 'grade_mandatory',
-        attr	: 'studyGroupID',
+        attr	: 'studyGroup',
         code	: '004'
     },
     {
         selector: '#waf-temp-container-timeTableDetails_matrix1', // Teacher
-        rule	: 'notEmpty',
+        rule	: 'relatedEntityNotEmplty',
         key		: 'teacher_mandatory',
-        attr	: 'teacherID',
+        attr	: 'teacher',
         code	: '005'
     }
     ]
@@ -95,6 +95,13 @@
         switch(this.rule){
             case 'notEmpty':
                 if(!event_obj[this.attr]){
+                    return false;
+                }
+                break;
+            case 'relatedEntityNotEmplty':
+            	var curElement = mappingObj.source.getCurrentElement();
+            	
+                if(!curElement || !curElement[this.attr] || !curElement[this.attr].relKey){
                     return false;
                 }
                 break;
@@ -207,10 +214,11 @@
                 return '<div id="' + compoID + '" data-type="component" data-constraint-top="true" style="height:286px" data-constraint-left="true" class="waf-widget waf-component default inherited"></div>';
             },
             set_value:function(node,value,ev){
-				sources.timeTable.dispatch('onCurrentElementChange');
+				mappingObj.source.dispatch('onCurrentElementChange');
             },
             get_value:function(node,ev){
-            	
+            	mappingObj.source._doNotRefreshTeachers = true;
+            	mappingObj.source.teacher.set(sources.timeTableDetails_teacher);
             }
         },
         'time_range' : {
@@ -355,7 +363,7 @@
                 'data-type': 'component',
                 'data-theme': 'metal inherited'
             });
-            compoWidget.loadComponent('/components/selectTimeTableDetails.waComponent');
+            compoWidget.loadComponent('/components/editTimeTable.waComponent');
         }
   		
         if(!$$(rangeCompoID)){

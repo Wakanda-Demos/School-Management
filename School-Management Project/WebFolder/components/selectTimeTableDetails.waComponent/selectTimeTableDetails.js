@@ -51,16 +51,12 @@ function constructor (id) {
 		
 		$($comp).on('_ready', function(){
 			sources.timeTable.dispatch('onCurrentElementChange');
-//			if(!requiredCols.triggred){
-//				requiredCols.triggred = true;
-//				sources.timeTable.dispatch('onCurrentElementChange');
-//				console.log('dispatched');
-//			}
 		});
 	// eventHandlers// @lock
 
 	ttcourseEvent.onCollectionChange = function ttcourseEvent_onCollectionChange (event)// @startlock
 	{// @endlock
+		console.log('changed')
 		if(this.length > 0){
 			requiredCols['course'] = true;
 		}
@@ -83,6 +79,18 @@ function constructor (id) {
 	combobox2.change = function combobox2_change (event)// @startlock
 	{// @endlock
 		if(this.getValue() && !sources.timeTable._doNotRefreshTeachers){
+			this._callCount = this._callCount ? ++this._callCount : 1;
+			switch(this._callCount){
+				case 3:
+					var tt 	= sources.timeTable.getCurrentElement();
+					if(tt){
+						this.setValue(tt.course.relKey);
+					}
+					return false;
+				case 4:
+					return false;
+			}
+			
 			var tt 	= sources.timeTable.getCurrentElement(),
 				key	= tt ? tt.teacher.relKey : null;
 				

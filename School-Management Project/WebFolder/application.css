@@ -291,9 +291,9 @@ div.dhx_menu_head {
 }
 
 .dhx_cal_container.calendar *{
-	box-sizing: initial !important;
-	-moz-box-sizing: initial !important; /* Firefox */
-	-webkit-box-sizing: initial !important; /* Safari */
+	box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important; /* Firefox */
+	-webkit-box-sizing: content-box !important; /* Safari */
 }
 
 .dhx_cal_tab{
