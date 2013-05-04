@@ -13,8 +13,7 @@ function constructor (id) {
 	var
 	config 	= ds.School.getSchedulerConfig(),
 	min		= config.first_hour*60,
-	max		= config.last_hour*60,
-	adminV 	= _ns.adminView;
+	max		= config.last_hour*60;
 	
 	this.load = function (data) {// @lock
 		var
@@ -30,8 +29,8 @@ function constructor (id) {
 				baseD= new Date(dataS.beginDate),
 				vals = $(this).rangeSlider('values');
 				
-				dataS.beginDate = adminV.getDateFromMinutes(baseD,vals.min);
-				dataS.endDate = adminV.getDateFromMinutes(baseD,vals.max);
+				dataS.beginDate = _ns.getDateFromMinutes(baseD,vals.min);
+				dataS.endDate = _ns.getDateFromMinutes(baseD,vals.max);
 			}
 		});
 		
@@ -40,7 +39,7 @@ function constructor (id) {
 		.on({
 			'change': function(){
 				vals = $tRange.rangeSlider('values');
-				dataS.beginDate = adminV.getDateFromMinutes($(this).datepicker('getDate'),vals.min);
+				dataS.beginDate = _ns.getDateFromMinutes($(this).datepicker('getDate'),vals.min);
 			}
 		})
 	    
@@ -59,7 +58,7 @@ function constructor (id) {
 			bounds	:{min: min, max: max},
 			step	: 5,
 			formatter:function(val){
-				return adminV.formatTimeFromNumber(val);
+				return _ns.formatTimeFromNumber(val);
 			}
 		});
 		
