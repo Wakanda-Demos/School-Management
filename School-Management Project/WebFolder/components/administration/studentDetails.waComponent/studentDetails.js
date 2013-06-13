@@ -79,7 +79,7 @@ function constructor (id) {
 
 	icon3.click = function icon3_click (event)// @startlock
 	{// @endlock
-		$$('dialog1').closeDialog();
+		$$('mainDialog').closeDialog();
 	};// @lock
 
 	// @region eventManager// @startlock
