@@ -1,0 +1,1 @@
+﻿ds.Utils.generateRandomData();if (self.close) {    self.close();}

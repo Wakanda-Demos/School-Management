@@ -11,4 +11,4 @@ addHttpRequestHandler('/getCal' , 'Scripts/handlersImpl.js' , 'exportCal');
 // Temporary handlers :
 addHttpRequestHandler('^/$' , 'Scripts/handlersImpl.js' , 'index');
 
-ds.Utils.generateRandomData();
+new SharedWorker("Workers/initApp.js", "InitApp");
