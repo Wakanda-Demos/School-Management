@@ -94,7 +94,7 @@
 					
                             msg.append('reload_page');
 					
-                            options.type 	= 'dialog-reload';
+                            options.type        = 'dialog-reload';
                             alert               = false;
                             options.callback    = function(ok){
                                 if(ok){

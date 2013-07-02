@@ -23,8 +23,8 @@ function constructor (id) {
 		end = this.endDate;
 		
 		timetable_time = {
-			start : adminV.formatTimeFromNumber(begin ? begin.getHours()*60 + begin.getMinutes() : null),
-			end : adminV.formatTimeFromNumber(end ? end.getHours()*60 + end.getMinutes() : null)
+			start : _ns.formatTimeFromNumber(begin ? begin.getHours()*60 + begin.getMinutes() : null),
+			end : _ns.formatTimeFromNumber(end ? end.getHours()*60 + end.getMinutes() : null)
 		}
 		
 		sources.timetable_time.sync();

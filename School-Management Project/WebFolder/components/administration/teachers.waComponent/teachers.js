@@ -72,10 +72,11 @@ function constructor (id) {
 
 	image2.click = function image2_click (event)// @startlock
 	{// @endlock
-		var msg = 'Are you sure you want to delete this teacher?';
+		var msg	= _ns.Message.getInstance();
+
+		msg.append('tconfirm_delete');
 		
-		_ns.adminView.displayMessage({
-            messages	: [msg],
+		msg.display({
             options	: {
                 callback : function(resp){
                     if(resp){

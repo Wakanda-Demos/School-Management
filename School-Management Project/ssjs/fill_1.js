@@ -78,6 +78,11 @@ messages	= [
 		message : 'All changes have been saved',
 		key 	: 'changes_saved',
 		type 	: 'info'
+	},
+	{
+		message : 'This version does not allow you to upload a photo.',
+		key 	: 'upload_not_allowed',
+		type 	: 'confirm'
 	}
 ];
 

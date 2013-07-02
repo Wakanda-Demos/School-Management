@@ -88,20 +88,18 @@ _ns = {
 	}
 	
 	WAF.widget.FileUpload.prototype._sendFiles = function(){
-		var
-		msg = "This version does not allow you to upload a photo.";
-		
-		if(dhtmlx.alert){
-			dhtmlx.alert({
-				id : 'uploadAlert',
-				text : msg
-			});
+		if(this.fileSet._length){
+			var msg	= _ns.Message.getInstance();
+
+			msg.append('upload_not_allowed');
+
+			msg.display({
+	            alert : true,
+	            icons : false
+	        });
+			
+			this.fileSet.removeAll([]);
 		}
-		else{
-			alert(msg);
-		}
-		
-		this.fileSet.removeAll([]);
 	}
 
 	function parseUri (str) {
