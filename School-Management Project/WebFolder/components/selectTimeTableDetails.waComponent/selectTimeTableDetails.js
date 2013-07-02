@@ -78,7 +78,9 @@ function constructor (id) {
 
 	combobox2.change = function combobox2_change (event)// @startlock
 	{// @endlock
-		if(this.getValue() && !sources.timeTable._doNotRefreshTeachers){
+		var val = this.$domNode.find('input').val();
+
+		if(val && !sources.timeTable._doNotRefreshTeachers){
 			this._callCount = this._callCount ? ++this._callCount : 1;
 			switch(this._callCount){
 				case 3:
@@ -101,6 +103,9 @@ function constructor (id) {
 					}
 				}
 			})
+		}
+		else if(!val){
+			$comp.sources.teacher.query($comp.sources.teacher.getDataClass().getPrimaryKeyAttribute() + ' = null');
 		}
 	};// @lock
 

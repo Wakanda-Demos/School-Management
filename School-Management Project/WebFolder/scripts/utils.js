@@ -574,16 +574,21 @@ _ns = {
 		}
 	}
 
-	Mapping.prototype.getObject = function(obj){
+	Mapping.prototype.getObject = function(obj, not_convert){
 		var res = {};
 		for(var attr in obj){
 			if(this.map.hasOwnProperty(attr)){
-				if(this.dc.getAttributeByName(this.map[attr]).type == 'date'){
-					res[this.map[attr]] = obj[attr].toString();
-				}
-				
-				else if(typeof this.map[attr] == 'string'){
+				if(not_convert){
 					res[this.map[attr]] = obj[attr];
+				}
+				else{
+					if(this.dc.getAttributeByName(this.map[attr]).type == 'date'){
+						res[this.map[attr]] = obj[attr].toString();
+					}
+					
+					else if(typeof this.map[attr] == 'string'){
+						res[this.map[attr]] = obj[attr];
+					}
 				}
 			}
 		}
@@ -690,7 +695,7 @@ _ns = {
 		}
 	}
 
-	Mapping.prototype.selectEvent = function refreshFromEntity(event_id){
+	Mapping.prototype.selectEvent = function selectEvent(event_id){
 		var
 		$node,
 		ev 			= scheduler.getEvent(event_id),
