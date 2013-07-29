@@ -744,6 +744,7 @@ _ns = {
 
 	Mapping.prototype.refreshFromEntity = function refreshFromEntity(entity , event_id){
 		var
+		self	= this,
 		obj 	= this.getObjectFromEntity(entity),
 		ev_obj 	= scheduler.getEvent(entity.getKey());
 		
@@ -760,8 +761,18 @@ _ns = {
 			}
 		}
 		
-		scheduler.updateEvent(entity.getKey());
-		scheduler.changeEventId(event_id , entity.getKey());
+		entity.getAttributeValue(this.colorAttr, {
+			onSuccess: function(e){
+				ev_obj['color'] = e.result;
+				scheduler.updateEvent(entity.getKey());
+				scheduler.changeEventId(event_id , entity.getKey());
+			},
+			onError: function(e){
+				ev_obj['color'] = self.defaultColor;
+				scheduler.updateEvent(entity.getKey());
+				scheduler.changeEventId(event_id , entity.getKey());
+			}
+		});
 	}
 
 	Mapping.prototype.getObjectFromEntity = function(entity){

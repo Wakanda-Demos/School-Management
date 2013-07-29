@@ -191,6 +191,9 @@
 			get_value: function(node, ev) {
 				mappingObj.source._doNotRefreshTeachers = true;
 				mappingObj.source.teacher.set(sources.timeTableDetails_teacher);
+				mappingObj.source.course.set(sources.ttcourse);
+				mappingObj.source.classroom.set(sources.ttclassroom);
+				mappingObj.source.studyGroup.set(sources.ttstudyGroup);
 			}
 		},
 		'time_range': {
@@ -203,7 +206,8 @@
 				}
 			},
 			get_value: function(node, ev) {
-
+				ev.start_date = mappingObj.source.beginDate;
+				ev.end_date = mappingObj.source.endDate;
 			}
 		}
 	});
