@@ -102,7 +102,7 @@ function constructor (id) {
 						e.dataSource.selectByKey(key);
 					}
 				}
-			})
+			});
 		}
 		else if(!val){
 			$comp.sources.teacher.query($comp.sources.teacher.getDataClass().getPrimaryKeyAttribute() + ' = null');

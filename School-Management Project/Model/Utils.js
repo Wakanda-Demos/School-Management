@@ -48,7 +48,6 @@
 	};
 	
 	__methods.isBusy = function(config){
-		return false;
 		var
 		ROLES			= __myNameSpace.ROLES,
 		sessionRef		= currentSession(),

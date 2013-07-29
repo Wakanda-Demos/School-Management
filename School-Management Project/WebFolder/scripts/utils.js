@@ -639,18 +639,24 @@ _ns = {
 		}
 		
 		function save(){
-			if(event_object._to_save){
-				delete event_object._to_save;
-				return false;
-			}
-			
-			event_object._to_save = true;
 			curEntity.save({
 				onSuccess: function(e){
-					delete event_object._to_save;
 					source._dont_refresh = true;
 					source.serverRefresh({forceReload : true});
-					that.refreshFromEntity(e.entity , event_id)
+					that.refreshFromEntity(e.entity , event_id);
+					delete that.source._doNotRefreshTeachers;
+				},
+				onError: function(e){
+					var entity = new WAF.Entity(that.dc, e.rawResult['__ENTITIES'][0]);
+					that.refreshFromEntity(entity , event_id);
+					scheduler.updateView();
+
+					_ns.Message.getInstance().display({
+						messages: [{
+							message: e.error[0].message,
+							type: 'error'
+						}]
+					});
 				}
 			} , {data : event_id});
 			saved = true;
