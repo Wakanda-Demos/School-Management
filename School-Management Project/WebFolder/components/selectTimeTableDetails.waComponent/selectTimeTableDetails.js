@@ -49,9 +49,7 @@ function constructor (id) {
 			$($comp).trigger('_ready');
 		}
 		
-		$($comp).on('_ready', function(){
-			sources.timeTable.dispatch('onCurrentElementChange');
-		});
+
 	// eventHandlers// @lock
 
 	ttcourseEvent.onCollectionChange = function ttcourseEvent_onCollectionChange (event)// @startlock
@@ -78,19 +76,20 @@ function constructor (id) {
 
 	combobox2.change = function combobox2_change (event)// @startlock
 	{// @endlock
+		//debugger;
 		var val = this.$domNode.find('input').val();
 
 		if(val && !sources.timeTable._doNotRefreshTeachers){
 			this._callCount = this._callCount ? ++this._callCount : 1;
 			switch(this._callCount){
-				case 3:
+				case 1:
 					var tt 	= sources.timeTable.getCurrentElement();
 					if(tt){
 						this.setValue(tt.course.relKey);
 					}
 					return false;
-				case 4:
-					return false;
+				//case 2:
+				//	return false;
 			}
 			
 			var tt 	= sources.timeTable.getCurrentElement(),
@@ -107,8 +106,25 @@ function constructor (id) {
 		else if(!val){
 			$comp.sources.teacher.query($comp.sources.teacher.getDataClass().getPrimaryKeyAttribute() + ' = null');
 		}
-	};// @lock
+//debugger;
+		if(tt && sources.ttcourse && this._callCount<2){			
+				sources.ttstudyGroup.selectByKey(tt.studyGroup.relKey);
+				sources.ttclassroom.selectByKey(tt.classroom.relKey);
+				sources.ttcourse.selectByKey(tt.course.relKey);
+				}
 
+
+	};// @lock
+	function init_contournement()
+		{
+			
+			sources.ttclassroom.all();
+			sources.ttcourse.all();
+			sources.ttstudyGroup.all();
+		}
+
+		init_contournement();
+		//setTimeout(init_contournement,500);
 	// @region eventManager// @startlock
 	WAF.addListener("ttcourse", "onCollectionChange", ttcourseEvent.onCollectionChange, "WAF");
 	WAF.addListener("ttclassroom", "onCollectionChange", ttclassroomEvent.onCollectionChange, "WAF");

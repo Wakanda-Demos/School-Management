@@ -39,6 +39,7 @@ function constructor (id) {
 					
 					ds.Student.assignToGroup(res , group.getKey());
 					selectedSts.setEntityCollection(null);
+					$$(getHtmlId('dataGrid1')).setSelectedRows(res)
 					dataSource.collectionRefresh();
 				}
 			})
@@ -125,6 +126,7 @@ function constructor (id) {
 	{// @endlock
 		groupsDS.select(-1);
 		dataSource.all();
+		$("#component2_component1_container1 input").attr("value","");
 	};// @lock
 
 	container5.click = function container5_click (event)// @startlock
@@ -170,7 +172,8 @@ function constructor (id) {
 	WAF.addListener(this.id + "_container2", "click", container2.click, "WAF");
 	WAF.addListener(this.id + "_dataGrid1", "onRowDblClick", dataGrid1.onRowDblClick, "WAF");
 	// @endregion// @endlock
-
+	
+	dataSource.all();
 	};// @lock
 
 

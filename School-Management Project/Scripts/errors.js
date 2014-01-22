@@ -43,7 +43,7 @@ __myNameSpace.ERRORS = {
 			},
 			'emptyStudyGroup' :{
 				error		: 2103,
-				errorMessage: "The studyGroup can not be empty"
+				errorMessage: "The grade can not be empty"
 			},
 			'emptyClassroom' :{
 				error		: 2104,
@@ -59,7 +59,7 @@ __myNameSpace.ERRORS = {
 			},
 			'studyGroupIsBusy': {
 				error		: 2106,
-				errorMessage: "The studyGroup is busy"
+				errorMessage: "The grade is busy"
 			},
 			'classroomIsBusy': {
 				error		: 2107,

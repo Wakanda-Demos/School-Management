@@ -10,6 +10,17 @@ _ns = {
 	}
 };
 
+dateFormatToAMPM=function (date) {
+  var hours = date.getHours();
+  var minutes = date.getMinutes();
+  var ampm = hours >= 12 ? 'PM' : 'AM';
+  hours = hours % 12;
+  hours = hours ? hours : 12; // the hour '0' should be '12'
+  minutes = minutes < 10 ? '0'+minutes : minutes;
+  var strTime = hours + ':' + minutes + ' ' + ampm;
+  return strTime;
+};
+
 (function(_ns){
 	WAF.Widget.prototype.center = function(config){
 		var
@@ -56,7 +67,7 @@ _ns = {
 				break;
 		}
 	}
-	
+	if(WAF.widget.Grid){
 	WAF.widget.Grid.prototype.editCell = function(row , column){
 		var
 		gridView = this.gridController.gridView,
@@ -72,7 +83,8 @@ _ns = {
 			cell: row.cells[0]
 		});
 	}
-	
+	}
+
 	WAF.DataSourceEm.prototype.cancel = function(){
 		var
 	    that	= this,
@@ -86,7 +98,8 @@ _ns = {
 		
 	    that.serverRefresh({forceReload : true});
 	}
-	
+
+	if(WAF.widget.FileUpload){
 	WAF.widget.FileUpload.prototype._sendFiles = function(){
 		if(this.fileSet._length){
 			var msg	= _ns.Message.getInstance();
@@ -100,6 +113,7 @@ _ns = {
 			
 			this.fileSet.removeAll([]);
 		}
+	}
 	}
 
 	function parseUri (str) {
@@ -610,7 +624,7 @@ _ns = {
 		
 		if(event_object._new){
 			source._newElement = true;
-			source.addNewElement();
+			//source.addNewElement();
 			curEntity = source.getCurrentElement();
 			delete event_object._new;
 		}
@@ -759,6 +773,8 @@ _ns = {
 			if(!ev_obj){
 				return;
 			}
+		}else{
+			event_id = entity.getKey();
 		}
 		
 		for(var attr in obj){
@@ -770,12 +786,12 @@ _ns = {
 		entity.getAttributeValue(this.colorAttr, {
 			onSuccess: function(e){
 				ev_obj['color'] = e.result;
-				scheduler.updateEvent(entity.getKey());
+				scheduler.updateEvent(event_id);
 				scheduler.changeEventId(event_id , entity.getKey());
 			},
 			onError: function(e){
 				ev_obj['color'] = self.defaultColor;
-				scheduler.updateEvent(entity.getKey());
+				scheduler.updateEvent(event_id);
 				scheduler.changeEventId(event_id , entity.getKey());
 			}
 		});

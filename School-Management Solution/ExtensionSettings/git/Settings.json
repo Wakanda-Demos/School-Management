@@ -1,5 +1,5 @@
 ﻿{
-	"serverType": "github",
-	"gitURL": "https://github.com/Wakanda-Demos",
-	"gitIsPrivateRepository": "false"
+	"gitIsPrivateRepository":"false",
+	"gitURL":"https://github.com/Wakanda-Demos",
+	"serverType":"github"
 }

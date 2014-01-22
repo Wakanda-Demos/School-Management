@@ -1,1 +1,1 @@
-﻿ds.Utils.generateRandomData();if (self.close) {    self.close();}
+﻿var T = 2*60*60*1000; //T = 3000;ds.Utils.generateRandomData();setInterval(function(){	ds.Utils.generateRandomData();	}, T)if (self.close) {    self.close();}

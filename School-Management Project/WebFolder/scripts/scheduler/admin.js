@@ -254,7 +254,7 @@
 				forceReload: true,
 				onSuccess: function(e) {
 					if (e.entity) {
-						refreshFromEntity(e.entity);
+						mappingObj.refreshFromEntity(e.entity);
 					}
 				}
 			})
@@ -343,7 +343,7 @@
 				'data-type': 'component',
 				'data-theme': 'metal inherited'
 			});
-			rangeWebCompo.loadComponent('/components/selectTimeRange.waComponent');
+			rangeWebCompo.loadComponent('/components/selectTime.waComponent');
 		}
 
 		var

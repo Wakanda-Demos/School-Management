@@ -14,7 +14,7 @@ function constructor (id) {
 		var
 		dataSource 	= sources.adminTeacher,
 		courseDS	= sources[getHtmlId('course')];
-		
+		dataSource.all();
 		getHtmlObj('container1').smSearch({
 			datasource: dataSource
 		});
@@ -91,9 +91,9 @@ function constructor (id) {
 	matrix1.onChildrenDraw = function matrix1_onChildrenDraw (event)// @startlock
 	{// @endlock
 		var that = this;
-		
-		$(this)
-		.find('.waf-clone-component2_component1_image3 a')
+
+		$("#waf-temp-container-component2_component1_matrix1")
+		.find('.waf-clone-component2_component1_image3 a').last()
 		.attr('href' , 'mailto:' + dataSource.email);
 		
 		dataSource.speciality.load({
